@@ -1,6 +1,6 @@
 # The National Archives Developer Handbook
 
-> ⚠️ This handbook is still in development
+> ⚠️ This handbook is still in development but is intended to supercede [front-end-development-guide](https://github.com/nationalarchives/front-end-development-guide).
 
 ## Quickstart
 
