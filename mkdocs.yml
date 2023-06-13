@@ -1,5 +1,5 @@
 site_name: The National Archives Developer Handbook
-site_url: https://nationalarchives.github.io/tna-developer-handbook/
+site_url: https://nationalarchives.github.io/developer-handbook/
 nav:
   - Home: index.md
   - Getting started: getting-started.md
@@ -55,6 +55,6 @@ theme:
     #     name: Switch to light mode
 extra_css:
   - stylesheets/extra.css
-repo_url: https://github.com/nationalarchives/tna-developer-handbook
+repo_url: https://github.com/nationalarchives/developer-handbook
 plugins:
   - search
