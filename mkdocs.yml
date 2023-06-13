@@ -1,4 +1,5 @@
 site_name: The National Archives Developer Handbook
+site_url: https://nationalarchives.github.io/tna-developer-handbook/
 nav:
   - Home: index.md
   - Getting started: getting-started.md
