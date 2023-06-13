@@ -1,0 +1,59 @@
+site_name: The National Archives Developer Handbook
+nav:
+  - Home: index.md
+  - Getting started: getting-started.md
+  - Languages:
+    # - languages/index.md
+    - HTML: languages/html.md
+    - Python: languages/python.md
+    - JavaScript: languages/javascript.md
+    - CSS: languages/css.md
+    - PHP: languages/php.md
+  - Dependencies:
+    - Python: dependencies/python.md
+    - JavaScript: dependencies/javascript.md
+    - CSS: dependencies/css.md
+    - WordPress: dependencies/wordpress.md
+  - Third party:
+    - NPMJS: third-party/npmjs.md
+    - PyPi: third-party/pypi.md
+    - GitHub: third-party/github.md
+    - Docker registries: third-party/docker-registries.md
+    - Analytics: third-party/analytics.md
+    - AWS: third-party/aws.md
+  - Resources:
+    - Frontend styles: resources/frontend-styles.md
+    - Frontend implementations: resources/frontend-implementations.md
+    - Docker images: resources/docker-images.md
+  - Standards:
+    - Browser support: standards/browser-support.md
+    - Containers: standards/containers.md
+  - Ways of working:
+    - Service standard: ways-of-working/service-standard.md
+    - Version control: ways-of-working/version-control.md
+    - Testing: ways-of-working/testing.md
+    - Accessibility: ways-of-working/accessibility.md
+    - Deployment: ways-of-working/deployment.md
+theme:
+  name: material
+  logo: assets/tna-horizontal-logo.svg
+  features:
+    - navigation.sections
+    - toc.integrate
+  palette:
+    - primary: custom
+    # - media: "(prefers-color-scheme: light)"
+    #   scheme: default
+    #   toggle:
+    #     icon: material/brightness-7
+    #     name: Switch to dark mode
+    # - media: "(prefers-color-scheme: dark)"
+    #   scheme: slate
+    #   toggle:
+    #     icon: material/brightness-4
+    #     name: Switch to light mode
+extra_css:
+  - stylesheets/extra.css
+repo_url: https://github.com/nationalarchives/tna-developer-handbook
+plugins:
+  - search

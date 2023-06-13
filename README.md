@@ -1,70 +1,15 @@
 # The National Archives Developer Handbook
 
-Intended to superceed [front-end-development-guide](https://github.com/nationalarchives/front-end-development-guide).
+## Quickstart
 
-Topics to cover (specific technologies to be decided):
+```sh
+# Set up a Python virtual environment
+python -m venv venv
+. venv/bin/activate
 
-- Technology stack and standards
-    - Separation of concerns
-    - HTML
-        - Media (images/video)
-    - JavaScript
-        - ESNext
-        - Prettier
-        - ESLint
-    - (S)CSS
-        - Prettier
-        - Structure
-        - Variables
-        - Colour spaces
-        - BEM
-        - Print styles
-    - Python
-        - Formatting - Black/Flake
-    - PHP
-- Libraries/frameworks/dependencies
-    - Python
-        - pip/Fabric
-        - Django
-        - Wagtail
-    - HTML/JavaScript/(S)CSS
-        - NPM/Yarn
-        - Webpack
-        - Babel
-        - Storybook
-        - Jest
-        - D3?
-    - WordPress
-    - Analytics
-- TNA resources
-    - Frontend styles
-    - Jinja templates
-    - Base docker
-    - Example application?
-- Third parties
-    - NPMJS
-    - PyPi
-    - GitHub/GitLab
-    - AWS
-- Browser support
-- Automated testing
-- Containers
-    - Naming
-    - Architecture
-    - Security
-    - Hosting/registries
-    - Docker Compose
-- Version control
-    - Branching strategy
-    - Versioning
-- Accessibility
-    - WCAG
-    - Best practices
-    - Testing requirements
-    - Supported assistive technologies
-    - Progressive enhancement
-- Branding/visual style (might be more for designers)
-- Service standard
-    - Alignment to GDS Service Manual
-    - The GDS way
-    - Twelve-factor methodology
+# Install the dependencies
+pip install -r requirements.txt
+
+# Build and serve the MkDocs site
+mkdocs serve
+```
