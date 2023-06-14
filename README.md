@@ -1,4 +1,6 @@
-# The National Archives Developer Handbook
+<img src="./docs/assets/tna-horizontal-logo.svg" alt="The National Archives logo" title="The National Archives" width="200" />
+
+# Developer Handbook
 
 > ⚠️ This handbook is still in development but is intended to supercede [front-end-development-guide](https://github.com/nationalarchives/front-end-development-guide).
 

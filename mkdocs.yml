@@ -13,6 +13,7 @@ nav:
     - JavaScript: technology/javascript.md
     - TypeScript: technology/typescript.md
     - CSS: technology/css.md
+    - Containers: technology/containers.md
   - Third party:
     - NPMJS: third-party/npmjs.md
     - PyPi: third-party/pypi.md
@@ -20,19 +21,17 @@ nav:
     - Docker registries: third-party/docker-registries.md
     - Analytics: third-party/analytics.md
     - AWS: third-party/aws.md
-  - Resources:
-    - Frontend styles: resources/frontend-styles.md
-    - Frontend implementations: resources/frontend-implementations.md
-    - Docker images: resources/docker-images.md
-  - Standards:
-    - Browser support: standards/browser-support.md
-    - Containers: standards/containers.md
   - Ways of working:
     - Service standard: ways-of-working/service-standard.md
     - Version control: ways-of-working/version-control.md
     - Testing: ways-of-working/testing.md
+    - Browser support: ways-of-working/browser-support.md
     - Accessibility: ways-of-working/accessibility.md
     - Deployment: ways-of-working/deployment.md
+  - Resources:
+    - Frontend styles: resources/frontend-styles.md
+    - Frontend implementations: resources/frontend-implementations.md
+    - Docker images: resources/docker-images.md
 theme:
   name: material
   logo: assets/tna-horizontal-logo.svg

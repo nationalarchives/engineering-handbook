@@ -2,6 +2,33 @@
 
 > ⚠️ **This handbook is still in development**
 
+## Introduction
+
 The National Archives Developer Handbook aims to be a one-stop guide for all development questions.
 
+This guide has been produced to help developers at The National Archives:
+
+- deliver **high quality**, **inclusive** and **maintainable** digital services 
+- ensure their work is **compliant with the standards and regulations** that apply to public sector websites
+- achieving a **good balance** between **innovation and effective use of our development capability**
+
+It covers all aspects of modern front end development and is regularly reviewed and refined to ensure it reflects emerging industry best practice.
+
+You can also read about our [ways of working](/developer-handbook/ways-of-working/service-standard/) in order to help you build good services that meet these standards.
+
 This handbook is intended to supercede the existing [front-end-development-guide](https://github.com/nationalarchives/front-end-development-guide) and expand the advice and resources to all developers, both frontend and backend as well as both internal staff and external partners.
+
+## Key things to keep in mind
+
+Perhaps the most important thing for a developer to bear in mind is the need to involve other specialists early since this can avoid significant problems later on. This includes:
+
+- **speaking to the User Experience and Editorial teams before beginning development** - their perspective and expertise will help shape the approach taken and can avoid significant changes later on
+- **understanding analytics requirements to establish what is required and how we can best support and achieve it**
+- **server-side and front-end developers discussing the technical approach _together_ before development begins** - a short conversation to agree on a technical approach that works from both perspectives can bring significant benefits and avoid one or both having to do significant refactoring and re-work
+- **identifying a peer reviewer early** and discussing the technical approach with them as it evolves
+
+## Help us improve this guidance
+
+The purpose of the development guide and peer review is to ensure we are delivering digital services that meet user needs in a way that is both efficient and effective. To achieve this it must work for product teams.
+
+While the current version has emerged over several iterations to reflect lessons we have learned, we are keen for it to continue to evolve. We therefore actively encourage to contribution to the guide via either a pull request or by raising an issue in GitHub.

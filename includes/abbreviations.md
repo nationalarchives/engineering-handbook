@@ -13,6 +13,8 @@
 *[SCSS]: Sassy cascading style sheets
 *[SSR]: Server-side rendering
 *[TNA]: The National Archives
+*[UI]: User interface
+*[UX]: User experience
 *[VCS]: Version control system
 *[VSCode]: Visual Studio Code
 *[W3C]: World Wide Web Consortium
