@@ -1,3 +1,0 @@
-# Python
-
-- Formatting - Black/Flake

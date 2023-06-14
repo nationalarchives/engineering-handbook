@@ -1,3 +1,0 @@
-# HTML
-
-- Media (images/video)

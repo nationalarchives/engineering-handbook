@@ -1,26 +1,15 @@
 :root, [data-md-color-scheme=default] {
-    --md-primary-fg-color: #fc0;
+    --md-primary-fg-color: #000;
     --md-primary-fg-color--dark: var(--md-primary-fg-color);
-    --md-primary-bg-color: #000;
-    --md-typeset-a-color: #1d70b8;
+    --md-primary-bg-color: #fff;
+    --md-typeset-a-color: #004c7e;
+    --md-accent-fg-color: #00b0ff;
 }
 
 .md-header--shadow {
     box-shadow: none;
 }
 
-.md-search__form {
-    background-color: rgba(255, 255, 255, 0.75);
-}
-
-.md-search__form:hover {
-    background-color: #fff;
-}
-
-.md-search__input {
-    color: var(--md-primary-bg-color);
-}
-
-.md-search__input::placeholder {
-    color: rgba(0, 0, 0, 0.5);
+.md-typeset a:hover {
+    text-decoration: underline;
 }

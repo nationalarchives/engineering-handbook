@@ -1,20 +1,18 @@
-site_name: The National Archives Developer Handbook
+site_name: Developer Handbook
 site_url: https://nationalarchives.github.io/developer-handbook/
+repo_url: https://github.com/nationalarchives/developer-handbook
+dev_addr: 127.0.0.1:8888
 nav:
   - Home: index.md
   - Getting started: getting-started.md
-  - Languages:
-    # - languages/index.md
-    - HTML: languages/html.md
-    - Python: languages/python.md
-    - JavaScript: languages/javascript.md
-    - CSS: languages/css.md
-    - PHP: languages/php.md
-  - Dependencies:
-    - Python: dependencies/python.md
-    - JavaScript: dependencies/javascript.md
-    - CSS: dependencies/css.md
-    - WordPress: dependencies/wordpress.md
+  - Technology:
+    - Languages and tools: technology/index.md
+    - HTML: technology/html.md
+    - Python: technology/python.md
+    - Java: technology/java.md
+    - JavaScript: technology/javascript.md
+    - TypeScript: technology/typescript.md
+    - CSS: technology/css.md
   - Third party:
     - NPMJS: third-party/npmjs.md
     - PyPi: third-party/pypi.md
@@ -43,18 +41,13 @@ theme:
     - toc.integrate
   palette:
     - primary: custom
-    # - media: "(prefers-color-scheme: light)"
-    #   scheme: default
-    #   toggle:
-    #     icon: material/brightness-7
-    #     name: Switch to dark mode
-    # - media: "(prefers-color-scheme: dark)"
-    #   scheme: slate
-    #   toggle:
-    #     icon: material/brightness-4
-    #     name: Switch to light mode
 extra_css:
   - stylesheets/extra.css
-repo_url: https://github.com/nationalarchives/developer-handbook
 plugins:
   - search
+markdown_extensions:
+  - abbr
+  - attr_list
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
