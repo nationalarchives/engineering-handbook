@@ -9,11 +9,12 @@ nav:
     - technology/index.md
     - HTML: technology/html.md
     - Python: technology/python.md
-    - Java: technology/java.md
     - JavaScript: technology/javascript.md
     - TypeScript: technology/typescript.md
     - CSS: technology/css.md
-    - Containers: technology/containers.md
+    - Docker: technology/containers.md
+    - Nginx: technology/nginx.md
+    - Postgres: technology/postgres.md
   - Third party:
     - third-party/index.md
     - NPMJS: third-party/npmjs.md
@@ -40,7 +41,7 @@ theme:
   logo: assets/tna-horizontal-logo-inverted.svg
   features:
     - navigation.tabs
-    # - navigation.tabs.sticky
+    - navigation.tabs.sticky
     - navigation.indexes
     - toc.integrate
   palette:
