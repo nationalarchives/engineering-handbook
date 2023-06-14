@@ -4,9 +4,11 @@
 
 ### IDE
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/150px-Visual_Studio_Code_1.35_icon.svg.png" alt="VSCode logo" title="VSCode" width="160" align="right">
+
 In order to write code, you need an IDE. There are a few free IDEs available:
 
-- [VSCode](https://code.visualstudio.com/)
+- [VSCode](https://code.visualstudio.com/) (recommended)
 - [Sublime Text](https://www.sublimetext.com)
 - [Brackets](https://brackets.io/)
 
@@ -20,6 +22,8 @@ Some IDEs have terminal built in which leverage the CLI of the OS.
 
 ## Services
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/400px-GitHub_Invertocat_Logo.svg.png" alt="GitHub logo" title="GitHub" width="160" align="right">
+
 ### GitHub
 
 Our source code is stored on [GitHub](https://github.com/). You will need to [set up a GitHub account](https://github.com/join) in order to contribute to our projects.
@@ -27,6 +31,8 @@ Our source code is stored on [GitHub](https://github.com/). You will need to [se
 Once you have an account, you need to be added to the [National Archives GitHub organisation](https://github.com/nationalarchives) as well as one of the [National Archives GitHub teams](https://github.com/orgs/nationalarchives/teams). Please ask your webmaster for access to this.
 
 Read our [GitHub guidelines](/developer-handbook/third-party/github/) for a better idea of how we use GitHub.
+
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Docker_logo.svg/240px-Docker_logo.svg.png" alt="Docker logo" title="Docker" width="160" align="right">
 
 ### Docker
 
@@ -36,4 +42,4 @@ Make sure that you download the correct version of Docker. If you have a newer A
 
 Creating a [Docker account](https://hub.docker.com/signup) will give you a higher download limit. For anonymous users, the rate limit is set to 100 pulls per 6 hours per IP address but for authenticated users, it's 200 pulls per 6 hour period.
 
-We have a set way of working and [standards for our containers](/developer-handbook/standards/containers/) to ensure security and consistency.
+We have a set way of working and [standards for our containers](/developer-handbook/technology/containers/) to ensure security and consistency.

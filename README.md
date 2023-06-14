@@ -1,4 +1,4 @@
-<img src="./docs/assets/tna-horizontal-logo.svg" alt="The National Archives logo" title="The National Archives" width="200" />
+<img src="./docs/assets/tna-horizontal-logo-inverted.svg" alt="The National Archives logo" title="The National Archives" width="200" />
 
 # Developer Handbook
 

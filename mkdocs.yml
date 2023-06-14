@@ -6,7 +6,7 @@ nav:
   - Home: index.md
   - Getting started: getting-started.md
   - Technology:
-    - Languages and tools: technology/index.md
+    - technology/index.md
     - HTML: technology/html.md
     - Python: technology/python.md
     - Java: technology/java.md
@@ -15,6 +15,7 @@ nav:
     - CSS: technology/css.md
     - Containers: technology/containers.md
   - Third party:
+    - third-party/index.md
     - NPMJS: third-party/npmjs.md
     - PyPi: third-party/pypi.md
     - GitHub: third-party/github.md
@@ -22,6 +23,7 @@ nav:
     - Analytics: third-party/analytics.md
     - AWS: third-party/aws.md
   - Ways of working:
+    - ways-of-working/index.md
     - Service standard: ways-of-working/service-standard.md
     - Version control: ways-of-working/version-control.md
     - Testing: ways-of-working/testing.md
@@ -29,14 +31,17 @@ nav:
     - Accessibility: ways-of-working/accessibility.md
     - Deployment: ways-of-working/deployment.md
   - Resources:
+    - resources/index.md
     - Frontend styles: resources/frontend-styles.md
     - Frontend implementations: resources/frontend-implementations.md
     - Docker images: resources/docker-images.md
 theme:
   name: material
-  logo: assets/tna-horizontal-logo.svg
+  logo: assets/tna-horizontal-logo-inverted.svg
   features:
-    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.indexes
     - toc.integrate
   palette:
     - primary: custom
