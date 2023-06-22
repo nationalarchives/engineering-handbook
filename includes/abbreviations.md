@@ -6,6 +6,7 @@
 *[BEM]: Block, element, modifier methodology
 *[CLI]: Command line interface
 *[CSS]: Cascading style sheets
+*[DB]: Database
 *[DRI]: Digital repository interface
 *[ECMAScript]: A JavaScript standard
 *[ESNext]: The next version of ECMAScript, a JavaScript standard
@@ -21,6 +22,7 @@
 *[OS]: Operating system
 *[PEP]: Python enhancement proposal
 *[PHP]: PHP: Hypertext Preprocessor
+*[PyPI]: Python Package Index
 *[SCSS]: Sassy cascading style sheets
 *[SPA]: Single page application
 *[SSR]: Server-side rendering
