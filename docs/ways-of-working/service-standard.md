@@ -16,3 +16,11 @@ The important points for developers to recognise are that:
 
 - only the core HTML is required to meet users' basic needs, and;
 - CSS, JavaScript and HTML5 APIs should be applied in such a way that they do not 'break' the experience for those clients that cannot support them.
+
+### Single page applications
+
+React (along with other JavaScript libraries such as Vue and Angular) should not be used for any new National Archives applications.
+
+Designed as a SPA JavaScript library, React on its own doesn't fulfill our need for progressive enhancement. While it can be paired with frameworks like Next.js to provide SSR, many government departments have stopped using React and moved to more traditional technologies such as Python in order to provide better services.
+
+GOV.UK stopped suggesting React and the repository that offered [GOV.UK React components](https://github.com/surevine/govuk-react-jsx) is no longer maintained.
