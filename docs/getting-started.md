@@ -71,3 +71,8 @@ We have a set way of working and [standards for our containers](/developer-handb
 ### Teams
 
 ### Slack
+
+#### Cross-government Slack
+
+https://x-govuk.github.io/posts/how-to-use-cross-government-slack/
+
