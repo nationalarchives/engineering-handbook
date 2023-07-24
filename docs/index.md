@@ -27,6 +27,10 @@ Perhaps the most important thing for a developer to bear in mind is the need to 
 - **server-side and front-end developers discussing the technical approach _together_ before development begins** - a short conversation to agree on a technical approach that works from both perspectives can bring significant benefits and avoid one or both having to do significant refactoring and re-work
 - **identifying a peer reviewer early** and discussing the technical approach with them as it evolves
 
+## Requirements
+
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this handbook are to be interpreted as described in [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
+
 ## Help us improve this guidance
 
 The purpose of the development guide and peer review is to ensure we are delivering digital services that meet user needs in a way that is both efficient and effective. To achieve this it must work for product teams.

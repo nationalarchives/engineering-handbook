@@ -23,6 +23,9 @@ nav:
     - Docker registries: third-party/docker-registries.md
     - Analytics: third-party/analytics.md
     - AWS: third-party/aws.md
+  - Projects:
+    - projects/index.md
+    - Setup: projects/setup.md
   - Ways of working:
     - ways-of-working/index.md
     - Service standard: ways-of-working/service-standard.md
