@@ -1,16 +1,7 @@
 # Python
 
-Approved versions of Python:
-
-- 3.11 (recommended)
-- 3.10
-- 3.9
-
-When making a [Python Docker](https://hub.docker.com/_/python) application, aim to use one of the `python:3.x-slim` (bullseye) images:
-
-- `python:3.11-slim`
-- `python:3.10-slim`
-- `python:3.9-slim`
+- https://github.com/nationalarchives/docker/pkgs/container/tna-python
+- https://github.com/nationalarchives/docker/pkgs/container/tna-python-django
 
 ## Code style
 

@@ -3,8 +3,8 @@
 - Naming
 - Architecture
 - Security
-- Hosting/registries
 - Docker Compose
 - Hadolint
+- ShellCheck
 
 https://github.com/nationalarchives/docker-structure-plan
