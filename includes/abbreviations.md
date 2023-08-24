@@ -17,12 +17,15 @@
 *[i18n]: Internationalisation
 *[IDE]: Integrated development environment
 *[JS]: JavaScript
+*[JSON]: JavaScript object notation
 *[NPM]: Node Package Manager
 *[OGD]: Other government departments
 *[OS]: Operating system
 *[PEP]: Python enhancement proposal
 *[PHP]: PHP: Hypertext Preprocessor
 *[PyPI]: Python Package Index
+*[REST]: Representational State Transfer
+*[RESTful]: Representational State Transfer
 *[SCSS]: Sassy cascading style sheets
 *[SPA]: Single page application
 *[SSR]: Server-side rendering

@@ -48,7 +48,7 @@ Our source code is stored on [GitHub](https://github.com/). You will need to [se
 
 Once you have an account, you need to be added to the [National Archives GitHub organisation](https://github.com/nationalarchives) as well as one of the [National Archives GitHub teams](https://github.com/orgs/nationalarchives/teams). Please ask your webmaster for access to this.
 
-Read our [GitHub guidelines](/developer-handbook/third-party/github/) for a better idea of how we use GitHub.
+Read our [GitHub guidelines](/developer-handbook/third-party/github/) for a better idea of how we use GitHub as well as our our [version control standards](/developer-handbook/ways-of-working/version-control/).
 
 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Docker_logo.svg/240px-Docker_logo.svg.png" alt="Docker logo" title="Docker" width="160" align="right">
 
