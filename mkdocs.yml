@@ -37,7 +37,8 @@ nav:
     - AWS: third-party/aws.md
   - Organisation:
     - organisation/index.md
-    - The Technical Architects Group: organisation/technical-architects-group.md
+    - Technical Architects Group: organisation/technical-architects-group.md
+    - Technical Governance Board: organisation/technical-governance-board.md
   - Resources:
     - resources/index.md
     - Frontend styles: resources/frontend-styles.md

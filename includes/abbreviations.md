@@ -29,7 +29,11 @@
 *[SCSS]: Sassy cascading style sheets
 *[SPA]: Single page application
 *[SSR]: Server-side rendering
+*[TA]: Technical Architect
+*[TAs]: Technical Architects
+*[TAG]: Technical Architects Group
 *[TDR]: Transfer of Digital Records
+*[TGB]: Technical Governance Board
 *[TNA]: The National Archives
 *[TS]: TypeScript
 *[UI]: User interface
