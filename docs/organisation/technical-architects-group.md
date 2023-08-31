@@ -4,26 +4,9 @@
 
 The Technical Architects Group are a multidisciplinary team of engineers who are responsible for helping to steer technological decisions within TNA.
 
-### Digital Archiving
-
 - Kurtis Mash - Technical Architect
 - Matt Arnold - Technical Architect
-- Phil Ashworth - Senior Data Engineer
-- Sonia Ranade - Head of Digital Archiving
-- Susannah Baccardax - Programme Delivery Manager
-
-### Digital Services
-
-- Alec Mulinder - Transformation Programme Subject Matter
-- Andrew Curry - Team Leader - Applications Development
 - Andrew Hosgood - Lead Frontend Developer
-- Karl Kern - Lead Engineer - WebOps & Cloud Infrastructure
-- Matthew Hillyard - Senior Systems Data Analyst Developer
-- Steven Hirschorn - Technical Architect
-
-### Research and Academic Engagement
-
-- John Moore - Head of Emerging Technologies Research
 
 ## Our responsibilities
 
