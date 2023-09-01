@@ -2,7 +2,7 @@
 
 ## What the TGB does
 
-The Technical Architects Group are a multidisciplinary team of engineers who are responsible for helping to steer technological decisions within TNA.
+The Technical Governance Board are a multidisciplinary team of engineers who are responsible for helping to steer technological decisions within TNA.
 
 - Decisions around common tooling (e.g. use of Github, CI/CD, SSO..)
 - Serverless vs Server based
