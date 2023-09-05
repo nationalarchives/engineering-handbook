@@ -35,6 +35,7 @@ nav:
     - Docker registries: third-party/docker-registries.md
     - Analytics: third-party/analytics.md
     - AWS: third-party/aws.md
+    - YouTube: third-party/youtube.md
   - Organisation:
     - organisation/index.md
     - Technical Architects Group: organisation/technical-architects-group.md
