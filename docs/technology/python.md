@@ -5,8 +5,9 @@
     - The version of Python used MUST be 3.8 or above
     - Python projects SHOULD use one of the [TNA base Docker images](/developer-handbook/resources/docker-images)
 - Style
-    - Python code SHOULD be styled with [Black](#black), [Flake8](#flake8) and [isort](#isort)
-    - The maximum [cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) of the code SHOULD be no larger than 20
+    - Python code MUST be styled with [Black](#black), [Flake8](#flake8) and [isort](#isort)
+    - The maximum [cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) of the code MUST be no larger than 20
+    - The maximum cyclomatic complexity of the code SHOULD be no larger than 12
 - Dependencies
     - Python dependencies SHOULD be managed using [Poetry](#poetry)
 - Frameworks and tools
