@@ -10,7 +10,7 @@
     1. The version of NodeJS MUST be 18 or above
     1. The version of NodeJS SHOULD be a [LTS release](https://nodejs.dev/en/about/releases/)
     1. The version of NodeJS MUST be managed with [nvm](https://github.com/nvm-sh/nvm) and a `.nvmrc` file in the root of the project
-1. **Style**
+1. **Style/linting**
     1. JavaScript MUST be linted with [ESLint](https://eslint.org/)
     1. ESLint MUST extend `eslint:recommended`
     1. JavaScript MUST be styled with [Prettier](https://prettier.io/)

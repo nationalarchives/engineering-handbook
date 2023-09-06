@@ -15,7 +15,7 @@ New National Archive applications MUST use the following approved languages and 
 In addition to this, developers COULD also use:
 
 - [TypeScript](./javascript/#typescript) - which must be compiled down to [JavaScript](./javascript/)
-- [SCSS](./css/#scss) - allows us to more easily write CSS
+- [SCSS](./css/#sassscss) - allows us to more easily write CSS
 
 ## Existing technologies
 

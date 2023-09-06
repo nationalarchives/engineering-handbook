@@ -2,15 +2,32 @@
 
 1. **Approach**
     1. CSS MUST be treated as a [progressive enhancement](../../ways-of-working/service-standard/#progressive-enhancement/)
-1. **Style**
+1. **Style/linting**
     1. CSS SHOULD adhere to the [BEM methodology](#bem)
     1. CSS MUST be styled with [Prettier](https://prettier.io/)
     1. Styling CSS with Prettier SHOULD NOT use any custom options ([Prettier's philosophy on options](https://prettier.io/docs/en/option-philosophy))
     1. CSS MUST be linted with [Stylelint](#stylelint)
-    1. Stylelint MUST extend `stylelint-config-standard-scss`
     1. Stylelint MUST use the `stylelint-selector-bem-pattern` plugin
-    1. Stylelint COULD be set to ignore some rules
+    1. Stylelint COULD be configured to ignore some rules
+1. **Style content**
     1. CSS colours MUST be defined as either hex values, `rgb` or `rgba`
+    1. CSS MUST work without support for [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+    1. CSS variables COULD be used to enhance customisability
+
+## SASS/SCSS
+
+SASS is a preprocessor that compiles SASS syntax to CSS. It comes with a loose, indentation-based syntax.
+
+SCSS is a newer SASS syntax and is more aligned to CSS, requiring braces and semicolons and allowing comments.
+
+1. **Approach**
+    1. The SCSS syntax MUST be used over the SASS syntax
+    1. As SCSS is a superset of CSS, the same CSS standards above MUST also apply to SCSS
+    1. SCSS COULD be used as an enhancement to CSS
+1. **Style/linting**
+    1. Stylelint MUST extend `stylelint-config-standard-scss`
+1. **Frameworks, tools and libraries**
+    1. The [Dart Sass](https://sass-lang.com/dart-sass/) library MUST be used instead of [Node Sass](https://www.npmjs.com/package/node-sass) or [LibSass](https://sass-lang.com/blog/libsass-is-deprecated/) to compile SCSS into CSS
 
 ## BEM
 
@@ -38,7 +55,6 @@ An example `.stylelintrc` file that addresses all the standards above:
   "plugins": [
     "stylelint-selector-bem-pattern"
   ],
-  "ignoreFiles": ["src/nationalarchives/lib/font-awesome/**/*.scss"],
   "rules": {
     "at-rule-empty-line-before": null,
     "block-no-empty": null,
@@ -58,8 +74,3 @@ An example `.stylelintrc` file that addresses all the standards above:
 ## Print styles
 
 If we expect the web content to be printed or saved to a PDF, CSS print styles SHOULD be considered
-
-## SCSS
-
-- Structure
-- Variables

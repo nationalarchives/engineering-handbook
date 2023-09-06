@@ -4,7 +4,7 @@
     1. The version of Python used SHOULD be 3.11
     1. The version of Python used MUST be 3.8 or above
     1. Python projects SHOULD use one of the [TNA base Docker images](../../resources/docker-images/)
-1. **Style**
+1. **Style/linting**
     1. Python code MUST be styled with [Black](#black), [Flake8](#flake8) and [isort](#isort)
     1. The maximum [cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) of the code MUST be no larger than 20
     1. The maximum cyclomatic complexity of the code SHOULD be no larger than 12

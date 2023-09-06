@@ -1,20 +1,23 @@
 *[a11y]: Accessibility
 *[API]: Application programming interface
 *[APIs]: Application programming interfaces
-*[ASP]: Active Server Pages
+*[ASP]: Active server pages
 *[AWS]: Amazon Web Services
 *[BEM]: Block, element, modifier methodology
 *[CLI]: Command line interface
 *[CSS]: Cascading style sheets
+*[DA]: Digital Archiving, a department of The National Archives
 *[DB]: Database
 *[DRI]: Digital repository interface
+*[DS]: Digital Services, a department of The National Archives
 *[ECMAScript]: A JavaScript standard
 *[ES5]: Version 5 of ECMAScript, a JavaScript standard
 *[ESNext]: The next version of ECMAScript, a JavaScript standard
+*[ETNA]: Exploring The National Archives, a project to rebuild the main website
 *[GDS]: Government Digital Service
 *[GUI]: Graphical user interface
-*[HTML]: Hyper Text Markup Language
-*[HTML5]: Hyper Text Markup Language version 5
+*[HTML]: Hyper text markup language
+*[HTML5]: Hyper text markup language version 5
 *[i18n]: Internationalisation
 *[IDE]: Integrated development environment
 *[JS]: JavaScript
@@ -23,10 +26,11 @@
 *[OGD]: Other government departments
 *[OS]: Operating system
 *[PEP]: Python enhancement proposal
-*[PHP]: PHP: Hypertext Preprocessor
+*[PHP]: PHP: hypertext preprocessor
 *[PyPI]: Python Package Index
-*[REST]: Representational State Transfer
-*[RESTful]: Representational State Transfer
+*[REST]: Representational state transfer
+*[RESTful]: Representational state transfer
+*[SASS]: Syntactically awesome style sheets
 *[SCSS]: Sassy cascading style sheets
 *[SPA]: Single page application
 *[SSR]: Server-side rendering
