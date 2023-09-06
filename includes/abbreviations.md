@@ -4,6 +4,7 @@
 *[ASP]: Active server pages
 *[AWS]: Amazon Web Services
 *[BEM]: Block, element, modifier methodology
+*[C4]: Context, containers, components, and code
 *[CLI]: Command line interface
 *[CSS]: Cascading style sheets
 *[DA]: Digital Archiving, a department of The National Archives
