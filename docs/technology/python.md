@@ -1,25 +1,25 @@
 # Python
 
-- Version
-    - The version of Python used SHOULD be 3.11
-    - The version of Python used MUST be 3.8 or above
-    - Python projects SHOULD use one of the [TNA base Docker images](/developer-handbook/resources/docker-images)
-- Style
-    - Python code MUST be styled with [Black](#black), [Flake8](#flake8) and [isort](#isort)
-    - The maximum [cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) of the code MUST be no larger than 20
-    - The maximum cyclomatic complexity of the code SHOULD be no larger than 12
-- Dependencies
-    - Python dependencies SHOULD be managed using [Poetry](#poetry)
-- Frameworks and tools
-    - Python applications SHOULD use [Django](https://www.djangoproject.com/)
-    - Python applications COULD use [Wagtail](https://wagtail.org/)
-    - Python applications COULD use [Flask](https://flask.palletsprojects.com/)
-    - Python applications COULD use [Fabric](https://www.fabfile.org/)
-    - Python applications COULD use [WTForms](https://wtforms.readthedocs.io/)
-- Packages
-    - Python packages SHOULD be made using pip
-    - Python packages SHOULD be deployed to [PyPi](/developer-handbook/third-party/pypi)
-    - Python packages COULD be hosted in [AWS CodeArtifact](https://aws.amazon.com/codeartifact/)
+1. **Version**
+    1. The version of Python used SHOULD be 3.11
+    1. The version of Python used MUST be 3.8 or above
+    1. Python projects SHOULD use one of the [TNA base Docker images](../../resources/docker-images/)
+1. **Style**
+    1. Python code MUST be styled with [Black](#black), [Flake8](#flake8) and [isort](#isort)
+    1. The maximum [cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) of the code MUST be no larger than 20
+    1. The maximum cyclomatic complexity of the code SHOULD be no larger than 12
+1. **Dependencies**
+    1. Python dependencies SHOULD be managed using [Poetry](#poetry)
+1. **Frameworks, tools and libraries**
+    1. Python applications SHOULD use [Django](https://www.djangoproject.com/)
+    1. Python applications COULD use [Wagtail](https://wagtail.org/)
+    1. Python applications COULD use [Flask](https://flask.palletsprojects.com/)
+    1. Python applications COULD use [Fabric](https://www.fabfile.org/)
+    1. Python applications COULD use [WTForms](https://wtforms.readthedocs.io/)
+1. **Packages**
+    1. Python packages SHOULD be made using pip
+    1. Python packages SHOULD be deployed to [PyPi](../../third-party/pypi/)
+    1. Python packages COULD be hosted in [AWS CodeArtifact](https://aws.amazon.com/codeartifact/)
 
 ## Black
 

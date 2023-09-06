@@ -48,7 +48,7 @@ Our source code is stored on [GitHub](https://github.com/). You will need to [se
 
 Once you have an account, you need to be added to the [National Archives GitHub organisation](https://github.com/nationalarchives) as well as one of the [National Archives GitHub teams](https://github.com/orgs/nationalarchives/teams). Please ask your webmaster for access to this.
 
-Read our [GitHub guidelines](/developer-handbook/third-party/github/) for a better idea of how we use GitHub as well as our our [version control standards](/developer-handbook/ways-of-working/version-control/).
+Read our [GitHub guidelines](../third-party/github/) for a better idea of how we use GitHub as well as our our [version control standards](../ways-of-working/version-control/).
 
 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Docker_logo.svg/240px-Docker_logo.svg.png" alt="Docker logo" title="Docker" width="160" align="right">
 
@@ -60,7 +60,7 @@ Make sure that you download the correct version of Docker. If you have a newer A
 
 Creating a [Docker account](https://hub.docker.com/signup) will give you a higher download limit. For anonymous users, the rate limit is set to 100 pulls per 6 hours per IP address but for authenticated users, it's 200 pulls per 6 hour period.
 
-We have a set way of working and [standards for our containers](/developer-handbook/technology/containers/) to ensure security and consistency.
+We have a set way of working and [standards for our containers](../technology/containers/) to ensure security and consistency.
 
 ### GovWifi
 

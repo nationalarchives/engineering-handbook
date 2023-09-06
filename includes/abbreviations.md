@@ -9,6 +9,7 @@
 *[DB]: Database
 *[DRI]: Digital repository interface
 *[ECMAScript]: A JavaScript standard
+*[ES5]: Version 5 of ECMAScript, a JavaScript standard
 *[ESNext]: The next version of ECMAScript, a JavaScript standard
 *[GDS]: Government Digital Service
 *[GUI]: Graphical user interface

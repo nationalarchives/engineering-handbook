@@ -1,6 +1,6 @@
 # HTML
 
-- All HTML for National Archive applications MUST adhere to the [HTML5 standard](https://www.w3.org/TR/2011/WD-html5-20110405/).
+1. All HTML for National Archive applications MUST adhere to the [HTML5 standard](https://www.w3.org/TR/2011/WD-html5-20110405/)
 
 ## Media
 
@@ -24,4 +24,4 @@ Acceptable file formats for videos are:
 | MP4    | `.mp4`    | `video/mp4`  |
 | WebM   | `.webm`   | `video/webm` |
 
-To use embedded media, refer to [YouTube](/developer-handbook/third-party/youtube/).
+To use embedded media, refer to [YouTube](../../third-party/youtube/).
