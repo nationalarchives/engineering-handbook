@@ -30,6 +30,7 @@
 *[PyPI]: Python Package Index
 *[REST]: Representational state transfer
 *[RESTful]: Representational state transfer
+*[RFC]: Request for comments
 *[SASS]: Syntactically awesome style sheets
 *[SCSS]: Sassy cascading style sheets
 *[SPA]: Single page application
