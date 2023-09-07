@@ -6,17 +6,25 @@ strict: true
 use_directory_urls: true
 nav:
   - Home: index.md
-  - Getting started: getting-started.md
+  - Getting started:
+    - getting-started/index.md
+    - Tools: getting-started/tools.md
+    - Services: getting-started/services.md
+    - Communication: getting-started/communication.md
   - Technology:
     - technology/index.md
-    - HTML: technology/html.md
-    - Python: technology/python.md
-    - JavaScript: technology/javascript.md
-    - CSS: technology/css.md
-    - Docker: technology/containers.md
-    - Nginx: technology/nginx.md
-    - Postgres: technology/postgres.md
-    - Terraform: technology/terraform.md
+    - Frontend:
+      - HTML: technology/html.md
+      - JavaScript: technology/javascript.md
+      - CSS: technology/css.md
+    - Backend:
+      - Python: technology/python.md
+    - Database:
+      - Postgres: technology/postgres.md
+    - Deployment:
+      - Docker: technology/containers.md
+      - Terraform: technology/terraform.md
+      - Nginx: technology/nginx.md
   - Ways of working:
     - ways-of-working/index.md
     - Service standard: ways-of-working/service-standard.md
