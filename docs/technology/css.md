@@ -5,6 +5,7 @@
     1. CSS MUST be served as a static file and MUST NOT be compiled at runtime
     1. Compiled CSS MUST NOT contain a source file map in the `.css` file itself
     1. Compiled CSS SHOULD contain a link to a separate source file (`.map.css`)
+    1. Compiled CSS SHOULD be compressed (e.g. `sass --style=compressed [src] [dest]`)
 1. **Style/linting**
     1. CSS SHOULD adhere to the [BEM methodology](#bem)
     1. CSS MUST be styled with [Prettier](https://prettier.io/)
@@ -70,6 +71,14 @@ An example `.stylelintrc` file that addresses all the standards above:
     }
   }
 }
+```
+
+```sh
+# Run stylelint against all CSS files in the src directory...
+stylelint 'src/**/*.css'
+
+# ...or all SCSS files
+stylelint 'src/**/*.scss'
 ```
 
 ## Print styles

@@ -14,7 +14,7 @@
     1. The version of NodeJS SHOULD be a [LTS release](https://nodejs.dev/en/about/releases/)
     1. The version of NodeJS MUST be managed with [nvm](https://github.com/nvm-sh/nvm) and a `.nvmrc` file in the root of the project
 1. **Style/linting**
-    1. JavaScript MUST be linted with [ESLint](https://eslint.org/)
+    1. JavaScript MUST be linted with [ESLint](#eslint)
     1. ESLint MUST extend `eslint:recommended`
     1. JavaScript MUST be styled with [Prettier](https://prettier.io/)
     1. Styling JavaScript with Prettier SHOULD NOT use any custom options ([Prettier's philosophy on options](https://prettier.io/docs/en/option-philosophy))
@@ -38,3 +38,42 @@
     1. TypeScript COULD be used as an enhancement to JavaScript
 1. **Packages**
     1. TypeScript MUST be compiled down to ES5 before distribution
+
+## ESLint
+
+[ESLint](https://eslint.org/) is a static code analyser for JavaScript.
+
+```sh
+npm install eslint
+```
+
+An example `.eslintrc.js` file that addresses all the standards above:
+
+```js
+module.exports = {
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["eslint:recommended"],
+  "overrides": [{
+    "env": {
+      "node": true
+    },
+    "files": [".eslintrc.{js,cjs}"],
+    "parserOptions": {
+      "sourceType": "script"
+    }
+  }],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "rules": {}
+};
+```
+
+```sh
+# Run eslint against all JS files in the src directory
+eslint 'src/**/*.js'
+```
