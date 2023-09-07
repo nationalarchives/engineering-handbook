@@ -16,6 +16,7 @@ nav:
     - Docker: technology/containers.md
     - Nginx: technology/nginx.md
     - Postgres: technology/postgres.md
+    - Terraform: technology/terraform.md
   - Ways of working:
     - ways-of-working/index.md
     - Service standard: ways-of-working/service-standard.md
