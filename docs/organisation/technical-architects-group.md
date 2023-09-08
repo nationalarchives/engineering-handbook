@@ -23,7 +23,6 @@
 - Andrew Curry - Team Leader - Applications Development
 - Andrew Hosgood - Lead Frontend Developer
 - Karl Kern - Lead Engineer - WebOps & Cloud Infrastructure
-- Matthew Hillyard - Senior Systems Data Analyst Developer
 - Steven Hirschorn - Technical Architect
 
 ### Research and Academic Engagement
