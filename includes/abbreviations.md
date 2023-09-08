@@ -14,7 +14,7 @@
 *[ECMAScript]: A JavaScript standard
 *[ES5]: Version 5 of ECMAScript, a JavaScript standard
 *[ESNext]: The next version of ECMAScript, a JavaScript standard
-*[ETNA]: Exploring The National Archives, a project to rebuild the main website
+*[ETNA]: Exploring the nation's archives, a project to rebuild the main website
 *[GDS]: Government Digital Service
 *[GUI]: Graphical user interface
 *[HTML]: Hyper text markup language
