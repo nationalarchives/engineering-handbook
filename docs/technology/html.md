@@ -4,7 +4,7 @@
     1. All HTML for National Archive applications MUST adhere to the [HTML5 standard](https://www.w3.org/TR/2011/WD-html5-20110405/)
     1. The `<html>` element SHOULD have a `lang` attribute
     1. The `lang` attribute on the `<html>` element SHOULD be `en-GB`
-    1. The `<title>` element MUST follow the pattern `[page] - [service] - The National Archives`
+    1. The `<title>` element MUST either follow the pattern `[page] - [service] - The National Archives` or `[page] - The National Archives`
     1. All tags MUST be closed, even where HTML5 might allow them not to be (as is the case for `<li>` and `<p>` tags)
     1. Full attribute syntax MUST be used and all attributes quoted (see the W3C description of [quoted attribute syntax](https://html.spec.whatwg.org/multipage/syntax.html#syntax-attributes))
     1. All tag names and attributes MUST be written in in lower case
