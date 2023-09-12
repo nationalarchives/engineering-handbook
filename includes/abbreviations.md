@@ -44,6 +44,10 @@
 *[TNA]: The National Archives
 *[TS]: TypeScript
 *[UI]: User interface
+*[URI]: Uniform resource identifier
+*[URIs]: Uniform resource identifiers
+*[URL]: Uniform resource locator
+*[URLs]: Uniform resource locators
 *[UX]: User experience
 *[VCS]: Version control system
 *[VSCode]: Visual Studio Code

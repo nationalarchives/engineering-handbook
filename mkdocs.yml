@@ -32,6 +32,7 @@ nav:
     - Documentation: ways-of-working/documentation.md
     - Testing: ways-of-working/testing.md
     - APIs: ways-of-working/api.md
+    - URLs: ways-of-working/url.md
     - Browser support: ways-of-working/browser-support.md
     - Accessibility: ways-of-working/accessibility.md
     - Deployment: ways-of-working/deployment.md
