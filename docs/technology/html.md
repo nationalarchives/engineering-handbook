@@ -25,10 +25,22 @@ Acceptable file formats for images are:
 
 | Format | Extention | MIME type       | Purpose                                                     |
 | ------ | --------- | --------------- | ----------------------------------------------------------- |
-| JPG    | `.jpg`    | `image/jpeg`    | General purpose images                                      |
+| JPEG   | `.jpg`    | `image/jpeg`    | General purpose images                                      |
 | WebP   | `.webp`   | `image/webp`    | General purpose images                                      |
 | PNG    | `.png`    | `image/png`     | Images requiring lossless-ness or transparency (prefer SVG) |
 | SVG    | `.svg`    | `image/svg+xml` | Logos, icons and fonts                                      |
+
+### PNGs
+
+- PNGs MUST be served with a JPEG fallback
+
+### SVGs
+
+- Embedded SVGs MUST be made as accessible as possible (see [CSS Tricks - Accessible SVGs
+](https://css-tricks.com/accessible-svgs/) for more details)
+
+
+
 
 ## Videos
 

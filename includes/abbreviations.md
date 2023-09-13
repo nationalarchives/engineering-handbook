@@ -17,10 +17,12 @@
 *[ETNA]: Exploring the nation's archives, a project to rebuild the main website
 *[GDS]: Government Digital Service
 *[GUI]: Graphical user interface
+*[hex]: Hexadecimal
 *[HTML]: Hyper text markup language
 *[HTML5]: Hyper text markup language version 5
 *[i18n]: Internationalisation
 *[IDE]: Integrated development environment
+*[JPEG]: Joint Photographic Experts Group
 *[JS]: JavaScript
 *[JSON]: JavaScript object notation
 *[NPM]: Node Package Manager
@@ -28,14 +30,20 @@
 *[OS]: Operating system
 *[PEP]: Python enhancement proposal
 *[PHP]: PHP: hypertext preprocessor
+*[PNG]: Portable network graphics
+*[PNGs]: Portable network graphics
 *[PyPI]: Python Package Index
 *[REST]: Representational state transfer
 *[RESTful]: Representational state transfer
 *[RFC]: Request for comments
+*[rgb]: Red, green, blue
+*[rgba]: Red, green, blue, alpha
 *[SASS]: Syntactically awesome style sheets
 *[SCSS]: Sassy cascading style sheets
 *[SPA]: Single page application
 *[SSR]: Server-side rendering
+*[SVG]: Scalable vector graphic
+*[SVGs]: Scalable vector graphics
 *[TA]: Technical Architect
 *[TAs]: Technical Architects
 *[TAG]: Technical Architects Group
