@@ -8,8 +8,6 @@
 
 ## Progressive enhancement
 
-HTML-only users should be treated as first class citizens.
-
 In acknowledgement of the web's inherent variability this development guide describes an approach based on the principle of progressive enhancement. This approach is in line with Service Manual guidance. In practice this means building the interface of a website or application in layers:
 
 - If the user's browser only supports HTML they get content and the abilities to navigate and interact using forms
