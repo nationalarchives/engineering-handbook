@@ -37,6 +37,13 @@ jobs:
         run: |
           pip install linkcheckmd
           python -m linkcheckmd docs -v
+          python -m linkcheckmd docs/getting-started -v
+          python -m linkcheckmd docs/organisation -v
+          python -m linkcheckmd docs/projects -v
+          python -m linkcheckmd docs/resources -v
+          python -m linkcheckmd docs/technology -v
+          python -m linkcheckmd docs/third-party -v
+          python -m linkcheckmd docs/ways-of-working -v
       - name: Build
         run: mkdocs build
       - name: Setup Pages
