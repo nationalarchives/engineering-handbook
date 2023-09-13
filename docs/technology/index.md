@@ -22,13 +22,20 @@ Any other technologies MUST be proposed to and agreed by the [Technical Governan
 
 These decisions have been guided by [The GDS Way - Programming languages](https://gds-way.cloudapps.digital/standards/programming-languages.html).
 
-## Existing technologies
+There will be sensible reasons to not follow the above guidance on languages. For example when you're:
+
+- extending an existing codebase or ecosystem
+- scripting in a particular environment
+- experimenting during an alpha (with an expectation that it's replaced by something we have more confidence in for beta)
+- working in a very specific or unusual problem domain, like heavy use of WebSockets
+
+The set of languages we're comfortable supporting will change over time.
+
+## Other technologies
 
 There are a number of existing applications which rely on technologies such as:
 
-- .NET
-- ASP
-- C#
+- .NET/ASP/C#
 - Java
 - PHP (used by a number of WordPress sites)
 - Scala
@@ -37,4 +44,4 @@ There are a number of existing applications which rely on technologies such as:
 - Perl
 - Vue
 
-The choice to use any of these technologies for new projects MUST be discussed with a member of the [Technical Governance Board](../organisation/technical-governance-board/).
+If you want to use one of these languages for a new project it first MUST be discussed with a member of the [Technical Governance Board](../organisation/technical-governance-board/).
