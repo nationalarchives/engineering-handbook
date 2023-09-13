@@ -29,7 +29,7 @@ To ensure compatibility with Flake8 (sometimes the two disagree) the following c
 
 ```toml
 [tool.black]
-line-length = 80
+line-length = 120
 ```
 
 ## Flake8
@@ -40,12 +40,18 @@ The following configuration can be set in a `.flake8` file to ensure all project
 
 ```toml
 [flake8]
-ignore = E501 # Line too long (82 > 79 characters)
-max-line-length = 80
-max-complexity = 20
+# Rule definitions: https://flake8.pycqa.org/en/latest/user/error-codes.html
+# D203: 1 blank line required before class docstring
+# W503: line break before binary operator
+exclude = venv*,__pycache__,node_modules,migrations
+ignore = D203,W503
+max-line-length = 120
+max-complexity = 12
 ```
 
 `max-complexity` will put a limit on the [cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) of the code.
+
+Note: you can also ignore rules on particular lines of code or files by adding a # noqa comment - see [flake8's noqa syntax](https://flake8.pycqa.org/en/latest/user/violations.html#in-line-ignoring-errors).
 
 ## isort
 
@@ -55,7 +61,12 @@ Add the following configuration to your `pyproject.toml` file:
 
 ```toml
 [tool.isort]
-profile = "black"
+line_length=120
+profile="black"
+indent='    '
+multi_line_output=3
+include_trailing_comma=True
+use_parentheses=True
 ```
 
 ## Poetry
