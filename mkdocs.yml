@@ -25,6 +25,8 @@ nav:
       - Docker: technology/containers.md
       - Terraform: technology/terraform.md
       - Nginx: technology/nginx.md
+    - Other:
+      - Scala: technology/scala.md
   - Ways of working:
     - ways-of-working/index.md
     - Service standard: ways-of-working/service-standard.md
