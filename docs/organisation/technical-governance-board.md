@@ -2,25 +2,7 @@
 
 ## What the TGB does
 
-The Technical Governance Board are a multidisciplinary team of engineers who are responsible for helping to steer technological decisions within TNA.
-
-- Decisions around common tooling (e.g. use of Github, CI/CD, SSO..)
-- Serverless vs Server based
-- Takes decisions on TAG escalations
-- Decisions around scope of services
-
-## Who is in the TGB
-
-- Andrew Hosgood - Lead Frontend Developer
-- Kurtis Mash - Technical Architect
-- Matt Arnold - Technical Architect
-
-## Our responsibilities
-
-1. Create, document and disseminate standards for technology choices and practices within TNA
-1. Be visible and available as an escalation point for larger issues relating to technical debt and decisions
-1. Help and advise on approaches to new problems which sit outside of the recommended solutions
-1. Ensure that decisions made are in line with the goals of the Digital directorate
-1. Provide tools and advice for new teams and projects
-1. Review and feed back on proposals and suggested changes to our standards and practices
-1. Ensure that the standards are reviewed at regular intervals and update the relevant documentation
+- Develop and maintain a Tech Welcome Pack
+- Review and Ownership of shared threat handling and operational decision making authority across services
+- Operational policy making decisions: e.g. use and scoping of AWS accounts, shared areas for teams to store documentation and components they have used, use of toolsets by service teams (keep an up-to-date lists of toolsets used by service teams with the expectation being that new teams should select from this tool-set and can only choose a new toolset with permission from TAG), amendments to firewall rule-sets that impact more than one service
+- Work with service teams in Explore and Alpha phases (TAs to stay within their departmental boundaries for this work?) to provide a technical option's appraisal, which can be reviewed and signed off by Tech Governance Board, and which will provide budget holders with assurance for spend approval

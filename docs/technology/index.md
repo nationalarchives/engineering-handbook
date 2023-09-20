@@ -18,7 +18,7 @@ In addition to this, developers COULD also use:
 - [TypeScript](./javascript/#typescript) - which must be compiled down to [JavaScript](./javascript/)
 - [SCSS](./css/#sassscss) - allows us to more easily write CSS
 
-Any other technologies MUST be proposed to and agreed by the [Technical Governance Board](../organisation/technical-governance-board/) through the process of [requesting changes](https://nationalarchives.github.io/developer-handbook/ways-of-working/documentation/#requesting-changes).
+Any other technologies MUST be proposed to and agreed by the [Technical Architects Group](../organisation/technical-architects-group/) through the process of [requesting changes](https://nationalarchives.github.io/developer-handbook/ways-of-working/documentation/#requesting-changes).
 
 These decisions have been guided by [The GDS Way - Programming languages](https://gds-way.cloudapps.digital/standards/programming-languages.html).
 
@@ -44,4 +44,4 @@ There are a number of existing applications which rely on technologies such as:
 - Perl
 - Vue
 
-If you want to use one of these languages for a new project it first MUST be discussed with a member of the [Technical Governance Board](../organisation/technical-governance-board/).
+If you want to use one of these languages for a new project it first MUST be discussed with a member of the [Technical Architects Group](../organisation/technical-architects-group/) and/or the [Technical Governance Board](../organisation/technical-governance-board/).
