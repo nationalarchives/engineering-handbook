@@ -5,7 +5,7 @@
 New National Archive applications SHOULD use the following approved languages and tools:
 
 - [HTML](./html/)
-- [JavaScript](./javascript/) - for either [progressive enhancement](../ways-of-working/service-standard/#progressive-enhancement) or for compiling web assets using tools like Webpack through NodeJS
+- [JavaScript](./javascript/) - for either [progressive enhancement](../ways-of-working/progressive-enhancement) or for compiling web assets using tools like Webpack through NodeJS
 - [CSS](./css/)
 - [Python](./python/)
 - [Postgres](./postgres/)

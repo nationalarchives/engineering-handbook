@@ -1,7 +1,7 @@
 # CSS
 
 1. **Approach**
-    1. CSS MUST be treated as a [progressive enhancement](../../ways-of-working/service-standard/#progressive-enhancement/)
+    1. CSS MUST be treated as a [progressive enhancement](../../ways-of-working/progressive-enhancement/)
     1. CSS MUST be served as a static file and MUST NOT be compiled at runtime
     1. Compiled CSS MUST NOT contain a source file map in the `.css` file itself
     1. Compiled CSS SHOULD contain a link to a separate source file (`.map.css`)

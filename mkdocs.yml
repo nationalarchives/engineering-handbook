@@ -30,6 +30,7 @@ nav:
   - Ways of working:
     - ways-of-working/index.md
     - Service standard: ways-of-working/service-standard.md
+    - Progressive enhancement: ways-of-working/progressive-enhancement.md
     - Version control: ways-of-working/version-control.md
     - Documentation: ways-of-working/documentation.md
     - Testing: ways-of-working/testing.md

@@ -1,7 +1,7 @@
 # HTML
 
 1. **Approach**
-    1. HTML-only users MUST be treated as [first-class citizens](https://en.wikipedia.org/wiki/First-class_citizen) ([Service standard - Progressive enhancement](../../ways-of-working/service-standard/#progressive-enhancement))
+    1. HTML-only users MUST be treated as [first-class citizens](https://en.wikipedia.org/wiki/First-class_citizen) ([Service standard - Progressive enhancement](../../ways-of-working/progressive-enhancement/))
 1. **Style**
     1. All HTML for National Archive applications MUST adhere to the [HTML5 standard](https://www.w3.org/TR/2011/WD-html5-20110405/)
     1. The `<html>` element SHOULD have a `lang` attribute
