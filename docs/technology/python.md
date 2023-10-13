@@ -65,8 +65,8 @@ line_length=120
 profile="black"
 indent='    '
 multi_line_output=3
-include_trailing_comma=True
-use_parentheses=True
+include_trailing_comma=true
+use_parentheses=true
 ```
 
 ## Poetry
