@@ -14,7 +14,9 @@
     1. Stylelint MUST use the `stylelint-selector-bem-pattern` plugin
     1. Stylelint COULD be configured to ignore some rules
 1. **Style content**
-    1. CSS colours MUST be defined as either hex values, `rgb` or `rgba`
+    1. CSS colours MUST be defined as either hex values or `rgb`
+    1. CSS colours defined using `rgb` SHOULD use the newer syntax (`rgb(255 128 0)` rather than `rgb(255, 128, 0)`)
+    1. CSS colours with alpha MUST use the newer `rgb` syntax (e.g. `rgb(255 128 0/0.5)`)
     1. CSS MUST work without support for [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
     1. CSS variables COULD be used to enhance customisability
 
