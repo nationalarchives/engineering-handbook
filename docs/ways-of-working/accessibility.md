@@ -25,20 +25,20 @@ It is broken down into four principles:
 - Understandable
 - Robust
 
-You can read about the [four principles of accessibility](https://www.w3.org/WAI/WCAG21/Understanding/intro#understanding-the-four-principles-of-accessibility) from the WCAG guidelines published by W3C.
+You can read about the [four principles of accessibility](https://www.w3.org/WAI/WCAG22/Understanding/intro#understanding-the-four-principles-of-accessibility) from the WCAG guidelines published by W3C.
 
-Each principle has a number of success criteria that have to be met. The full list can be found on the [Web Content Accessibility Guidelines (WCAG) 2.1
-](https://www.w3.org/TR/WCAG21/) published by W3C.
+Each principle has a number of success criteria that have to be met. The full list can be found on the [Web Content Accessibility Guidelines (WCAG) 2.2
+](https://www.w3.org/TR/WCAG22/) published by W3C.
 
 Each criteria is given a level, either A, AA or AAA. A site meeting all the A criteria is the least accessible WCAG compliant site and one that meets all the A, AA and AAA criteria is the most accessible.
 
-As of June 2023, WCAG 2.1 is the latest version of the guidelines. GOV.UK have published a guide on [understanding WCAG 2.1](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag).
+As of October 2023, WCAG 2.2 is the latest version of the guidelines. GOV.UK have published a guide on [understanding WCAG 2.2](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag).
 
 Our standard is to reach a minimum of **WCAG 2.1 AA**.
 
 ## Example accessibility checklist
 
-To meet WCAG 2.1 to level AA you must be able to answer "yes" or "not applicable" to all of the following questions.
+To meet WCAG 2.2 to level AA you must be able to answer "yes" or "not applicable" to all of the following questions.
 
 Answering "no" means that you are not meeting WCAG and your content will have barriers that will prevent some users from accessing it.
 
