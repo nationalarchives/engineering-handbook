@@ -26,7 +26,7 @@ nav:
       - Terraform: technology/terraform.md
       - Nginx: technology/nginx.md
     - Cloud:
-      - AWS: technology/aws.md
+      - Amazon Web Services (AWS): technology/aws.md
     - Other:
       - Scala: technology/scala.md
   - Ways of working:
