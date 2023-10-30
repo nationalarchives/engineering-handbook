@@ -2,7 +2,7 @@
 
 # Engineering Handbook
 
-> ⚠️ This handbook is still in development but is intended to supercede [front-end-development-guide](https://github.com/nationalarchives/front-end-development-guide).
+The National Archives Engineering Handbook aims to be a one-stop guide for all engineering questions.
 
 ## Quickstart
 
