@@ -4,9 +4,9 @@
 
 ## Introduction
 
-The National Archives Developer Handbook aims to be a one-stop guide for all development questions.
+The National Archives Engineering Handbook aims to be a one-stop guide for all development questions.
 
-This guide has been produced to help developers at The National Archives:
+This guide has been produced to help engineers at The National Archives:
 
 - deliver **high quality**, **inclusive** and **maintainable** digital services 
 - ensure their work is **compliant with the standards and regulations** that apply to public sector websites
@@ -16,7 +16,7 @@ It covers all aspects of modern front end development and is regularly reviewed 
 
 You can also read about our [ways of working](./ways-of-working/service-standard/) in order to help you build good services that meet these standards.
 
-This handbook is intended to supercede the existing [front-end-development-guide](https://github.com/nationalarchives/front-end-development-guide) and expand the advice and resources to all developers, both frontend and backend as well as both internal staff and external partners.
+This handbook is intended to supercede the existing [front-end-development-guide](https://github.com/nationalarchives/front-end-development-guide) and expand the advice and resources to developers, both frontend and backend, technical architects as well as both internal staff and external partners.
 
 ## Key things to keep in mind
 

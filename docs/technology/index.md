@@ -13,12 +13,12 @@ New National Archive applications SHOULD use the following approved languages an
 - [Terraform](./terraform/) - to provision and manage infrastructure in the cloud
 - [Nginx](./nginx/) - to provide a reverse proxy in front of Docker containers
 
-In addition to this, developers COULD also use:
+In addition to this, engineers COULD also use:
 
 - [TypeScript](./javascript/#typescript) - which must be compiled down to [JavaScript](./javascript/)
 - [SCSS](./css/#sassscss) - allows us to more easily write CSS
 
-Any other technologies MUST be proposed to and agreed by the [Technical Architects Group](../organisation/technical-architects-group/) through the process of [requesting changes](https://nationalarchives.github.io/developer-handbook/ways-of-working/documentation/#requesting-changes).
+Any other technologies MUST be proposed to and agreed by the [Technical Architects Group](../organisation/technical-architects-group/) through the process of [requesting changes](https://nationalarchives.github.io/engineering-handbook/ways-of-working/documentation/#requesting-changes).
 
 These decisions have been guided by [The GDS Way - Programming languages](https://gds-way.cloudapps.digital/standards/programming-languages.html).
 

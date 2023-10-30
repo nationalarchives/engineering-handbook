@@ -6,7 +6,7 @@ In acknowledgement of the web's inherent variability this development guide desc
 - If the user's browser also supports CSS the application looks better
 - If it can run JavaScript (and/or supports newer technologies colloquially known as HTML5 and ESNext) the experience will be enhanced by those capabilities
 
-The important points for developers to recognise are that:
+The important points for engineers to recognise are that:
 
 - only the core HTML is required to meet users' basic needs, and;
 - CSS, JavaScript and HTML5 APIs should be applied in such a way that they do not 'break' the experience for those clients that cannot support them
