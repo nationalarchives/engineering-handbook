@@ -25,6 +25,8 @@ nav:
       - Docker: technology/containers.md
       - Terraform: technology/terraform.md
       - Nginx: technology/nginx.md
+    - Cloud:
+      - Amazon Web Services (AWS): technology/aws.md
     - Other:
       - Scala: technology/scala.md
   - Ways of working:
@@ -49,7 +51,6 @@ nav:
     - GitHub: third-party/github.md
     - Docker registries: third-party/docker-registries.md
     - Analytics: third-party/analytics.md
-    - AWS: third-party/aws.md
     - YouTube: third-party/youtube.md
   - Organisation:
     - organisation/index.md
