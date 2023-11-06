@@ -19,14 +19,13 @@ nav:
       - CSS: technology/css.md
     - Backend:
       - Python: technology/python.md
+      - Scala: technology/scala.md
     - Database:
       - Postgres: technology/postgres.md
     - Deployment:
       - Docker: technology/containers.md
       - Terraform: technology/terraform.md
       - Nginx: technology/nginx.md
-    - Other:
-      - Scala: technology/scala.md
   - Ways of working:
     - ways-of-working/index.md
     - Service standard: ways-of-working/service-standard.md
@@ -39,9 +38,6 @@ nav:
     - Browser support: ways-of-working/browser-support.md
     - Accessibility: ways-of-working/accessibility.md
     - Deployment: ways-of-working/deployment.md
-  - Projects:
-    - projects/index.md
-    - Setup: projects/setup.md
   - Third party:
     - third-party/index.md
     - NPMJS: third-party/npmjs.md
