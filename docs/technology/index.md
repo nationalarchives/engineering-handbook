@@ -2,7 +2,7 @@
 
 ## New applications
 
-New National Archive applications SHOULD use the following approved languages and tools:
+New National Archive applications SHOULD be deployed to the [Public Cloud](./aws/) and use the following approved languages and tools:
 
 - [HTML](./html/)
 - [JavaScript](./javascript/) - for either [progressive enhancement](../ways-of-working/progressive-enhancement) or for compiling web assets using tools like Webpack through NodeJS

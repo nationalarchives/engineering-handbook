@@ -21,6 +21,7 @@
 *[HTML]: Hyper text markup language
 *[HTML5]: Hyper text markup language version 5
 *[i18n]: Internationalisation
+*[IaC]: Infrastructure as Code
 *[IDE]: Integrated development environment
 *[JPEG]: Joint Photographic Experts Group
 *[JS]: JavaScript
@@ -33,14 +34,19 @@
 *[PNG]: Portable network graphics
 *[PNGs]: Portable network graphics
 *[PyPI]: Python Package Index
+*[RDS]: Amazon's Relational Database Service
 *[REST]: Representational state transfer
 *[RESTful]: Representational state transfer
 *[RFC]: Request for comments
 *[rgb]: Red, green, blue
 *[rgba]: Red, green, blue, alpha
+*[S3]: Amazon's Simple Storage Service
 *[SASS]: Syntactically awesome style sheets
-*[SCSS]: Sassy cascading style sheets
+*[SCSS]: Sassy cascading style 
+*[SDK]: Software Development Kit
+*[SNS]: Amazon's Simple Notification Service
 *[SPA]: Single page application
+*[SQS]: Amazon's Simple Queue Service
 *[SSR]: Server-side rendering
 *[SVG]: Scalable vector graphic
 *[SVGs]: Scalable vector graphics
