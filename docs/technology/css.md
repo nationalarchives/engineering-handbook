@@ -19,6 +19,8 @@
     1. CSS colours with alpha MUST use the newer `rgb` syntax (e.g. `rgb(255 128 0/0.5)`)
     1. CSS MUST work without support for [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
     1. CSS variables COULD be used to enhance customisability
+1. **Media**
+    1. If we expect the web content to be printed or saved to a PDF, CSS print styles SHOULD be considered
 
 ## SASS/SCSS
 
@@ -82,7 +84,3 @@ stylelint 'src/**/*.css'
 # ...or all SCSS files
 stylelint 'src/**/*.scss'
 ```
-
-## Print styles
-
-If we expect the web content to be printed or saved to a PDF, CSS print styles SHOULD be considered
