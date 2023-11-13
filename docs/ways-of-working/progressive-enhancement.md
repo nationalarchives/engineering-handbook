@@ -11,6 +11,8 @@ The important points for engineers to recognise are that:
 - only the core HTML is required to meet users' basic needs, and;
 - CSS, JavaScript and HTML5 APIs should be applied in such a way that they do not 'break' the experience for those clients that cannot support them
 
+Remember, [not everyone has JavaScript](https://www.kryogenix.org/code/browser/everyonehasjs.html).
+
 ## Approach and best practices
 
 ### 1. Start with the HTML
