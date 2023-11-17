@@ -84,3 +84,28 @@ stylelint 'src/**/*.css'
 # ...or all SCSS files
 stylelint 'src/**/*.scss'
 ```
+
+## Working with high contrast environments
+
+There are two ways of requesting and setting high contrast views in a web application. They use the CSS media features of:
+
+- `prefers-contrast`
+- `forced-colors`
+
+### `prefers-contrast`
+
+The TNA Frontend's ["system" theme](https://nationalarchives.github.io/design-system/styles/colours/#system-theme) follows the preference for `prefers-contrast` which can be `no-preference`, `more`, `less` or `custom`. See [MDN Web Docs - prefers-contrast](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-contrast).
+
+TNA Frontend currently only supports the `prefers-contrast` values of `no-preference` and `more`.
+
+You can use this media feature to make designs with increased contrast.
+
+### `forced-colors`
+
+Windows offers a "High Contrast Mode" which allows a user to choose their own colour palette. This can be queried using the `forced-colors` CSS media feature.
+
+Using `forced-colors` has some [accessibility concerns](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/forced-colors#accessibility_concerns) because the browser has no visibility of the colour palette.
+
+Read the article [The difference between Increased Contrast Mode and Windows High Contrast Mode (Forced Colours Mode)](https://www.tempertemper.net/blog/the-difference-between-increased-contrast-mode-and-windows-high-contrast-mode) for more information.
+
+Use this media feature only to make small changes such as adding extra borders. Do not set colours using `forced-colors`.
