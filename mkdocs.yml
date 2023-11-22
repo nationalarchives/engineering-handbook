@@ -40,6 +40,7 @@ nav:
     - Browser support: ways-of-working/browser-support.md
     - Accessibility: ways-of-working/accessibility.md
     - Deployment: ways-of-working/deployment.md
+    - Definition of done: ways-of-working/definition-of-done.md
   - Third party:
     - third-party/index.md
     - NPMJS: third-party/npmjs.md
