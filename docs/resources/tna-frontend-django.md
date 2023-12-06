@@ -3,13 +3,13 @@
 TNA Frontend Django provides Django templates for the components in [TNA Frontend](../tna-frontend).
 
 - Source code: [tna-frontend-django on GitHub](https://github.com/nationalarchives/tna-frontend-django)
-- Package: [nationalarchives-frontend-django on PyPi](https://pypi.org/project/nationalarchives-frontend-django/)
+- Package: [nationalarchives-frontend-django on PyPI](https://pypi.org/project/nationalarchives-frontend-django/)
 
 ## How to use in your own Django project
 
 ### Templates
 
-1. Install the `nationalarchives-frontend-django` package from PyPi
+1. Install the `nationalarchives-frontend-django` package from PyPI
 
 2. Update your config to include templates from the package, making sure it comes after your application templates
 
@@ -32,7 +32,7 @@ TEMPLATES = [
 
 ### Styles
 
-The CSS and JavaScript are not included in the PyPi package. You must install them separately.
+The CSS and JavaScript are not included in the PyPI package. You must install them separately.
 
 Install the `@nationalarchives/frontend` package from npm with `npm install @nationalarchives/frontend`.
 

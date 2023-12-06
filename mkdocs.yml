@@ -56,6 +56,7 @@ nav:
   - Resources:
     - resources/index.md
     - TNA Frontend: resources/tna-frontend.md
+    - TNA Frontend Jinja: resources/tna-frontend-jinja.md
     - TNA Frontend Django: resources/tna-frontend-django.md
     - Design System: resources/design-system.md
     - GOV.UK Prototype Kit: resources/govuk-prototype-kit.md

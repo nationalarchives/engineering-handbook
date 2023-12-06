@@ -11,14 +11,14 @@
 1. **Dependencies**
     1. Python dependencies SHOULD be managed using [Poetry](#poetry)
 1. **Frameworks, tools and libraries**
-    1. Python applications SHOULD use [Django](https://www.djangoproject.com/)
+    1. Python applications SHOULD use [Flask](https://flask.palletsprojects.com/)
+    1. Python applications COULD use [Django](https://www.djangoproject.com/)
     1. Python applications COULD use [Wagtail](https://wagtail.org/)
-    1. Python applications COULD use [Flask](https://flask.palletsprojects.com/)
     1. Python applications COULD use [Fabric](https://www.fabfile.org/)
     1. Python applications COULD use [WTForms](https://wtforms.readthedocs.io/)
 1. **Packages**
     1. Python packages SHOULD be made using pip
-    1. Python packages SHOULD be deployed to [PyPi](../../third-party/pypi/)
+    1. Python packages SHOULD be deployed to [PyPI](../../third-party/pypi/)
     1. Python packages COULD be hosted in [AWS CodeArtifact](https://aws.amazon.com/codeartifact/)
 
 ## Black
