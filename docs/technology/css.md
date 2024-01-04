@@ -43,6 +43,8 @@ The CSS methodology we use is [BEM](https://getbem.com/).
 
 On 4th February 2021, frontend developers met to agree a CSS methodology. Having considered a recommendation for utility CSS (as represented in [tailwindcss](https://tailwindcss.com/)) and results of the most recent [state of CSS survey](https://2020.stateofcss.com/en-US/technologies/), the team agreed that the BEM methodology would best reflect the needs of the team at this time.
 
+[TNA Frontend](../../resources/tna-frontend/) uses a mix of BEM and classless strategies. Simple "top-level" elements such as `<ul>` have a class (`tna-ul`) while the `<li>` elements within it do not, as the `<ul>` element should only contain `<li>`. For more information, see details of the [structure of TNA Frontend](https://github.com/nationalarchives/tna-frontend/wiki/Structure).
+
 ## Stylelint
 
 [Stylelint](https://stylelint.io/) is "a mighty CSS linter that helps you avoid errors and enforce conventions".
