@@ -8,14 +8,11 @@
     1. Python code MUST be styled with [Black](#black), [Flake8](#flake8) and [isort](#isort)
     1. The maximum [cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) of the code MUST be no larger than 20
     1. The maximum cyclomatic complexity of the code SHOULD be no larger than 12
+    1. Line lengths SHOULD NOT exceed 80 characters
 1. **Dependencies**
     1. Python dependencies SHOULD be managed using [Poetry](#poetry)
 1. **Frameworks, tools and libraries**
-    1. Python applications SHOULD use [Flask](https://flask.palletsprojects.com/)
-    1. Python applications COULD use [Django](https://www.djangoproject.com/)
-    1. Python applications COULD use [Wagtail](https://wagtail.org/)
-    1. Python applications COULD use [Fabric](https://www.fabfile.org/)
-    1. Python applications COULD use [WTForms](https://wtforms.readthedocs.io/)
+    1. Python applications MUST use one of the approved [frameworks](#frameworks)
 1. **Packages**
     1. Python packages SHOULD be made using pip
     1. Python packages SHOULD be deployed to [PyPI](../../third-party/pypi/)
@@ -29,7 +26,8 @@ To ensure compatibility with Flake8 (sometimes the two disagree) the following c
 
 ```toml
 [tool.black]
-line-length = 120
+line-length = 80
+include = '\.pyi?$'
 ```
 
 ## Flake8
@@ -40,18 +38,18 @@ The following configuration can be set in a `.flake8` file to ensure all project
 
 ```toml
 [flake8]
-# Rule definitions: https://flake8.pycqa.org/en/latest/user/error-codes.html
-# D203: 1 blank line required before class docstring
-# W503: line break before binary operator
+ignore = E203, E266, E501, W503, F403, F401
 exclude = venv*,__pycache__,node_modules,migrations
-ignore = D203,W503
-max-line-length = 120
+max-line-length = 80
 max-complexity = 12
+select = B,C,E,F,W,T4,B9
 ```
 
 `max-complexity` will put a limit on the [cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) of the code.
 
 Note: you can also ignore rules on particular lines of code or files by adding a # noqa comment - see [flake8's noqa syntax](https://flake8.pycqa.org/en/latest/user/violations.html#in-line-ignoring-errors).
+
+If using the `tna-python-dev` Docker image, [this Flake8 configuration is included](https://github.com/nationalarchives/docker/blob/main/docker/tna-python-dev/lib/.flake8).
 
 ## isort
 
@@ -61,17 +59,33 @@ Add the following configuration to your `pyproject.toml` file:
 
 ```toml
 [tool.isort]
-line_length=120
-profile="black"
-indent='    '
-multi_line_output=3
-include_trailing_comma=true
-use_parentheses=true
+profile = "black"
 ```
+
+If using the `tna-python-dev` Docker image, [this isort configuration is included](https://github.com/nationalarchives/docker/blob/main/docker/tna-python-dev/lib/.isort.cfg).
 
 ## Poetry
 
 [Poetry](https://python-poetry.org/) is a tool for dependency management and packaging in Python.
+
+## Frameworks
+
+Use either [Flask](https://flask.palletsprojects.com/), [Django](https://www.djangoproject.com/) or [FastAPI](https://fastapi.tiangolo.com/) for your Python applications.
+
+| Framework                                   | Best choice for making                                                                     |
+| ------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| [Flask](https://flask.palletsprojects.com/) | Applications with a UI (can use [tna-frontend-jinja](../../resources/tna-frontend-jinja/)) |
+| [Django](https://www.djangoproject.com/)    | Applications that need to work with data and databases                                     |
+| [FastAPI](https://fastapi.tiangolo.com/)    | RESTful JSON APIs                                                                          |
+
+## Tools and libraries
+
+Some suggested tools and libraries for Python applications are:
+
+| Tool/library                               | Use case                                       |
+| ------------------------------------------ | ---------------------------------------------- |
+| [Wagtail](https://wagtail.org/)            | Services that require a CMS                    |
+| [WTForms](https://wtforms.readthedocs.io/) | Validating form inputs from Flask applications |
 
 ## PEP 20 – The Zen of Python
 

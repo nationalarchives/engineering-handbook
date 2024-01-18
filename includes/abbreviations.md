@@ -6,6 +6,7 @@
 *[BEM]: Block, element, modifier methodology
 *[C4]: Context, containers, components, and code
 *[CLI]: Command line interface
+*[CMS]: Content management system
 *[CSS]: Cascading style sheets
 *[DA]: Digital Archiving, a department of The National Archives
 *[DB]: Database
