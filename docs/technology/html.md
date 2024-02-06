@@ -30,17 +30,14 @@ Acceptable file formats for images are:
 | PNG    | `.png`    | `image/png`     | Images requiring lossless-ness or transparency (prefer SVG) |
 | SVG    | `.svg`    | `image/svg+xml` | Logos, icons and fonts                                      |
 
-### PNGs
+### WebP
 
-- PNGs MUST be served with a JPEG fallback
+- WebP images MUST be served with a JPEG fallback
 
 ### SVGs
 
 - Embedded SVGs MUST be made as accessible as possible (see [CSS Tricks - Accessible SVGs
 ](https://css-tricks.com/accessible-svgs/) for more details)
-
-
-
 
 ## Videos
 
