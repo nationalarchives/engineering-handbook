@@ -9,10 +9,10 @@
 1. **Style/linting**
     1. CSS SHOULD adhere to the [BEM methodology](#bem)
     1. CSS MUST be styled with [Prettier](https://prettier.io/)
-    1. Styling CSS with Prettier SHOULD NOT use any custom options ([Prettier's philosophy on options](https://prettier.io/docs/en/option-philosophy))
+        1. Styling CSS with Prettier SHOULD NOT use any custom options ([Prettier's philosophy on options](https://prettier.io/docs/en/option-philosophy))
     1. CSS MUST be linted with [Stylelint](#stylelint)
-    1. Stylelint MUST use the `stylelint-selector-bem-pattern` plugin
-    1. Stylelint COULD be configured to ignore some rules
+        1. Stylelint MUST use the `stylelint-selector-bem-pattern` plugin
+        1. Stylelint COULD be configured to ignore some rules
 1. **Style content**
     1. CSS colours MUST be defined as either hex values or `rgb`
     1. CSS colours defined using `rgb` SHOULD use the newer syntax (`rgb(255 128 0)` rather than `rgb(255, 128, 0)`)
