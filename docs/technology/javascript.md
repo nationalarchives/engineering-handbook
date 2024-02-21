@@ -1,7 +1,7 @@
 # JavaScript
 
 1. **Approach**
-    1. JavaScript MUST only be used for [progressive enhancement](../../ways-of-working/progressive-enhancement/) - do not rely on libraries such as React, Vue or Angular
+    1. JavaScript MUST only be used for [progressive enhancement](../ways-of-working/progressive-enhancement.md) - do not rely on libraries such as React, Vue or Angular
     1. JavaScript MUST be served as a static file and MUST NOT be compiled at runtime
     1. Compiled JavaScript MUST NOT contain a source file map in the `.js` file itself
     1. Compiled JavaScript SHOULD contain a link to a separate source file (`.map.js`)
@@ -25,7 +25,7 @@
     1. JavaScript tests SHOULD be written with [Jest](https://jestjs.io/)
 1. **Packages**
     1. JavaScript packages SHOULD be made using npm
-    1. JavaScript packages SHOULD be deployed to [npm](../../third-party/npmjs/)
+    1. JavaScript packages SHOULD be deployed to [npm](../third-party/npmjs.md)
     1. If using NPM, packages MUST be published under the [`@nationalarchives` organisation]()
     1. JavaScript packages COULD be hosted in [AWS CodeArtifact](https://aws.amazon.com/codeartifact/)
     1. JavaScript MUST be compiled down to ES5 before distribution

@@ -26,6 +26,6 @@ Suggestions for new technologies or standards can be done with a RFC process.
     1. [LucidChart](https://www.lucidchart.com/) SHOULD be used for more complex diagrams
     1. [draw.io](http://draw.io/) COULD be used for more complex diagrams if access to LucidChart is limited
 1. **Applications**
-    1. Each application MUST have a [`README.md`](../../projects/setup/#readme) that briefly explains the application
+    1. Each application MUST have a [`README.md`](version-control.md#readme) that briefly explains the application
 
-Please talk to a memeber of the [TAG](../../organisation/technical-architects-group/) if you are unsure how to access or update the project documentation or diagrams.
+Please talk to a memeber of the [TAG](../organisation/technical-architects-group.md) if you are unsure how to access or update the project documentation or diagrams.

@@ -4,7 +4,7 @@
 
 In line with the [Government Cloud First policy](https://www.gov.uk/guidance/government-cloud-first-policy), serverless and/or managed service solutions are preferred and SHOULD be used. Server based services MAY be used but are NOT RECOMMENDED. Examples of serverless/managed services are API Gateway, DynamoDB, Lambda, S3, SNS, SQS, RDS, etc.
 
-Infrastructure within AWS MUST be managed via an IaC solution; [Terraform](./terraform/) is preferred. Where possible, modules SHOULD be shared and reused. Examples of existing Terraform module repositories include:
+Infrastructure within AWS MUST be managed via an IaC solution; [Terraform](terraform.md) is preferred. Where possible, modules SHOULD be shared and reused. Examples of existing Terraform module repositories include:
 
 - [da-terraform-modules](https://github.com/nationalarchives/da-terraform-modules)
 

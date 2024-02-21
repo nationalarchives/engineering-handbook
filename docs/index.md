@@ -17,7 +17,7 @@ This guide has been produced to help engineers at The National Archives:
 
 It covers all aspects of modern development and is regularly reviewed and refined to ensure it reflects emerging industry best practice.
 
-You can also read about our [ways of working](./ways-of-working/service-standard/) in order to help you build good services that meet these standards.
+You can also read about our [ways of working](ways-of-working/service-standard.md) in order to help you build good services that meet these standards.
 
 This handbook is intended to supercede the existing [front-end-development-guide](https://github.com/nationalarchives/front-end-development-guide) and expand the advice and resources to developers, both frontend and backend, technical architects as well as both internal staff and external partners.
 
@@ -31,7 +31,7 @@ The purpose of the development guide and peer review is to ensure we are deliver
 
 While the current version has emerged over several iterations to reflect lessons we have learned, we are keen for it to continue to evolve.
 
-We therefore actively encourage you to [contribute to this guide](ways-of-working/documentation/#requesting-changes).
+We therefore actively encourage you to [contribute to this guide](ways-of-working/documentation.md#requesting-changes).
 
 ## Requirements
 

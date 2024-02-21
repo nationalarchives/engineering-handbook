@@ -22,4 +22,4 @@
 
 ## GitHub Actions
 
-[Deployment](../../ways-of-working/deployment/)
+[Deployment](../ways-of-working/deployment.md)

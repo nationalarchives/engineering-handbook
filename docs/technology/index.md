@@ -2,23 +2,23 @@
 
 ## New applications
 
-New National Archive applications SHOULD be deployed to the [Public Cloud](./aws/) and use the following approved languages and tools:
+New National Archive applications SHOULD be deployed to the [Public Cloud](aws.md) and use the following approved languages and tools:
 
-- [HTML](./html/)
-- [JavaScript](./javascript/) - for either [progressive enhancement](../ways-of-working/progressive-enhancement) or for compiling web assets using tools like Webpack through NodeJS
-- [CSS](./css/)
-- [Python](./python/)
-- [Postgres](./postgres/)
-- [Docker](./containers/) - to create deployable containers
-- [Terraform](./terraform/) - to provision and manage infrastructure in the cloud
-- [Nginx](./nginx/) - to provide a reverse proxy in front of Docker containers
+- [HTML](html.md)
+- [JavaScript](javascript.md) - for either [progressive enhancement](../ways-of-working/progressive-enhancement.md) or for compiling web assets using tools like Webpack through NodeJS
+- [CSS](css.md)
+- [Python](python.md)
+- [Postgres](postgres.md)
+- [Docker](containers.md) - to create deployable containers
+- [Terraform](terraform.md) - to provision and manage infrastructure in the cloud
+- [Nginx](nginx.md) - to provide a reverse proxy in front of Docker containers
 
 In addition to this, engineers COULD also use:
 
-- [TypeScript](./javascript/#typescript) - which must be compiled down to [JavaScript](./javascript/)
-- [SCSS](./css/#sassscss) - allows us to more easily write CSS
+- [TypeScript](javascript.md#typescript) - which must be compiled down to [JavaScript](javascript.md)
+- [SCSS](css.md#sassscss) - allows us to more easily write CSS
 
-Any other technologies MUST be proposed to and agreed by the [Technical Architects Group](../organisation/technical-architects-group/) through the process of [requesting changes](https://nationalarchives.github.io/engineering-handbook/ways-of-working/documentation/#requesting-changes).
+Any other technologies MUST be proposed to and agreed by the [Technical Architects Group](../organisation/technical-architects-group.md) through the process of [requesting changes](https://nationalarchives.github.io/engineering-handbook/ways-of-working/documentation/#requesting-changes).
 
 These decisions have been guided by [The GDS Way - Programming languages](https://gds-way.cloudapps.digital/standards/programming-languages.html).
 
@@ -44,4 +44,4 @@ There are a number of existing applications which rely on technologies such as:
 - Perl
 - Vue
 
-If you want to use one of these languages for a new project it first MUST be discussed with a member of the [Technical Architects Group](../organisation/technical-architects-group/) and/or the [Technical Governance Board](../organisation/technical-governance-board/).
+If you want to use one of these languages for a new project it first MUST be discussed with a member of the [Technical Architects Group](../organisation/technical-architects-group.md) and/or the [Technical Governance Board](../organisation/technical-governance-board.md).

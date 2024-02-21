@@ -1,8 +1,7 @@
 site_name: Engineering Handbook - The National Archives
 site_url: https://nationalarchives.github.io/engineering-handbook/
 repo_url: https://github.com/nationalarchives/engineering-handbook
-dev_addr: 127.0.0.1:8888
-strict: true
+dev_addr: localhost:8888
 use_directory_urls: true
 nav:
   - Home: index.md

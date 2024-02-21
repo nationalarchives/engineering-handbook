@@ -1,6 +1,6 @@
 # TNA Frontend Jinja
 
-TNA Frontend Jinja provides Jinja templates for the components in [TNA Frontend](../tna-frontend).
+TNA Frontend Jinja provides Jinja templates for the components in [TNA Frontend](tna-frontend.md).
 
 - Source code: [tna-frontend-jinja on GitHub](https://github.com/nationalarchives/tna-frontend-jinja)
 - Package: [tna-frontend-jinja on PyPI](https://pypi.org/project/tna-frontend-jinja/)

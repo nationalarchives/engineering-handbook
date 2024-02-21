@@ -17,23 +17,23 @@ Remember, [not everyone has JavaScript](https://www.kryogenix.org/code/browser/e
 
 ### 1. Start with the HTML
 
-Taking into consideration the [HTML standards](../../technology/html/), create markup that will accomplish the user need without requiring CSS or JavaScript.
+Taking into consideration the [HTML standards](../technology/html.md), create markup that will accomplish the user need without requiring CSS or JavaScript.
 
-Add the appropriate attributes to ensure the HTML meets [accessibility standards](../accessibility).
+Add the appropriate attributes to ensure the HTML meets [accessibility standards](accessibility.md).
 
 ### 2. Embellish with CSS
 
-Add some styling in accordance with the [CSS standards](../../technology/css/) to enhance the component.
+Add some styling in accordance with the [CSS standards](../technology/css.md) to enhance the component.
 
 CSS shouldn't dictate the markup, although if you need more elements to achieve the style you need then add some extra HTML that you can hook into. Ensure the extra elements don't negatively affect the HTML-only solution.
 
-Check your styles across all our [supported browsers](../browser-support/) as CSS support can vary wildly.
+Check your styles across all our [supported browsers](browser-support.md) as CSS support can vary wildly.
 
 Use [caniuse.com](https://caniuse.com/) to check support for CSS features.
 
 ### 3. Elaborate with JavaScript
 
-Use the [JavaScript standards](../../technology/javascript/) and add scripts which allow easier functionality.
+Use the [JavaScript standards](../technology/javascript.md) and add scripts which allow easier functionality.
 
 You can use JavaScript to add more features as long as the user can complete their action without the need for JavaScript. An example would be to use JavaScript to open and close a menu. The menu should be visible to all but JavaScript would allow you to collapse it and save some screen real estate.
 
