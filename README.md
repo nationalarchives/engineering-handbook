@@ -2,18 +2,10 @@
 
 # Engineering Handbook
 
-The National Archives Engineering Handbook aims to be a one-stop guide for all engineering questions.
+The National Archives Engineering Handbook aims to be a one-stop guide for all engineering questions including development and technical architecture.
 
 ## Quickstart
 
 ```sh
-# Set up a Python virtual environment
-python -m venv venv
-. venv/bin/activate
-
-# Install the dependencies
-pip install -r requirements.txt
-
-# Build and serve the MkDocs site
-mkdocs serve
+docker-compose up -d
 ```
