@@ -62,6 +62,7 @@ nav:
     - Docker images: resources/docker-images.md
 theme:
   name: material
+  custom_dir: overrides
   favicon: https://raw.githubusercontent.com/nationalarchives/tna-frontend/main/src/nationalarchives/assets/images/favicon.ico
   features:
     - navigation.tabs
