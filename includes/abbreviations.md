@@ -4,6 +4,7 @@
 *[ASP]: Active server pages
 *[AWS]: Amazon Web Services
 *[BEM]: Block, element, modifier methodology
+*[BSD]: Berkeley Software Distribution
 *[C4]: Context, containers, components, and code
 *[CDN]: Content delivery network
 *[CDNs]: Content delivery networks
@@ -30,6 +31,7 @@
 *[JPEG]: Joint Photographic Experts Group
 *[JS]: JavaScript
 *[JSON]: JavaScript object notation
+*[MIT]: Massachusetts Institute of Technology
 *[NPM]: Node Package Manager
 *[OGD]: Other government departments
 *[OS]: Operating system

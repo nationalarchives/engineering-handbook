@@ -13,9 +13,9 @@ A `README.md` written in markdown MUST be present and populated explaining the r
 
 ### Licence
 
-The repository MUST contain a `LICENCE` file.
+The repository MUST contain a `LICENCE` or `LICENCE.txt` file.
 
-The MIT style license SHOULD be used.
+Read more about [licences](licences.md) at TNA.
 
 ### Changelog
 
