@@ -44,6 +44,7 @@ nav:
     - third-party/index.md
     - NPMJS: third-party/npmjs.md
     - PyPI: third-party/pypi.md
+    - CDNs: third-party/cdn.md
     - GitHub: third-party/github.md
     - Docker registries: third-party/docker-registries.md
     - Analytics: third-party/analytics.md

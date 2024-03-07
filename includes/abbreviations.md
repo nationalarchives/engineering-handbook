@@ -5,8 +5,11 @@
 *[AWS]: Amazon Web Services
 *[BEM]: Block, element, modifier methodology
 *[C4]: Context, containers, components, and code
+*[CDN]: Content delivery network
+*[CDNs]: Content delivery networks
 *[CLI]: Command line interface
 *[CMS]: Content management system
+*[CSP]: Content security policy
 *[CSS]: Cascading style sheets
 *[DA]: Digital Archiving, a department of The National Archives
 *[DB]: Database
@@ -32,7 +35,7 @@
 *[OS]: Operating system
 *[PEP]: Python enhancement proposal
 *[PHP]: PHP: hypertext preprocessor
-*[PNG]: Portable network graphics
+*[PNG]: Portable network graphic
 *[PNGs]: Portable network graphics
 *[PyPI]: Python Package Index
 *[RDS]: Amazon's Relational Database Service
@@ -44,7 +47,8 @@
 *[S3]: Amazon's Simple Storage Service
 *[SASS]: Syntactically awesome style sheets
 *[SCSS]: Sassy cascading style 
-*[SDK]: Software Development Kit
+*[SDK]: Software development kit
+*[SHA]: Secure hash algorithm
 *[SNS]: Amazon's Simple Notification Service
 *[SPA]: Single page application
 *[SQS]: Amazon's Simple Queue Service
@@ -69,3 +73,4 @@
 *[W3C]: World Wide Web Consortium
 *[WCAG]: Web content accessibility guidelines
 *[WSGI]: Web server gateway interface
+*[XSS]: Cross-site scripting
