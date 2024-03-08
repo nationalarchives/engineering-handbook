@@ -1,7 +1,7 @@
 # CSS
 
 1. **Approach**
-    1. CSS MUST be treated as a [progressive enhancement](../ways-of-working/progressive-enhancement.md)
+    1. CSS MUST be treated as a [progressive enhancement](../../ways-of-working/progressive-enhancement.md)
     1. CSS MUST be served as a static file and MUST NOT be compiled at runtime
     1. Compiled CSS MUST NOT contain a source file map in the `.css` file itself
     1. Compiled CSS SHOULD contain a link to a separate source file (`.map.css`)
@@ -43,7 +43,7 @@ The CSS methodology we use is [BEM](https://getbem.com/).
 
 On 4th February 2021, frontend developers met to agree a CSS methodology. Having considered a recommendation for utility CSS (as represented in [tailwindcss](https://tailwindcss.com/)) and results of the most recent [state of CSS survey](https://2020.stateofcss.com/en-US/technologies/), the team agreed that the BEM methodology would best reflect the needs of the team at this time.
 
-[TNA Frontend](../resources/tna-frontend.md) uses a mix of BEM and classless strategies. Simple "top-level" elements such as `<ul>` have a class (`tna-ul`) while the `<li>` elements within it do not, as the `<ul>` element should only contain `<li>`. For more information, see details of the [structure of TNA Frontend](https://github.com/nationalarchives/tna-frontend/wiki/Structure).
+[TNA Frontend](../../resources/tna-frontend.md) uses a mix of BEM and classless strategies. Simple "top-level" elements such as `<ul>` have a class (`tna-ul`) while the `<li>` elements within it do not, as the `<ul>` element should only contain `<li>`. For more information, see details of the [structure of TNA Frontend](https://github.com/nationalarchives/tna-frontend/wiki/Structure).
 
 ## Stylelint
 

@@ -10,7 +10,7 @@ You can use and include modules and resources which also use the MIT licence.
 
 You can use modules and resources which use either the Apache or BSD family of licences.
 
-Use package managers wherever possible such as [NPM](../third-party/npmjs.md) and [PyPI](../third-party/pypi.md).
+Use package managers wherever possible such as [NPM](../../third-party/npmjs.md) and [PyPI](../../third-party/pypi.md).
 
 If you include Apache or BSD-licenced work in your source code then you must also include:
 

@@ -1,9 +1,9 @@
 # Python
 
 1. **Version**
-    1. The version of Python used SHOULD be 3.11
+    1. The version of Python used SHOULD be 3.11 or above
     1. The version of Python used MUST be 3.8 or above
-    1. Python projects SHOULD use one of the [TNA base Docker images](../resources/docker-images.md)
+    1. Python projects SHOULD use one of the [TNA base Docker images](../../resources/docker-images.md)
 1. **Style/linting**
     1. Python code MUST be styled with [Black](#black), [Flake8](#flake8) and [isort](#isort)
     1. The maximum [cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) of the code MUST be no larger than 20
@@ -15,8 +15,10 @@
     1. Python applications MUST use one of the approved [frameworks](#frameworks)
 1. **Packages**
     1. Python packages SHOULD be made using pip
-    1. Python packages SHOULD be deployed to [PyPI](../third-party/pypi.md)
+    1. Python packages SHOULD be deployed to [PyPI](../../third-party/pypi.md)
     1. Python packages COULD be hosted in [AWS CodeArtifact](https://aws.amazon.com/codeartifact/)
+1. **Security**
+    1. A CSP SHOULD be set up
 
 ## Black
 
@@ -72,11 +74,11 @@ If using the `tna-python-dev` Docker image, [this isort configuration is include
 
 Use either [Flask](https://flask.palletsprojects.com/), [Django](https://www.djangoproject.com/) or [FastAPI](https://fastapi.tiangolo.com/) for your Python applications.
 
-| Framework                                   | Best choice for making                                                                     |
-| ------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| [Flask](https://flask.palletsprojects.com/) | Applications with a UI (can use [tna-frontend-jinja](../resources/tna-frontend-jinja.md)) |
-| [Django](https://www.djangoproject.com/)    | Applications that need to work with data and databases                                     |
-| [FastAPI](https://fastapi.tiangolo.com/)    | RESTful JSON APIs                                                                          |
+| Framework                                   | Best choice for making                                                                       |
+| ------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| [Flask](https://flask.palletsprojects.com/) | Applications with a UI (can use [tna-frontend-jinja](../../resources/tna-frontend-jinja.md)) |
+| [Django](https://www.djangoproject.com/)    | Applications that need to work with data and databases                                       |
+| [FastAPI](https://fastapi.tiangolo.com/)    | RESTful JSON APIs                                                                            |
 
 ## Tools and libraries
 

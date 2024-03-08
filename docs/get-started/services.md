@@ -20,7 +20,7 @@ Make sure that you download the correct version of Docker. If you have a newer A
 
 Creating a [Docker account](https://hub.docker.com/signup) will give you a higher download limit. For anonymous users, the rate limit is set to 100 pulls per 6 hours per IP address but for authenticated users, it's 200 pulls per 6 hour period.
 
-We have a set way of working and [standards for our containers](../technology/containers.md) to ensure security and consistency.
+We have a set way of working and [standards for our containers](../technology/infrastructure//containers.md) to ensure security and consistency.
 
 ## GovWifi
 

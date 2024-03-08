@@ -4,41 +4,47 @@ repo_url: https://github.com/nationalarchives/engineering-handbook
 dev_addr: localhost:8888
 use_directory_urls: true
 nav:
-  - Home: index.md
-  - Getting started:
-    - getting-started/index.md
-    - Tools: getting-started/tools.md
-    - Services: getting-started/services.md
-    - Communication: getting-started/communication.md
+  - Home:
+    - index.md
+    - Get started:
+      - get-started/index.md
+      - Tools: get-started/tools.md
+      - Services: get-started/services.md
+      - Communication: get-started/communication.md
+    - Organisation:
+      - organisation/index.md
+      - Technical Architects Group: organisation/technical-architects-group.md
+      - Technical Governance Board: organisation/technical-governance-board.md
   - Technology:
     - technology/index.md
     - Frontend:
-      - HTML: technology/html.md
-      - JavaScript: technology/javascript.md
-      - CSS: technology/css.md
+      - HTML: technology/frontend/html.md
+      - JavaScript: technology/frontend/javascript.md
+      - CSS: technology/frontend/css.md
     - Backend:
-      - Python: technology/python.md
-      - Scala: technology/scala.md
+      - Python: technology/backend/python.md
+      - Scala: technology/backend/scala.md
     - Database:
-      - Postgres: technology/postgres.md
-    - Deployment:
-      - Docker: technology/containers.md
-      - Terraform: technology/terraform.md
-      - Nginx: technology/nginx.md
-    - Cloud:
-      - Amazon Web Services (AWS): technology/aws.md
+      - Postgres: technology/database/postgres.md
+    - Infrastructure:
+      - Amazon Web Services (AWS): technology/infrastructure/aws.md
+      - Docker: technology/infrastructure/containers.md
+      - Terraform: technology/infrastructure/terraform.md
+      - Nginx: technology/infrastructure/nginx.md
+    - Standards:
+      - Accessibility: technology/standards/accessibility.md
+      - APIs: technology/standards/api.md
+      - Browser support: technology/standards/browser-support.md
+      - Licences: technology/standards/licences.md
+      - Security: technology/standards/security.md
+      - Testing: technology/standards/testing.md
+      - URLs: technology/standards/url.md
   - Ways of working:
     - ways-of-working/index.md
     - Service standard: ways-of-working/service-standard.md
     - Progressive enhancement: ways-of-working/progressive-enhancement.md
     - Version control: ways-of-working/version-control.md
     - Documentation: ways-of-working/documentation.md
-    - Licences: ways-of-working/licences.md
-    - Testing: ways-of-working/testing.md
-    - APIs: ways-of-working/api.md
-    - URLs: ways-of-working/url.md
-    - Browser support: ways-of-working/browser-support.md
-    - Accessibility: ways-of-working/accessibility.md
     - Deployment: ways-of-working/deployment.md
     - Definition of done: ways-of-working/definition-of-done.md
   - Third party:
@@ -50,10 +56,6 @@ nav:
     - Docker registries: third-party/docker-registries.md
     - Analytics: third-party/analytics.md
     - YouTube: third-party/youtube.md
-  - Organisation:
-    - organisation/index.md
-    - Technical Architects Group: organisation/technical-architects-group.md
-    - Technical Governance Board: organisation/technical-governance-board.md
   - Resources:
     - resources/index.md
     - TNA Frontend: resources/tna-frontend.md
