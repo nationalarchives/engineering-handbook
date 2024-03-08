@@ -23,8 +23,10 @@
 *[GDS]: Government Digital Service
 *[GUI]: Graphical user interface
 *[hex]: Hexadecimal
-*[HTML]: Hyper text markup language
-*[HTML5]: Hyper text markup language version 5
+*[HTML]: HyperText markup language
+*[HTML5]: HyperText markup language version 5
+*[HTTP]: Hypertext transfer protocol
+*[HTTPS]: Hypertext transfer protocol secure
 *[i18n]: Internationalisation
 *[IaC]: Infrastructure as Code
 *[IDE]: Integrated development environment

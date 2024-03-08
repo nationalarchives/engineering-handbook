@@ -4,11 +4,25 @@ A CDN COULD be used to reduce server load and request resources from edge locati
 
 When using content from a CDN, you MUST use as many of the solutions as possible to keep your site secure from attacks:
 
-1. Use a fixed version
-1. Use an integrity string
-1. Impliment a CSP
+1. [Use a reputable CDN provider](#providers)
+1. [Use HTTPS](#https)
+1. [Use a fixed version](#fixed-versions)
+1. [Use an integrity string](#integrity-string)
+1. [Impliment a CSP](#csp)
 
-## Fixed version
+## Providers
+
+The three CDN providers TNA considers reputable are:
+
+* [jsDelivr](https://www.jsdelivr.com/)
+* [unpkg](https://www.unpkg.com/)
+* [CDNJS](https://cdnjs.com/)
+
+## HTTPS
+
+You MUST use HTTPS for loading any resources. This helps prevent against eavesdropping, data tampering, and man-in-the-middle attacks.
+
+## Fixed versions
 
 Use a specific version of the package (e.g. `0.1.42`) rather than `latest`. This should help protect against dependency confusion attacks.
 
