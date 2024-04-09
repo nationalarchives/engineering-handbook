@@ -103,3 +103,4 @@ Answering "no" means that you are not meeting WCAG and your content will have ba
 - Supported assistive technologies
 - Progressive enhancement
 - https://gds.blog.gov.uk/2018/07/16/why-gov-uk-content-should-be-published-in-html-and-not-pdf/
+- https://www.tpgi.com/heading-off-confusion-when-do-headings-fail-wcag/
