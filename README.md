@@ -7,5 +7,5 @@ The National Archives Engineering Handbook aims to be a one-stop guide for all e
 ## Quickstart
 
 ```sh
-docker-compose up -d
+docker compose up -d
 ```

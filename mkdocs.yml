@@ -60,7 +60,7 @@ nav:
     - resources/index.md
     - TNA Frontend: resources/tna-frontend.md
     - TNA Frontend Jinja: resources/tna-frontend-jinja.md
-    - TNA Frontend Django: resources/tna-frontend-django.md
+    # - TNA Frontend Django: resources/tna-frontend-django.md
     - Design System: resources/design-system.md
     - GOV.UK Prototype Kit: resources/govuk-prototype-kit.md
     - Docker images: resources/docker-images.md
@@ -79,6 +79,7 @@ extra_css:
   - stylesheets/extra.css
 plugins:
   - search
+  - inline-select-svg
 markdown_extensions:
   - abbr
   - attr_list
