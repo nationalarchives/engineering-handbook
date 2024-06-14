@@ -1,2 +1,2 @@
 mkdocs-material==9.5.26
-mkdocs-inline-select-svg-plugin=0.1
+mkdocs-inline-select-svg-plugin==0.1
