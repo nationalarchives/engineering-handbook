@@ -48,3 +48,9 @@ Acceptable file formats for videos are:
 | WebM   | `.webm`   | `video/webm` |
 
 To use embedded media, refer to [YouTube](../../third-party/youtube.md).
+
+### Player
+
+Our chosen video player, [plyr](https://github.com/sampotts/plyr) is [due to be deprecated](https://github.com/sampotts/plyr/issues/2737).
+
+Use plyr until a suitable replacement is found.

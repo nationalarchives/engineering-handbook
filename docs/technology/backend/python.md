@@ -84,10 +84,11 @@ Use either [Flask](https://flask.palletsprojects.com/), [Django](https://www.dja
 
 Some suggested tools and libraries for Python applications are:
 
-| Tool/library                               | Use case                                       |
-| ------------------------------------------ | ---------------------------------------------- |
-| [Wagtail](https://wagtail.org/)            | Services that require a CMS                    |
-| [WTForms](https://wtforms.readthedocs.io/) | Validating form inputs from Flask applications |
+| Tool/library                                                            | Use case                                                                                   |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| [Wagtail](https://wagtail.org/)                                         | Services that require a CMS                                                                |
+| [WTForms](https://wtforms.readthedocs.io/)                              | Validating form inputs from Flask applications                                             |
+| [flask-talisman](https://github.com/GoogleCloudPlatform/flask-talisman) | Adding a [CSP and other security measures](../standards/security.md) to Flask applications |
 
 ## PEP 20 – The Zen of Python
 
