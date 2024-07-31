@@ -20,6 +20,28 @@
 1. **Security**
     1. A CSP SHOULD be set up
 
+## Frameworks
+
+Use either [Flask](https://flask.palletsprojects.com/), [Django](https://www.djangoproject.com/) or [FastAPI](https://fastapi.tiangolo.com/) for your Python applications.
+
+| Framework                                   | Best choice for making                                 |
+| ------------------------------------------- | ------------------------------------------------------ |
+| [Flask](https://flask.palletsprojects.com/) | Applications with a UI                                 |
+| [Django](https://www.djangoproject.com/)    | Applications that need to work with data and databases |
+| [FastAPI](https://fastapi.tiangolo.com/)    | RESTful JSON APIs                                      |
+
+[Application templates](../../resources/application-templates.md) have been made for new projects to enable you to get started much quicker.
+
+## Tools and libraries
+
+Some suggested tools and libraries for Python applications are:
+
+| Tool/library                                                            | Use case                                                                                   |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| [Wagtail](https://wagtail.org/)                                         | Services that require a CMS                                                                |
+| [WTForms](https://wtforms.readthedocs.io/)                              | Validating form inputs from Flask applications                                             |
+| [flask-talisman](https://github.com/GoogleCloudPlatform/flask-talisman) | Adding a [CSP and other security measures](../standards/security.md) to Flask applications |
+
 ## Black
 
 [Black](https://black.readthedocs.io/en/stable/) gives you speed, determinism, and freedom from pycodestyle nagging about formatting.
@@ -69,26 +91,6 @@ If using the `tna-python-dev` Docker image, [this isort configuration is include
 ## Poetry
 
 [Poetry](https://python-poetry.org/) is a tool for dependency management and packaging in Python.
-
-## Frameworks
-
-Use either [Flask](https://flask.palletsprojects.com/), [Django](https://www.djangoproject.com/) or [FastAPI](https://fastapi.tiangolo.com/) for your Python applications.
-
-| Framework                                   | Best choice for making                                                                       |
-| ------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| [Flask](https://flask.palletsprojects.com/) | Applications with a UI (can use [tna-frontend-jinja](../../resources/tna-frontend-jinja.md)) |
-| [Django](https://www.djangoproject.com/)    | Applications that need to work with data and databases                                       |
-| [FastAPI](https://fastapi.tiangolo.com/)    | RESTful JSON APIs                                                                            |
-
-## Tools and libraries
-
-Some suggested tools and libraries for Python applications are:
-
-| Tool/library                                                            | Use case                                                                                   |
-| ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| [Wagtail](https://wagtail.org/)                                         | Services that require a CMS                                                                |
-| [WTForms](https://wtforms.readthedocs.io/)                              | Validating form inputs from Flask applications                                             |
-| [flask-talisman](https://github.com/GoogleCloudPlatform/flask-talisman) | Adding a [CSP and other security measures](../standards/security.md) to Flask applications |
 
 ## PEP 20 – The Zen of Python
 

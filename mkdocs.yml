@@ -64,6 +64,7 @@ nav:
     - Design System: resources/design-system.md
     - GOV.UK Prototype Kit: resources/govuk-prototype-kit.md
     - Docker images: resources/docker-images.md
+    - Application templates: resources/application-templates.md
 theme:
   name: material
   custom_dir: overrides
