@@ -20,7 +20,7 @@ These base images:
 - include common tools used within TNA (Poetry, nvm, Gunicorn, Uvicorn)
 - extend the official Python images
 - don't run as the `root` user
-- work with the [Python frameworks used within TNA](../../backend/python/#frameworks) (Flask, Django and FastAPI)
+- work with the [Python frameworks used within TNA](../backend/python.md#frameworks) (Flask, Django and FastAPI)
 - contain healthcheck definitons
 - work for a number of preset environments
 - can be customised in terms of their thread counts, worker numbers, log levels etc.

@@ -8,4 +8,4 @@ Do not embed YouTube videos into a page unless:
 
 Until all these criteria have been met, simply display a link to the YouTube video. Once the user has accepted usage cookies, you can replace the HTML of the link with the rich video player.
 
-Use the chosen [video player](../../technology/frontend/html/#player) with YouTube videos.
+Use the chosen [video player](../technology/frontend/html.md#player) with YouTube videos.
