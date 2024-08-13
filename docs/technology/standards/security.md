@@ -19,6 +19,13 @@ When using Flask, use the [flask-talisman](https://github.com/GoogleCloudPlatfor
 
 When using Django, use the [django-csp](https://github.com/mozilla/django-csp) extension to handle your CSP.
 
+### CSP for TNA Frontend
+
+When using TNA Frontend with the [application templates](../../resources/application-templates.md), the following CSP must be set as a minimum:
+
+- `CSP_STYLE_SRC_ELEM='self',fonts.googleapis.com,p.typekit.net,use.typekit.net`
+- `CSP_FONT_SRC='self',fonts.gstatic.com,use.typekit.net`
+
 ## Environment variables
 
 [TODO]
