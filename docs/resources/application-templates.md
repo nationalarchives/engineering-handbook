@@ -35,6 +35,7 @@ GitHub repo: [django-application-template](https://github.com/nationalarchives/d
 - CSP ([Django CSP](https://github.com/mozilla/django-csp))
 - [TNA Frontend](./tna-frontend.md)/[TNA Frontend Jinja](./tna-frontend-jinja.md)
 - A small API client library
+- [WhiteNoise](https://github.com/evansd/whitenoise) for serving static files in production
 
 ## FastAPI
 

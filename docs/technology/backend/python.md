@@ -42,6 +42,7 @@ Some suggested tools and libraries for Python applications are:
 | [WTForms](https://wtforms.readthedocs.io/)                              | Validating form inputs from Flask applications                                              |
 | [flask-talisman](https://github.com/GoogleCloudPlatform/flask-talisman) | Adding a [CSP and other security measures](../standards/security.md) to Flask applications  |
 | [django-csp](https://github.com/mozilla/django-csp)                     | Adding a [CSP and other security measures](../standards/security.md) to Django applications |
+| [WhiteNoise](https://github.com/evansd/whitenoise)                      | Serving static files in production from `django.contrib.staticfiles`                        |
 
 ## Black
 
