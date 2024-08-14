@@ -78,3 +78,7 @@ module.exports = {
 # Run eslint against all JS files in the src directory
 eslint 'src/**/*.js'
 ```
+
+### TNA Frontend ESLint config
+
+[TNA Frontend](../../resources/tna-frontend.md) comes with an [ESLint config](https://github.com/nationalarchives/tna-frontend/blob/main/.eslintrc.js) which you can use in your project.

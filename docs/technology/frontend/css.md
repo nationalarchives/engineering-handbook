@@ -50,7 +50,7 @@ On 4th February 2021, frontend developers met to agree a CSS methodology. Having
 [Stylelint](https://stylelint.io/) is "a mighty CSS linter that helps you avoid errors and enforce conventions".
 
 ```sh
-npm install stylelint stylelint-config-standard-scss stylelint-selector-bem-pattern
+npm install stylelint stylelint-config-standard-scss stylelint-selector-bem-pattern stylelint-order
 ```
 
 An example `.stylelintrc` file that addresses all the standards above:
@@ -85,6 +85,27 @@ stylelint 'src/**/*.css'
 
 # ...or all SCSS files
 stylelint 'src/**/*.scss'
+```
+
+### TNA Frontend Stylelint config
+
+[TNA Frontend](../../resources/tna-frontend.md) comes with a [Stylelint config](https://github.com/nationalarchives/tna-frontend/blob/main/stylelint.config.js) which you can use in your project.
+
+It includes property ordering for which you will need to install the `stylelint-order` module:
+
+```sh
+npm install stylelint-order
+```
+
+You can then change your `stylelint.config.mjs` to extend the TNA Frontend config:
+
+```js
+import data from "./node_modules/@nationalarchives/frontend/config/stylelint.config.js";
+
+// Add your own rules
+data.ignoreFiles = ["app/**/*.css", "tmp/**/*"];
+
+export default data;
 ```
 
 ## Working with high contrast environments

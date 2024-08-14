@@ -44,7 +44,9 @@ Some suggested tools and libraries for Python applications are:
 | [django-csp](https://github.com/mozilla/django-csp)                     | Adding a [CSP and other security measures](../standards/security.md) to Django applications |
 | [WhiteNoise](https://github.com/evansd/whitenoise)                      | Serving static files in production from `django.contrib.staticfiles`                        |
 
-## Black
+## Formatters and linters
+
+### Black
 
 [Black](https://black.readthedocs.io/en/stable/) gives you speed, determinism, and freedom from pycodestyle nagging about formatting.
 
@@ -56,7 +58,7 @@ line-length = 80
 include = '\.pyi?$'
 ```
 
-## Flake8
+### Flake8
 
 [Flake8](https://flake8.pycqa.org/en/latest/) is a Python linting tool that checks your Python codebase for errors, styling issues and complexity and follows the [PEP 8 style guide](https://peps.python.org/pep-0008/) for Python code.
 
@@ -77,7 +79,7 @@ Note: you can also ignore rules on particular lines of code or files by adding a
 
 If using the `tna-python-dev` Docker image, [this Flake8 configuration is included](https://github.com/nationalarchives/docker/blob/main/docker/tna-python-dev/lib/.flake8).
 
-## isort
+### isort
 
 The order of the imports can be standardised with [isort](https://pycqa.github.io/isort/).
 
@@ -88,7 +90,27 @@ Add the following configuration to your `pyproject.toml` file:
 profile = "black"
 ```
 
-If using the `tna-python-dev` Docker image, [this isort configuration is included](https://github.com/nationalarchives/docker/blob/main/docker/tna-python-dev/lib/.isort.cfg).
+### Dev Docker image
+
+The [Dev Docker image](https://github.com/nationalarchives/docker/tree/main/docker/tna-python-dev) comes preinstalled with Black, Flake8 and isort. It also includes all the relevant [configurations](https://github.com/nationalarchives/docker/tree/main/docker/tna-python-dev/lib).
+
+You can use it to lint your code by mounting the container image with your project code in your `docker-compose.yml`:
+
+```Dockerfile
+services:
+  dev:
+    image: ghcr.io/nationalarchives/tna-python-dev:latest
+    volumes:
+      - ./:/app
+```
+
+Now you can lint your code by running:
+
+```sh
+docker compose exec dev format
+```
+
+Alternatively, you can simply run `format` inside the container.
 
 ## Poetry
 
