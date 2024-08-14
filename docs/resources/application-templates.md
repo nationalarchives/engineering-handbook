@@ -1,5 +1,12 @@
 # Application templates
 
+| Resource                     | Status                                                                                                                                                               |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Flask application template   | ![Build status](https://img.shields.io/github/actions/workflow/status/nationalarchives/flask-application-template/cd.yml?style=flat-square&event=push&branch=main)   |
+| Django application template  | ![Build status](https://img.shields.io/github/actions/workflow/status/nationalarchives/django-application-template/cd.yml?style=flat-square&event=push&branch=main)  |
+| FastAPI application template | ![Build status](https://img.shields.io/github/actions/workflow/status/nationalarchives/fastapi-application-template/cd.yml?style=flat-square&event=push&branch=main) |
+
+
 All application templates come with:
 
 - [TNA Base Docker images](./docker-images.md) with non-root users

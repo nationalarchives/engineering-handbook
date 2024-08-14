@@ -1,5 +1,7 @@
 # TNA Frontend Jinja
 
+![Build status](https://img.shields.io/github/actions/workflow/status/nationalarchives/tna-frontend-jinja/ci.yml?style=flat-square&event=push&branch=main)
+
 TNA Frontend Jinja provides Jinja templates for the components in [TNA Frontend](tna-frontend.md).
 
 - Source code: [tna-frontend-jinja on GitHub](https://github.com/nationalarchives/tna-frontend-jinja)
@@ -29,10 +31,33 @@ def create_app():
     )
 ```
 
-### Styles
+By having the application templates first, you can overwrite any TNA Frontend template by making a version in your application's template directory without having to change the package.
+
+### Styles and JavaScript
 
 The CSS and JavaScript are not included in the PyPI package. You must install them separately.
 
 Install and use the `@nationalarchives/frontend` package from npm with `npm install @nationalarchives/frontend`.
 
-Ensure you use the version of TNA Frontend that matches the version of TNA Frontend Jinja as described in the [TNA Frontend Jinja README](https://github.com/nationalarchives/tna-frontend-jinja#compatibility-with-tna-frontend). This ensures your CSS from TNA Frontend matches the HTML from TNA Frontend Jinja.
+Ensure you use the version of TNA Frontend that matches the version of TNA Frontend Jinja as described in the [TNA Frontend Jinja README](https://github.com/nationalarchives/tna-frontend-jinja#compatibility-with-tna-frontend).
+
+### Using the templates
+
+An example of using the templates in your service:
+
+```
+{% extends 'base.html' %}
+
+{% from 'components/card/macro.html' import tnaCard %}
+
+{% block content %}
+  {{ tnaButton({
+    'text': 'Visit us',
+    'href': 'https://www.nationalarchives.gov.uk/about/visit-us/'
+  }) }}
+{% endblock %}
+```
+
+For a list of components and their macro options along with examples of use, check the [TNA Design System components](https://nationalarchives.github.io/design-system/components/).
+
+The Jinja macros use the same options as the Nunjucks macros.

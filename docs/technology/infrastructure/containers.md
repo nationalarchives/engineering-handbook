@@ -5,11 +5,13 @@
 As a general rule, we should approach working with Docker containers in the following way:
 
 - Use a single working branch; `main`
-- Start building your application with [Base Python images](#base-python-images)
+- Start building your application with the [TNA application templates](../../resources/application-templates.md) or the [base Python images](#base-python-images)
 - Build images for pushes to all working branches
 - Clean up images created from working branches after you merge to `main`
 - Regularly [delete untagged images](https://github.com/nationalarchives/ds-docker-actions/tree/main?tab=readme-ov-file#remove-untagged-docker-images)
+- Use production values by default and overwrite them for lower environments
 - Add a healthcheck endpoint in your application `/healthcheck/live/` that returns a `200`
+- Don't include development dependencies such as Pytest or Webpack in your production image
 
 ## Base Python images
 
@@ -17,14 +19,14 @@ Use one of the [TNA base Docker Python images](https://github.com/nationalarchiv
 
 These base images:
 
-- include common tools used within TNA (Poetry, nvm, Gunicorn, Uvicorn)
 - extend the official Python images
+- include common tools used within TNA (Poetry, nvm, Gunicorn, Uvicorn)
 - don't run as the `root` user
 - work with the [Python frameworks used within TNA](../backend/python.md#frameworks) (Flask, Django and FastAPI)
 - contain healthcheck definitons
 - work for a number of preset environments
 - can be customised in terms of their thread counts, worker numbers, log levels etc.
-- build any NodeJS assets as part of their build process
+- can build any NodeJS assets as part of their build process
 - are linted with [hadolint](https://github.com/hadolint/hadolint) and [shellcheck](https://www.shellcheck.net/)
 - can start up development NodeJS scripts to build assets in the background
 
@@ -89,6 +91,6 @@ The [`get-version-tag` GitHub Action](https://github.com/nationalarchives/ds-doc
 
 The version tag returned will be:
 
-- a generated [calver version number](https://calver.org/) if the branch is `main` (e.g. `2024.06.21.1234`)
+- a generated [calver version number](https://calver.org/) if the branch is `main` (e.g. `24.06.21.123`)
 - the branch name (with slashes replaced with hyphens) for workflows triggered by pushes (e.g. `fix-a11y` or `feature-new-components`)
 - the [semver version number](https://semver.org/) of the release for workflows triggered by tags with any prefixed `v` removed (e.g. `1.2.3` for the tag `v1.2.3` and `4` for the tag `v4`)

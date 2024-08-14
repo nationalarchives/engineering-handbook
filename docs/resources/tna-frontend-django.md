@@ -1,5 +1,7 @@
 # TNA Frontend Django
 
+> ⚠️ **TNA Frontend Django has been deprecated**
+
 TNA Frontend Django provides Django templates for the components in [TNA Frontend](tna-frontend.md).
 
 - Source code: [tna-frontend-django on GitHub](https://github.com/nationalarchives/tna-frontend-django)

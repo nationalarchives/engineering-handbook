@@ -2,7 +2,9 @@
 
 ## Standards
 
-TNA standards are documented in this handbook, available on [GitHub](https://github.com/nationalarchives/engineering-handbook). These standards apply to all TNA projects.
+Technical TNA standards are documented in this handbook and the [source code is available on GitHub](https://github.com/nationalarchives/engineering-handbook).
+
+These standards SHOULD apply to all TNA projects.
 
 ### Requesting changes
 

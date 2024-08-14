@@ -1,7 +1,10 @@
 # Base Docker images
 
-See the [TNA base Docker Python images](https://github.com/nationalarchives/docker) for your application.
+![Build status](https://img.shields.io/github/actions/workflow/status/nationalarchives/docker/build.yml?style=flat-square&event=push&branch=main)
 
-These images are designed to work with the provided [Docker build scripts](https://github.com/nationalarchives/ds-docker-actions).
+- Source code: [docker on GitHub](https://github.com/nationalarchives/docker)
+- Containers: [Docker images on GitHub](https://github.com/orgs/nationalarchives/packages?repo_name=docker)
 
-Read [more information on how to work with containers](../technology/infrastructure/containers.md).
+See the [TNA base Docker Python images](../technology/infrastructure/containers.md#base-python-images) for your application.
+
+These images are designed to work with the provided [Docker build scripts](../technology/infrastructure/containers.md#build-docker-images-in-github-actions).

@@ -28,7 +28,7 @@ nav:
       - Postgres: technology/database/postgres.md
     - Infrastructure:
       - Amazon Web Services (AWS): technology/infrastructure/aws.md
-      - Docker: technology/infrastructure/containers.md
+      - Containers: technology/infrastructure/containers.md
       - Terraform: technology/infrastructure/terraform.md
       - Nginx: technology/infrastructure/nginx.md
     - Standards:
@@ -62,9 +62,9 @@ nav:
     - TNA Frontend Jinja: resources/tna-frontend-jinja.md
     # - TNA Frontend Django: resources/tna-frontend-django.md
     - Design System: resources/design-system.md
-    - GOV.UK Prototype Kit: resources/govuk-prototype-kit.md
     - Docker images: resources/docker-images.md
     - Application templates: resources/application-templates.md
+    - GOV.UK Prototype Kit: resources/govuk-prototype-kit.md
 theme:
   name: material
   custom_dir: overrides

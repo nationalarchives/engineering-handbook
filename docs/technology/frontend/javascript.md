@@ -23,6 +23,7 @@
 1. **Frameworks, tools and libraries**
     1. JavaScript components COULD be developed using [Storybook](https://storybook.js.org/) - ([the rationale behind using Storybook](https://github.com/nationalarchives/tdr-dev-documentation/blob/master/architecture-decision-records/0028-storybook-for-tdr-components-library.md))
     1. JavaScript tests SHOULD be written with [Jest](https://jestjs.io/)
+    1. [Single page applications MUST not be developed](../../ways-of-working/progressive-enhancement.md#single-page-applications)
 1. **Packages**
     1. JavaScript packages SHOULD be made using npm
     1. JavaScript packages SHOULD be deployed to [npm](../../third-party/npmjs.md)
