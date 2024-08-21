@@ -51,3 +51,25 @@ GitHub repo: [fastapi-application-template](https://github.com/nationalarchives/
 ### Features
 
 - FastAPI
+
+## Using an application template
+
+### Setup
+
+1. Create a new repository from one of the application templates
+1. Update the port in the `docker-compose.yml`
+1. Create an action variable in GitHub for `DOCKER_IMAGE_NAME` - this will be the name of the generated Docker container
+
+### Developing locally
+
+The application templates contain two Docker containers; an `app` and a `dev`.
+
+#### The `app` container
+
+This is the container for the application.
+
+You can override the base image (`IMAGE`) and version (`IMAGE_TAG`) in the `docker-compose.yml` but by default they use the same non-rooted image as in production. The default values are defined in the `Dockerfile`.
+
+#### The `dev` container
+
+See [Included scripts in `tna-python-dev`](./docker-images.md#included-scripts-in-tna-python-dev).
