@@ -82,6 +82,11 @@ ARG IMAGE_TAG=latest
 
 FROM "$IMAGE":"$IMAGE_TAG"
 
+# Using the Docker build scripts, you can accept a BUILD_VERSION and pass it in as an envrironment variable which will allow you to output the build version in the code
+# https://github.com/nationalarchives/ds-docker-actions/blob/main/.github/actions/docker-build/action.yml#L34
+ARG BUILD_VERSION
+ENV BUILD_VERSION="$BUILD_VERSION"
+
 # Provide a build command used from your package.json to build Node assets
 ENV NPM_BUILD_COMMAND=compile
 
