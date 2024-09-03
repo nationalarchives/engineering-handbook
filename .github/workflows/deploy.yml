@@ -39,9 +39,9 @@ jobs:
           python -m linkcheckmd docs/organisation -v
           python -m linkcheckmd docs/resources -v
           python -m linkcheckmd docs/technology -v
-          python -m linkcheckmd docs/technology/frontend -v
           python -m linkcheckmd docs/technology/backend -v
           python -m linkcheckmd docs/technology/database -v
+          python -m linkcheckmd docs/technology/frontend -v
           python -m linkcheckmd docs/technology/infrastructure -v
           python -m linkcheckmd docs/technology/standards -v
           python -m linkcheckmd docs/third-party -v

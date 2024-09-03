@@ -37,7 +37,12 @@ Use the [JavaScript standards](../technology/frontend/javascript.md) and add scr
 
 You can use JavaScript to add more features as long as the user can complete their action without the need for JavaScript. An example would be to use JavaScript to open and close a menu. The menu should be visible to all but JavaScript would allow you to collapse it and save some screen real estate.
 
-Avoid adding elements to the HTML that only JavaScript will find useful. If you need an extra button in order to perform an action and that button doesn't have a purpose without JavaScript, add the button element with JavaScript. This will avoid having "dead" components in the HTML.
+Avoid adding elements to the HTML that only JavaScript will find useful. If you need an extra button in order to perform an action and that button doesn't have a purpose without JavaScript then consider either:
+
+- adding the button element with JavaScript at runtime
+- adding the button to the HTML with a `hidden` attribute and then remove the attribute as you run your JavaScript
+
+This will avoid having "dead" components in the HTML.
 
 As with CSS, you can use [caniuse.com](https://caniuse.com/) to check support for JavaScript features and APIs.
 
