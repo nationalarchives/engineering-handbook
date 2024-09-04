@@ -18,6 +18,7 @@ All application templates come with:
 - Development containers for formatting and testing code
 - Formatting configuration
 - Healthcheck endpoints
+- [MKDocs](https://www.mkdocs.org/)
 
 ## Flask
 
