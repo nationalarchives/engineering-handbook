@@ -2,12 +2,13 @@
 
 ![Build status](https://img.shields.io/github/actions/workflow/status/nationalarchives/tna-frontend/tests.yml?style=flat-square&event=push&branch=main)
 
-To avoid repetition and encourage consistency, The National Archives has developed a set of reusable styles and components to help you build National Archive services.
+To avoid repetition and encourage consistency, The National Archives has developed a set of reusable styles and components to help you build services for The National Archives.
 
 - Storybook: [tna-frontend on GitHub Pages](https://nationalarchives.github.io/tna-frontend/)
 - Source code: [tna-frontend on GitHub](https://github.com/nationalarchives/tna-frontend)
 - Package: [tna-frontend on npm](https://www.npmjs.com/package/@nationalarchives/frontend)
 - Wiki: [tna-frontend wiki on GitHub](https://github.com/nationalarchives/tna-frontend/wiki)
+- Docs: [TNA Frontend docs](https://nationalarchives.github.io/tna-frontend-docs/)
 
 ## GOV.UK styles
 
