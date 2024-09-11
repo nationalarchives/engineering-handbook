@@ -59,7 +59,7 @@ GitHub repo: [fastapi-application-template](https://github.com/nationalarchives/
 
 1. Create a new repository from one of the application templates
 1. Update the port in the `docker-compose.yml`
-1. Create an action variable in GitHub for `DOCKER_IMAGE_NAME` - this will be the name of the generated Docker container
+1. Create an action variable in GitHub for `DOCKER_IMAGE_NAME` - this will be the name of the built Docker container
 
 ### Developing locally
 
@@ -74,3 +74,16 @@ You can override the base image (`IMAGE`) and version (`IMAGE_TAG`) in the `dock
 #### The `dev` container
 
 See [Included scripts in `tna-python-dev`](./docker-images.md#included-scripts-in-tna-python-dev).
+
+### Possible issues
+
+Using these Docker images in Windows environments could encounter issues with permissions inside the container.
+
+If this occurs, change the `IMAGE` build argument in your `docker-compose.yml` to the rooted version of the image.
+
+**Do not change the image in the `Dockerfile` to the rooted version.**
+
+| Image               | Rooted image             |
+| ------------------- | ------------------------ |
+| `tna-python`        | `tna-python-root`        |
+| `tna-python-django` | `tna-python-django-root` |
