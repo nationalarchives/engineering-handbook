@@ -2,6 +2,7 @@
 *[API]: Application programming interface
 *[APIs]: Application programming interfaces
 *[ASP]: Active server pages
+*[ATAG]: Authoring tool accessibility guidelines
 *[AWS]: Amazon Web Services
 *[BEM]: Block, element, modifier methodology
 *[BSD]: Berkeley Software Distribution
@@ -16,6 +17,7 @@
 *[DB]: Database
 *[DRI]: Digital repository interface
 *[DS]: Digital Services, a department of The National Archives
+*[DWP]: Department for Work and Pensions
 *[ECMAScript]: A JavaScript standard
 *[ES5]: Version 5 of ECMAScript, a JavaScript standard
 *[ESNext]: The next version of ECMAScript, a JavaScript standard
@@ -74,7 +76,9 @@
 *[UX]: User experience
 *[VCS]: Version control system
 *[VSCode]: Visual Studio Code
-*[W3C]: World Wide Web Consortium
+*[W3C]: The World Wide Web Consortium
+*[WAI]: Web accessibility initiative
+*[WAVE]: Web accessibility evaluation tool
 *[WCAG]: Web content accessibility guidelines
 *[WSGI]: Web server gateway interface
 *[XSS]: Cross-site scripting

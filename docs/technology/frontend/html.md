@@ -13,10 +13,7 @@
     1. HTML SHOULD be properly indented to reflect its structure
     1. [Optional tags](https://html.spec.whatwg.org/multipage/syntax.html#optional-tags) MUST be used
 1. **Accessibility**
-    1. Appropriate semantic elements MUST be used (e.g. `<section>`, `<article>`, `<nav>`, `<aside>`)
-    1. There MUST be one `<main>` element with a `role="main"` attribute applied for compatibility with older browsers
-    1. The HTML outline MUST be logical and based on an appropriate, sequentially descending heading structure
-    1. In-page navigation MUST be facilitated with "skip to content" and "back to top" links where appropriate
+    1. Services MUST follow the [TNA Accessibility standards](../standards/accessibility.md)
 
 ## Images
 
