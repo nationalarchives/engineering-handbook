@@ -11,4 +11,4 @@ To avoid repetition and encourage consistency, The National Archives has develop
 
 ## GOV.UK styles
 
-If a service that looks more like GOV.UK is required, [Tranfer Digital Record components](https://github.com/nationalarchives/tdr-components) extend the components from [GOV.UK Frontend](https://frontend.design-system.service.gov.uk/).
+If a service that looks more like GOV.UK is required, [Transfer Digital Record components](https://github.com/nationalarchives/tdr-components) extend the components from [GOV.UK Frontend](https://frontend.design-system.service.gov.uk/).
