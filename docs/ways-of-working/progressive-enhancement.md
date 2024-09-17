@@ -13,7 +13,7 @@ The important points for engineers to recognise are that:
 
 Remember, [not everyone has JavaScript](https://www.kryogenix.org/code/browser/everyonehasjs.html).
 
-## Approach and best practices
+## Approach
 
 ### 1. Start with the HTML
 

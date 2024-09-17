@@ -23,7 +23,8 @@ As a public body, we are under obligation to provide accessible services.
     1. There MUST be one `<main>` element
     1. The HTML outline MUST be logical and based on an appropriate, sequentially descending heading structure
     1. In-page navigation MUST be facilitated with "skip to content" and "back to top" links where appropriate (see [skip links in the National Archives Design System](https://nationalarchives.github.io/design-system/components/skip-link/))
-1. **Audit**
+    1. HTML MUST be [progressively enhanced](../../ways-of-working/progressive-enhancement.md)
+1. **Audits**
     1. As a bare minimum, all pages on TNA services MUST pass an [axe](https://www.deque.com/axe/) test, a [WAVE](https://wave.webaim.org/) test and [Google's Lighthouse accessibility](https://developer.chrome.com/docs/lighthouse/accessibility/scoring) test
     1. New services MUST undergo an accessibility audit
     1. Services SHOULD undergo regular internal accessibility audits
