@@ -4,10 +4,10 @@
 
 To avoid repetition and encourage consistency, The National Archives has developed a set of reusable styles and components to help you build services for The National Archives.
 
-- Storybook: [tna-frontend on GitHub Pages](https://nationalarchives.github.io/tna-frontend/)
-- Source code: [tna-frontend on GitHub](https://github.com/nationalarchives/tna-frontend)
-- Package: [tna-frontend on npm](https://www.npmjs.com/package/@nationalarchives/frontend)
-- Docs: [TNA Frontend docs](https://nationalarchives.github.io/tna-frontend-docs/)
+- [tna-frontend Storybook on GitHub Pages](https://nationalarchives.github.io/tna-frontend/)
+- [tna-frontend source code on GitHub](https://github.com/nationalarchives/tna-frontend)
+- [tna-frontend package on npm](https://www.npmjs.com/package/@nationalarchives/frontend)
+- [TNA Frontend docs](https://nationalarchives.github.io/tna-frontend-docs/)
 
 ## GOV.UK styles
 

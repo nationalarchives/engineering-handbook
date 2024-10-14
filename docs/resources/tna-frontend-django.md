@@ -4,8 +4,8 @@
 
 TNA Frontend Django provides Django templates for the components in [TNA Frontend](tna-frontend.md).
 
-- Source code: [tna-frontend-django on GitHub](https://github.com/nationalarchives/tna-frontend-django)
-- Package: [nationalarchives-frontend-django on PyPI](https://pypi.org/project/nationalarchives-frontend-django/)
+- [tna-frontend-django source code on GitHub](https://github.com/nationalarchives/tna-frontend-django)
+- [nationalarchives-frontend-django package on PyPI](https://pypi.org/project/nationalarchives-frontend-django/)
 
 ## How to use in your own Django project
 
