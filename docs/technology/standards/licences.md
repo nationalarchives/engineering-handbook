@@ -2,7 +2,7 @@
 
 ## MIT
 
-Use the [MIT licence](https://opensource.org/license/mit) for all new TNA projects.
+Use the [MIT licence](https://en.wikipedia.org/wiki/MIT_License) for all new TNA projects.
 
 You can use and include modules and resources which also use the MIT licence.
 
