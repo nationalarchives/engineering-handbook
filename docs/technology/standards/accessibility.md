@@ -62,6 +62,7 @@ Avoid using PDFs where possible.
 ## Resources
 
 ### Other government departments
+- [Accessibility testing guide](https://github.com/alphagov/wcag-primer/wiki) and [WCAG 2.1 Primer](https://alphagov.github.io/wcag-primer/) by GOV.UK
 - [Making your website or app accessible and publish an accessibility statement](https://www.gov.uk/guidance/make-your-website-or-app-accessible-and-publish-an-accessibility-statement) by GOV.UK
 - [Accessibility checklist](https://hmlr-design-system.herokuapp.com/accessibility/accessibility-checklist/) by HM Land Registry
 - [DWP Accessibility Manual](https://accessibility-manual.dwp.gov.uk/)
