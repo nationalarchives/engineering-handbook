@@ -13,6 +13,7 @@ These base images:
 - extend the official Python images
 - include common tools used within TNA (Poetry, nvm, Gunicorn, Uvicorn)
 - don't run as the `root` user
+- are built for use on both `amd64` and `arm64` architectures
 - work with the [Python frameworks used within TNA](../technology/backend/python.md#frameworks) (Flask, Django and FastAPI)
 - contain healthcheck definitons
 - work for a number of preset environments
