@@ -9,6 +9,8 @@
     1. The maximum [cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) of the code MUST be no larger than 20
     1. The maximum cyclomatic complexity of the code SHOULD be no larger than 12
     1. Line lengths SHOULD NOT exceed 80 characters
+    1. Absolute imports SHOULD be used
+    1. Relative imports COULD be used for importing files within the same directory
 1. **Dependencies**
     1. Python dependencies SHOULD be managed using [Poetry](#poetry)
 1. **Frameworks, tools and libraries**
