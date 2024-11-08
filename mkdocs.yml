@@ -17,15 +17,12 @@ nav:
       - Technical Governance Board: organisation/technical-governance-board.md
   - Technology:
     - technology/index.md
-    - Frontend:
-      - HTML: technology/frontend/html.md
-      - JavaScript: technology/frontend/javascript.md
-      - CSS: technology/frontend/css.md
-    - Backend:
-      - Python: technology/backend/python.md
-      - Scala: technology/backend/scala.md
-    - Database:
-      - Postgres: technology/database/postgres.md
+    - HTML: technology/frontend/html.md
+    - JavaScript: technology/frontend/javascript.md
+    - CSS: technology/frontend/css.md
+    - Python: technology/backend/python.md
+    # - Scala: technology/backend/scala.md
+    - Postgres: technology/database/postgres.md
     - Infrastructure:
       - Amazon Web Services (AWS): technology/infrastructure/aws.md
       - Containers: technology/infrastructure/containers.md

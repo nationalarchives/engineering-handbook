@@ -12,12 +12,14 @@
         1. Styling CSS with Prettier SHOULD NOT use any custom options ([Prettier's philosophy on options](https://prettier.io/docs/en/option-philosophy))
     1. CSS MUST be linted with [Stylelint](#stylelint)
         1. Stylelint MUST use the `stylelint-selector-bem-pattern` plugin
+        1. Stylelint COULD use the `stylelint-order` plugin
+        1. Stylelint COULD extend the [TNA Frontend stylelint configuration](https://github.com/nationalarchives/tna-frontend/blob/main/stylelint.config.js)
         1. Stylelint COULD be configured to ignore some rules
 1. **Style content**
     1. CSS colours MUST be defined as either hex values or `rgb`
     1. CSS colours defined using `rgb` SHOULD use the newer syntax (`rgb(255 128 0)` rather than `rgb(255, 128, 0)`)
-    1. CSS colours with alpha MUST use the newer `rgb` syntax (e.g. `rgb(255 128 0/0.5)`)
-    1. CSS MUST work without support for [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+    1. CSS colours with alpha SHOULD use the newer `rgb` syntax (e.g. `rgb(255 128 0/0.5)`)
+    1. CSS SHOULD work without support for [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
     1. CSS variables COULD be used to enhance customisability
 1. **Media**
     1. If we expect the web content to be printed or saved to a PDF, CSS print styles SHOULD be considered
