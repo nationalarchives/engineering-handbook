@@ -17,3 +17,5 @@ In addition, URLs and URIs in TNA services SHOULD:
 1. be based on user need rather than the name of a policy, scheme or service, which might change
 1. include the year when using a short URL for one-off promotion of an annual event such as `/events/summer-camp-2020`
 1. have trailing slashes
+
+See [URL standards for GOV.UK](https://www.gov.uk/guidance/content-design/url-standards-for-gov-uk) for a more comprehensive list.
