@@ -23,6 +23,7 @@
     1. CSS variables COULD be used to enhance customisability
 1. **Media**
     1. If we expect the web content to be printed or saved to a PDF, CSS print styles SHOULD be considered
+    1. A `<link>` element that imports CSS SHOULD have a `media` attribute defined
 
 ## SASS/SCSS
 
