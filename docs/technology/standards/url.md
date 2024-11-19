@@ -11,11 +11,11 @@ URLs and URIs in TNA services MUST:
 
 In addition, URLs and URIs in TNA services SHOULD:
 
-1. not use a, an, the and other superfluous words (e.g. `/press-room` rather than `/the-press-room`)
-1. use the verb stem where possible (e.g. `/find` rather than `/finding`)
+1. not use a, an, the and other superfluous words (e.g. `/press-room/` rather than `/the-press-room/`)
+1. use the verb stem where possible (e.g. `/find/` rather than `/finding/`)
 1. not redirect a user to non-government sites
 1. be based on user need rather than the name of a policy, scheme or service, which might change
-1. include the year when using a short URL for one-off promotion of an annual event such as `/events/summer-camp-2020`
+1. include the year when using a short URL for one-off promotion of an annual event such as `/events/summer-camp-2020/`
 1. have trailing slashes
 1. have valid pages at every level of the URL (see [Valid URL parts](#valid-url-parts))
 
@@ -32,4 +32,4 @@ This URL implies the following paths should also be valid which is probably not 
 - `/catalogue/ref/E/`
 - `/catalogue/ref/`
 
-A better approach here would be: `/catalogue/?ref=E/190/558/15`
+A better approach here could be: `/catalogue/?ref=E/190/558/15` as `/catalogue/` is very likely a valid page.
