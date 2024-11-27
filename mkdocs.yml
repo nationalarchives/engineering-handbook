@@ -44,6 +44,7 @@ nav:
     - Documentation: ways-of-working/documentation.md
     - Deployment: ways-of-working/deployment.md
     - Definition of done: ways-of-working/definition-of-done.md
+    - New components and styles: ways-of-working/components.md
   - Third party:
     - third-party/index.md
     - NPMJS: third-party/npmjs.md
