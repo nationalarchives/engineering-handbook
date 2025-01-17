@@ -26,3 +26,9 @@ Changelogs MUST use the [keep a changelog](https://keepachangelog.com/en/1.1.0/)
 ## Using pull requests for peer review
 
 All code should be reviewed using the pull request process before it is merged or deployed. This review should ensure all relevant standards are met.
+
+## Version numbers
+
+If your code is intended to be consumed by other services such as a library, use [semver](https://semver.org/).
+
+If your code is an application that is regularly released, use [calver](https://calver.org/).
