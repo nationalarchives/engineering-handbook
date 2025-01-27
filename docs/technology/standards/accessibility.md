@@ -14,7 +14,7 @@ As a public body, we are under obligation to provide accessible services.
 
 1. **W3C WAI**
     1. All TNA services MUST meet a minimum standard of **[WCAG](#wcag) 2.2 AA**
-    1. All TNA services that all users to author content SHOULD meet a minimum standard of [**ATAG 2.0 AA**](https://www.w3.org/WAI/standards-guidelines/atag/)
+    1. All TNA services that allow users to author content SHOULD meet a minimum standard of [**ATAG 2.0 AA**](https://www.w3.org/WAI/standards-guidelines/atag/)
 1. **Format**
     1. All TNA content MUST be available in [HTML format](../frontend/html.md)
     1. TNA content COULD also be offered in a [PDF format](#pdfs)
