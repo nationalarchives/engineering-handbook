@@ -11,9 +11,9 @@
     1. Babel SHOULD use the `@babel/preset-env` preset
     1. JavaScript COULD be transpiled with [Webpack](https://webpack.js.org/)
     1. The version of NodeJS MUST be 18 or above
-    1. The version of NodeJS SHOULD be 20 or above
+    1. The version of NodeJS SHOULD be 22 or above
     1. The version of NodeJS SHOULD be a [LTS release](https://nodejs.org/en/about/previous-releases)
-    1. The version of NodeJS MUST be managed with [nvm](https://github.com/nvm-sh/nvm) and a `.nvmrc` file in the root of the project
+    1. The version of NodeJS MUST be managed with [nvm](https://github.com/nvm-sh/nvm) and a [`.nvmrc` file](#nvm) in the root of the project
 1. **Style/linting**
     1. JavaScript MUST be linted with [ESLint](#eslint)
     1. ESLint MUST extend `eslint:recommended`
@@ -40,6 +40,33 @@
     1. TypeScript COULD be used as an enhancement to JavaScript
 1. **Packages**
     1. TypeScript MUST be compiled down to ES5 before distribution
+
+## NVM
+
+Use [nvm](https://github.com/nvm-sh/nvm) to ensure your project can be worked on in the future without having to guess which version of Node.js is required to run it.
+
+Add an `.nvmrc` file in your project to declare the version of Node required. For example:
+
+```
+lts/jod
+```
+
+LTS releases have codenames. This ensures that you always use the latest version of that release:
+
+| Version | LTS Codename |
+| ------- | ------------ |
+| `22.x`  | `jod`        |
+| `20.x`  | `iron`       |
+| `18.x`  | `hydrogen`   |
+
+Check a [full list of latest versions for each branch of Node.js](https://nodejs.org/en/about/previous-releases#looking-for-the-latest-release-of-a-version-branch).
+
+To ensure the correct version of Node is used, you can add the following line to your `.bashrc`, `.zshrc` or similar in order to set up the correct version of Node when you open your terminal for that project:
+
+```sh
+# If an .nvmrc file exists then install and use that version of Node
+[[ -f .nvmrc ]] && nvm install
+```
 
 ## ESLint
 
