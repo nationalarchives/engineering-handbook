@@ -120,7 +120,7 @@ There are two ways of requesting and setting high contrast views in a web applic
 
 ### `prefers-contrast`
 
-The TNA Frontend's ["system" theme](https://nationalarchives.github.io/design-system/styles/colours/#system-theme) follows the preference for `prefers-contrast` which can be `no-preference`, `more`, `less` or `custom`. See [MDN Web Docs - prefers-contrast](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-contrast).
+The TNA Frontend's ["system" theme](https://design-system.nationalarchives.gov.uk/styles/colours/#system-theme) follows the preference for `prefers-contrast` which can be `no-preference`, `more`, `less` or `custom`. See [MDN Web Docs - prefers-contrast](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-contrast).
 
 TNA Frontend currently only supports the `prefers-contrast` values of `no-preference` and `more`.
 

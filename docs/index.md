@@ -23,7 +23,7 @@ This handbook is intended to supercede the existing [front-end-development-guide
 
 ## Designing National Archive services
 
-Before building services for The National Archives, please consult the [National Archives Design System](https://nationalarchives.github.io/design-system/) which has information for designers, frontend developers, product owners, testers and more on how to design services.
+Before building services for The National Archives, please consult the [National Archives Design System](https://design-system.nationalarchives.gov.uk/) which has information for designers, frontend developers, product owners, testers and more on how to design services.
 
 ## Help us improve this guidance
 
