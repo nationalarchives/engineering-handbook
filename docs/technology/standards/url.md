@@ -33,3 +33,7 @@ This URL implies the following paths should also be valid which is probably not 
 - `/catalogue/ref/`
 
 A better approach here could be: `/catalogue/?ref=E/190/558/15` as `/catalogue/` is very likely a valid page.
+
+## Resources
+
+- [Cool URIs don't change](https://www.w3.org/Provider/Style/URI) from w3.org
