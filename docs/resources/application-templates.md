@@ -1,12 +1,5 @@
 # Application templates
 
-| Resource                     | Status                                                                                                                                                               |
-| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Static site template         | ![Build status](https://img.shields.io/github/actions/workflow/status/nationalarchives/static-site-template/deploy.yml?style=flat-square&event=push&branch=main)     |
-| Flask application template   | ![Build status](https://img.shields.io/github/actions/workflow/status/nationalarchives/flask-application-template/cd.yml?style=flat-square&event=push&branch=main)   |
-| Django application template  | ![Build status](https://img.shields.io/github/actions/workflow/status/nationalarchives/django-application-template/cd.yml?style=flat-square&event=push&branch=main)  |
-| FastAPI application template | ![Build status](https://img.shields.io/github/actions/workflow/status/nationalarchives/fastapi-application-template/cd.yml?style=flat-square&event=push&branch=main) |
-
 ## Static site
 
 GitHub repo: [static-site-template](https://github.com/nationalarchives/static-site-template)
