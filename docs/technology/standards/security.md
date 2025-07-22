@@ -25,8 +25,8 @@ CSP is included in the [TNA application templates](../../resources/application-t
 
 When using TNA Frontend with the [application templates](../../resources/application-templates.md), the following CSP must be set as a minimum:
 
-- `CSP_STYLE_SRC_ELEM='self',fonts.googleapis.com,p.typekit.net,use.typekit.net`
-- `CSP_FONT_SRC='self',fonts.gstatic.com,use.typekit.net`
+- `CSP_STYLE_SRC='self',https://fonts.googleapis.com,https://p.typekit.net,https://use.typekit.net`
+- `CSP_FONT_SRC='self',https://fonts.gstatic.com,https://use.typekit.net`
 
 ## Environment variables
 
