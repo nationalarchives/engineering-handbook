@@ -15,7 +15,7 @@ The CSP is a whitelist of domains, hashes and nonces for elements such as:
 - forms
 - iframes
 
-When using Flask, use the [flask-talisman](https://github.com/GoogleCloudPlatform/flask-talisman) extension to handle your CSP.
+When using Flask, use the [flask-talisman](https://github.com/wntrblm/flask-talisman) extension to handle your CSP.
 
 When using Django, use the [django-csp](https://github.com/mozilla/django-csp) extension to handle your CSP.
 
