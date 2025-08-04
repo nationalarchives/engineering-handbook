@@ -46,6 +46,10 @@ Some suggested tools and libraries for Python applications are:
 | [django-csp](https://github.com/mozilla/django-csp)                     | Adding a [CSP and other security measures](../standards/security.md) to Django applications |
 | [WhiteNoise](https://github.com/evansd/whitenoise)                      | Serving static files in production from `django.contrib.staticfiles`                        |
 
+When choosing other tools and libraries, pay close attention to the [licences](../standards/licences.md).
+
+Aim to use as few libraries as possible. Using small or unnecessarily libraries widens our attack surface and slows down our build times. If in doubt, talk to a lead developer.
+
 ## Formatters and linters
 
 ### Black
