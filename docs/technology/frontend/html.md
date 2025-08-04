@@ -48,6 +48,6 @@ To use embedded media, refer to [YouTube](../../third-party/youtube.md).
 
 ### Player
 
-Our chosen video player, [plyr](https://github.com/sampotts/plyr) is [due to be deprecated](https://github.com/sampotts/plyr/issues/2737).
+Use [video.js](https://videojs.com/) as a video player for videos hosted by TNA as well as an overlay for YouTube videos.
 
-Use plyr until a suitable replacement is found.
+See [`ds-frontend`](https://github.com/nationalarchives/ds-frontend/blob/main/src/scripts/media.js) for an example implimentation of video.js.

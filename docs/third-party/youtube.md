@@ -2,7 +2,7 @@
 
 Do not embed YouTube videos into a page unless:
 
-- You are embedding a link using the domain `youtube-nocookie.com` rather than `youtube.com` (this is not a silver bullet to make YouTube GDPR compliant)
+- You are embedding a link using the domain `youtube-nocookie.com` rather than `youtube.com` (this is **not** a silver bullet to make YouTube GDPR compliant)
 - The user has accepted optional marketing cookies
 - [CSP has been added to the site](../technology/standards/security.md#csp)
 
