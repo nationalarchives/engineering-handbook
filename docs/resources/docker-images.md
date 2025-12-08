@@ -16,7 +16,6 @@ These base images:
 - are built for use on both `amd64` and `arm64` architectures
 - work with the [Python frameworks used within TNA](../technology/backend/python.md#frameworks) (Flask, Django and FastAPI)
 - contain healthcheck definitons
-- work for a number of preset environments
 - can be customised in terms of their thread counts, worker numbers, log levels etc.
 - can build any NodeJS assets as part of their build process
 - are linted with [hadolint](https://github.com/hadolint/hadolint) and [shellcheck](https://www.shellcheck.net/)
@@ -26,15 +25,11 @@ These base images:
 
 Use the `tna-python` image to run Python applications.
 
-To see examples of how to use the image, check out [example usage](https://github.com/nationalarchives/docker/wiki/Example-usage) on the base Docker images wiki or the [Django application template](https://github.com/nationalarchives/django-application-template).
-
-## `tna-python-django`
-
-The `tna-python-django` image extends `tna-python` but introduces the extra bits that Django requires such as a `manage.py` script and the introduction of a `DJANGO_SETTINGS_MODULE` environment variable.
+To see examples of how to use the image, check out [example usage](https://github.com/nationalarchives/docker/wiki/Example-usage) on the base Docker images wiki.
 
 ## `tna-python-dev`
 
-The `tna-python-dev` image can be used as a "buddy" to your development environment. It should mount the same application code as your main image so that it can support the application development.
+The `tna-python-dev` image can be used as a direct replacement for local development.
 
 Using the dev image will enable the installation of additional dependencies such as a test library. This avoids developmental dependencies being installed into production images.
 
