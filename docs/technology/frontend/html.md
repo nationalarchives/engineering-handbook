@@ -1,19 +1,19 @@
 # HTML
 
 1. **Approach**
-    1. HTML-only users MUST be treated as [first-class citizens](https://en.wikipedia.org/wiki/First-class_citizen) ([Service standard - Progressive enhancement](../../ways-of-working/progressive-enhancement.md))
+   1. HTML-only users MUST be treated as [first-class citizens](https://en.wikipedia.org/wiki/First-class_citizen) ([Service standard - Progressive enhancement](../../ways-of-working/progressive-enhancement.md))
 1. **Style**
-    1. All HTML for National Archive applications MUST adhere to the [HTML5 standard](https://www.w3.org/TR/2011/WD-html5-20110405/)
-    1. The `<html>` element SHOULD have a `lang` attribute
-    1. The `lang` attribute on the `<html>` element SHOULD be `en`
-    1. The `<title>` element SHOULD either follow the pattern `[page] - [service] - The National Archives` or `[page] - The National Archives`
-    1. All tags MUST be closed, even where HTML5 might allow them not to be (as is the case for `<li>` and `<p>` tags)
-    1. Full attribute syntax MUST be used and all attributes quoted (see the W3C description of [quoted attribute syntax](https://html.spec.whatwg.org/multipage/syntax.html#syntax-attributes))
-    1. All tag names and attributes MUST be written in in lower case
-    1. HTML SHOULD be properly indented to reflect its structure
-    1. [Optional tags](https://html.spec.whatwg.org/multipage/syntax.html#optional-tags) MUST be used
+   1. All HTML for National Archive applications MUST adhere to the [HTML5 standard](https://www.w3.org/TR/2011/WD-html5-20110405/)
+   1. The `<html>` element SHOULD have a `lang` attribute
+   1. The `lang` attribute on the `<html>` element SHOULD be `en`
+   1. The `<title>` element SHOULD either follow the pattern `[page] - [service] - The National Archives` or `[page] - The National Archives`
+   1. All tags MUST be closed, even where HTML5 might allow them not to be (as is the case for `<li>` and `<p>` tags)
+   1. Full attribute syntax MUST be used and all attributes quoted (see the W3C description of [quoted attribute syntax](https://html.spec.whatwg.org/multipage/syntax.html#syntax-attributes))
+   1. All tag names and attributes MUST be written in in lower case
+   1. HTML SHOULD be properly indented to reflect its structure
+   1. [Optional tags](https://html.spec.whatwg.org/multipage/syntax.html#optional-tags) MUST be used
 1. **Accessibility**
-    1. Services MUST follow the [TNA Accessibility standards](../standards/accessibility.md)
+   1. Services MUST follow the [TNA Accessibility standards](../standards/accessibility.md)
 
 ## Images
 
@@ -32,8 +32,7 @@ Acceptable file formats for images are:
 
 ### SVGs
 
-- Embedded SVGs MUST be made as accessible as possible (see [CSS Tricks - Accessible SVGs
-](https://css-tricks.com/accessible-svgs/) for more details)
+- Embedded SVGs MUST be made as accessible as possible (see ["CSS Tricks - Accessible SVGs"](https://css-tricks.com/accessible-svgs/) for more details)
 
 ## Videos
 

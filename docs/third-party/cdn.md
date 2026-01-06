@@ -14,9 +14,9 @@ When using content from a CDN, you MUST use as many of the solutions as possible
 
 The three CDN providers TNA considers reputable are:
 
-* [jsDelivr](https://www.jsdelivr.com/)
-* [unpkg](https://www.unpkg.com/)
-* [CDNJS](https://cdnjs.com/)
+- [jsDelivr](https://www.jsdelivr.com/)
+- [unpkg](https://www.unpkg.com/)
+- [CDNJS](https://cdnjs.com/)
 
 ## HTTPS
 
@@ -41,11 +41,13 @@ An example of resources with a fixed version and integrity attribute:
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/@nationalarchives/frontend@0.1.42/nationalarchives/all.css"
   integrity="sha256-E9+MZSa1W0ac+Ko1Eje19/F2l09uG/hzzC/mDO00UHY="
-  crossorigin="anonymous">
+  crossorigin="anonymous"
+/>
 <script
   src="https://cdn.jsdelivr.net/npm/@nationalarchives/frontend@0.1.42/nationalarchives/all.js"
   integrity="sha256-ZFpoR31xQI3LK43xmEk9t0RBYwwwJfRG0Lwey0Q2zro="
-  crossorigin="anonymous"></script>
+  crossorigin="anonymous"
+></script>
 ```
 
 ## CSP

@@ -11,7 +11,7 @@ The National Archives Engineering Handbook aims to be a one-stop guide for all e
 
 This guide has been produced to help engineers at The National Archives:
 
-- deliver **high quality**, **inclusive** and **maintainable** digital services 
+- deliver **high quality**, **inclusive** and **maintainable** digital services
 - ensure their work is **compliant with the standards and regulations** that apply to public sector websites
 - achieving a **good balance** between **innovation and effective use of our development capability**
 

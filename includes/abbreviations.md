@@ -52,7 +52,7 @@
 *[rgba]: Red, green, blue, alpha
 *[S3]: Amazon's Simple Storage Service
 *[SASS]: Syntactically awesome style sheets
-*[SCSS]: Sassy cascading style 
+*[SCSS]: Sassy cascading style sheets
 *[SDK]: Software development kit
 *[SHA]: Secure hash algorithm
 *[SNS]: Amazon's Simple Notification Service

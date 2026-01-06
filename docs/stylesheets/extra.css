@@ -1,15 +1,16 @@
-:root, [data-md-color-scheme=default] {
-    --md-primary-fg-color: #000;
-    --md-primary-fg-color--dark: var(--md-primary-fg-color);
-    --md-primary-bg-color: #fff;
-    --md-typeset-a-color: #004c7e;
-    --md-accent-fg-color: #00b0ff;
+:root,
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #000;
+  --md-primary-fg-color--dark: var(--md-primary-fg-color);
+  --md-primary-bg-color: #fff;
+  --md-typeset-a-color: #004c7e;
+  --md-accent-fg-color: #00b0ff;
 }
 
 .md-header--shadow {
-    box-shadow: none;
+  box-shadow: none;
 }
 
 .md-typeset a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }

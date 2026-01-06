@@ -1,26 +1,26 @@
 # Python
 
 1. **Version**
-    1. The version of Python used SHOULD be 3.11 or above
-    1. The version of Python used MUST be 3.8 or above
-    1. Python projects SHOULD use one of the [TNA base Docker images](../../resources/docker-images.md)
+   1. The version of Python used SHOULD be 3.11 or above
+   1. The version of Python used MUST be 3.8 or above
+   1. Python projects SHOULD use one of the [TNA base Docker images](../../resources/docker-images.md)
 1. **Style/linting**
-    1. Python code MUST be styled with [Black](#black), [Flake8](#flake8) and [isort](#isort)
-    1. The maximum [cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) of the code MUST be no larger than 20
-    1. The maximum cyclomatic complexity of the code SHOULD be no larger than 12
-    1. Line lengths SHOULD NOT exceed 80 characters
-    1. Absolute imports SHOULD be used
-    1. Relative imports COULD be used for importing files within the same directory
+   1. Python code MUST be styled with [Black](#black), [Flake8](#flake8) and [isort](#isort)
+   1. The maximum [cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) of the code MUST be no larger than 20
+   1. The maximum cyclomatic complexity of the code SHOULD be no larger than 12
+   1. Line lengths SHOULD NOT exceed 80 characters
+   1. Absolute imports SHOULD be used
+   1. Relative imports COULD be used for importing files within the same directory
 1. **Dependencies**
-    1. Python dependencies SHOULD be managed using [Poetry](#poetry)
+   1. Python dependencies SHOULD be managed using [Poetry](#poetry)
 1. **Frameworks, tools and libraries**
-    1. Python applications MUST use one of the approved [frameworks](#frameworks)
+   1. Python applications MUST use one of the approved [frameworks](#frameworks)
 1. **Packages**
-    1. Python packages SHOULD be made using pip
-    1. Python packages SHOULD be deployed to [PyPI](../../third-party/pypi.md)
-    1. Python packages COULD be hosted in [AWS CodeArtifact](https://aws.amazon.com/codeartifact/)
+   1. Python packages SHOULD be made using pip
+   1. Python packages SHOULD be deployed to [PyPI](../../third-party/pypi.md)
+   1. Python packages COULD be hosted in [AWS CodeArtifact](https://aws.amazon.com/codeartifact/)
 1. **Security**
-    1. A CSP SHOULD be set up
+   1. A CSP SHOULD be set up
 
 ## Frameworks
 

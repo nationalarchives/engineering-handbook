@@ -1,10 +1,9 @@
 ---
 name: Proposal
 about: Suggest an addition for the handbook
-title: 'RFC: New proposal'
-labels: ''
-assignees: ''
-
+title: "RFC: New proposal"
+labels: ""
+assignees: ""
 ---
 
 **Proposal summary**

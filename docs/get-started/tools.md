@@ -28,7 +28,7 @@ Some IDEs have terminal built in which leverage the CLI of the OS.
 
 ## Homebrew
 
-[Homebrew](https://brew.sh/) is a package manager for macOS that aims to simplify the installation of software and tolls that are not included by default. 
+[Homebrew](https://brew.sh/) is a package manager for macOS that aims to simplify the installation of software and tolls that are not included by default.
 
 ## Terraform
 

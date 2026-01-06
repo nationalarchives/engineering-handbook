@@ -13,22 +13,22 @@ As a public body, we are under obligation to provide accessible services.
 ## Standards
 
 1. **W3C WAI**
-    1. All TNA services MUST meet a minimum standard of **[WCAG](#wcag) 2.2 AA**
-    1. All TNA services that allow users to author content SHOULD meet a minimum standard of [**ATAG 2.0 AA**](https://www.w3.org/WAI/standards-guidelines/atag/)
+   1. All TNA services MUST meet a minimum standard of **[WCAG](#wcag) 2.2 AA**
+   1. All TNA services that allow users to author content SHOULD meet a minimum standard of [**ATAG 2.0 AA**](https://www.w3.org/WAI/standards-guidelines/atag/)
 1. **Format**
-    1. All TNA content MUST be available in [HTML format](../frontend/html.md)
-    1. TNA content COULD also be offered in a [PDF format](#pdfs)
+   1. All TNA content MUST be available in [HTML format](../frontend/html.md)
+   1. TNA content COULD also be offered in a [PDF format](#pdfs)
 1. **HTML**
-    1. Appropriate semantic elements MUST be used (e.g. `<section>`, `<article>`, `<nav>`, `<aside>`)
-    1. There MUST be one `<main>` element
-    1. The HTML outline MUST be logical and based on an appropriate, sequentially descending heading structure
-    1. In-page navigation MUST be facilitated with "skip to content" and "back to top" links where appropriate (see [skip links in the National Archives Design System](https://design-system.nationalarchives.gov.uk/components/skip-link/))
-    1. HTML MUST be [progressively enhanced](../../ways-of-working/progressive-enhancement.md)
+   1. Appropriate semantic elements MUST be used (e.g. `<section>`, `<article>`, `<nav>`, `<aside>`)
+   1. There MUST be one `<main>` element
+   1. The HTML outline MUST be logical and based on an appropriate, sequentially descending heading structure
+   1. In-page navigation MUST be facilitated with "skip to content" and "back to top" links where appropriate (see [skip links in the National Archives Design System](https://design-system.nationalarchives.gov.uk/components/skip-link/))
+   1. HTML MUST be [progressively enhanced](../../ways-of-working/progressive-enhancement.md)
 1. **Audits**
-    1. As a bare minimum, all pages on TNA services MUST pass an [axe](https://www.deque.com/axe/) test, a [WAVE](https://wave.webaim.org/) test and [Google's Lighthouse accessibility](https://developer.chrome.com/docs/lighthouse/accessibility/scoring) test
-    1. New services MUST undergo an accessibility audit
-    1. Services SHOULD undergo regular internal accessibility audits
-    1. Services SHOULD undergo regular external accessibility audits
+   1. As a bare minimum, all pages on TNA services MUST pass an [axe](https://www.deque.com/axe/) test, a [WAVE](https://wave.webaim.org/) test and [Google's Lighthouse accessibility](https://developer.chrome.com/docs/lighthouse/accessibility/scoring) test
+   1. New services MUST undergo an accessibility audit
+   1. Services SHOULD undergo regular internal accessibility audits
+   1. Services SHOULD undergo regular external accessibility audits
 
 ## WCAG
 
@@ -45,7 +45,7 @@ You can read about the [four principles of accessibility](https://www.w3.org/WAI
 
 Each principle has a number of success criteria that have to be met. The full list can be found on the [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/) published by W3C.
 
-Each criteria is given a level, either *A*, *AA* or *AAA*. A site meeting all the *A* criteria is the least accessible WCAG compliant site and one that meets all the *A*, *AA* and *AAA* criteria is the most accessible.
+Each criteria is given a level, either _A_, _AA_ or _AAA_. A site meeting all the _A_ criteria is the least accessible WCAG compliant site and one that meets all the _A_, _AA_ and _AAA_ criteria is the most accessible.
 
 As of October 2023, WCAG 2.2 is the latest version of the guidelines. GOV.UK have published a guide on [understanding WCAG 2.2](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag).
 
@@ -62,6 +62,7 @@ Avoid using PDFs where possible.
 ## Resources
 
 ### Other government departments
+
 - [Accessibility testing guide](https://github.com/alphagov/wcag-primer/wiki) and [WCAG 2.1 Primer](https://alphagov.github.io/wcag-primer/) by GOV.UK
 - [Making your website or app accessible and publish an accessibility statement](https://www.gov.uk/guidance/make-your-website-or-app-accessible-and-publish-an-accessibility-statement) by GOV.UK
 - [Accessibility checklist](https://hmlr-design-system.herokuapp.com/accessibility/accessibility-checklist/) by HM Land Registry
