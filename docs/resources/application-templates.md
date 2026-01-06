@@ -1,19 +1,5 @@
 # Application templates
 
-## Static site
-
-GitHub repo: [static-site-template](https://github.com/nationalarchives/static-site-template)
-
-The static site template is for small, self-contained sites with no requirement to handle backend logic. It is designed to be built and deployed to simple, static hosting solutions.
-
-### Features
-
-- 11ty
-- [TNA Frontend](./tna-frontend.md)
-- Markdown rendering
-- SCSS compilation
-- JS transpilation
-
 ## Python applications
 
 Flask, Django and FastAPI application templates come with:
@@ -33,8 +19,6 @@ Flask, Django and FastAPI application templates come with:
 
 GitHub repo: [flask-application-template](https://github.com/nationalarchives/flask-application-template)
 
-#### Features
-
 - Flask
 - CSP ([Flask Talisman](https://github.com/GoogleCloudPlatform/flask-talisman))
 - Pytest
@@ -44,8 +28,6 @@ GitHub repo: [flask-application-template](https://github.com/nationalarchives/fl
 ### Django
 
 GitHub repo: [django-application-template](https://github.com/nationalarchives/django-application-template)
-
-#### Features
 
 - Django
 - Database for Docker compose
@@ -58,41 +40,37 @@ GitHub repo: [django-application-template](https://github.com/nationalarchives/d
 
 GitHub repo: [fastapi-application-template](https://github.com/nationalarchives/fastapi-application-template)
 
-#### Features
-
 - FastAPI
 
 ### Using the Python application templates
 
 #### Setup
 
-1. Create a new repository from one of the application templates
-1. Update the port in the `docker-compose.yml`
+1. Create a new repository from one of the application templates (click the "Use this template" button in the top right of the GitHub repo page)
+1. Update the port in the `docker-compose.yml` so you can run multiple applcations at the same time without conflict
 1. Create an action variable in GitHub for `DOCKER_IMAGE_NAME` - this will be the name of the built Docker container
+1. Ideally, update the project name in `pyproject.toml`
 
 #### Developing locally
 
-The application templates contain two Docker containers; an `app` and a `dev`.
+The `app` container is the container for the application.
 
-##### The `app` container
+By default, the production image specified in the `Dockerfile` is [`tna-python`](./docker-images.md#tna-python).
 
-This is the container for the application.
+When developing, the base image getes overwritten in the `docker-compose.yml` to [`tna-python-dev`](./docker-images.md#tna-python-dev) which runs as root and comes with some scripts to help you format and test your code.
 
-You can override the base image (`IMAGE`) and version (`IMAGE_TAG`) in the `docker-compose.yml` but by default they use the same non-rooted image as in production. The default values are defined in the `Dockerfile`.
+> ⚠️ **Do not change the image in the `Dockerfile` to the `dev` version.**
 
-##### The `dev` container
+Pushing to the `main` branch will automatically build a Docker image and upload it to GitHub alongside the source code.
 
-See [Included scripts in `tna-python-dev`](./docker-images.md#included-scripts-in-tna-python-dev).
+## Static sites
 
-#### Possible issues
+GitHub repo: [static-site-template](https://github.com/nationalarchives/static-site-template)
 
-Using these Docker images in Windows environments could encounter issues with permissions inside the container.
+The static site template is for small, self-contained sites with no requirement to handle backend logic. It is designed to be built and deployed to simple, static hosting solutions.
 
-If this occurs, change the `IMAGE` build argument in your `docker-compose.yml` to the rooted version of the image.
-
-**Do not change the image in the `Dockerfile` to the rooted version.**
-
-| Image               | Rooted image             |
-| ------------------- | ------------------------ |
-| `tna-python`        | `tna-python-root`        |
-| `tna-python-django` | `tna-python-django-root` |
+- 11ty
+- [TNA Frontend](./tna-frontend.md)
+- Markdown rendering
+- SCSS compilation
+- JS transpilation
