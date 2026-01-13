@@ -1,0 +1,4 @@
+**/*.html
+**/*.yml
+includes/abbreviations.md
+docker-compose.yml

@@ -13,22 +13,22 @@ As a public body, we are under obligation to provide accessible services.
 ## Standards
 
 1. **W3C WAI**
-   1. All TNA services MUST meet a minimum standard of **[WCAG](#wcag) 2.2 AA**
-   1. All TNA services that allow users to author content SHOULD meet a minimum standard of [**ATAG 2.0 AA**](https://www.w3.org/WAI/standards-guidelines/atag/)
+    1. All TNA services MUST meet a minimum standard of **[WCAG](#wcag) 2.2 AA**
+    1. All TNA services that allow users to author content SHOULD meet a minimum standard of [**ATAG 2.0 AA**](https://www.w3.org/WAI/standards-guidelines/atag/)
 1. **Format**
-   1. All TNA content MUST be available in [HTML format](../frontend/html.md)
-   1. TNA content COULD also be offered in a [PDF format](#pdfs)
+    1. All TNA content MUST be available in [HTML format](../frontend/html.md)
+    1. TNA content COULD also be offered in a [PDF format](#pdfs)
 1. **HTML**
-   1. Appropriate semantic elements MUST be used (e.g. `<section>`, `<article>`, `<nav>`, `<aside>`)
-   1. There MUST be one `<main>` element
-   1. The HTML outline MUST be logical and based on an appropriate, sequentially descending heading structure
-   1. In-page navigation MUST be facilitated with "skip to content" and "back to top" links where appropriate (see [skip links in the National Archives Design System](https://design-system.nationalarchives.gov.uk/components/skip-link/))
-   1. HTML MUST be [progressively enhanced](../../ways-of-working/progressive-enhancement.md)
+    1. Appropriate semantic elements MUST be used (e.g. `<section>`, `<article>`, `<nav>`, `<aside>`)
+    1. There MUST be one `<main>` element
+    1. The HTML outline MUST be logical and based on an appropriate, sequentially descending heading structure
+    1. In-page navigation MUST be facilitated with "skip to content" and "back to top" links where appropriate (see [skip links in the National Archives Design System](https://design-system.nationalarchives.gov.uk/components/skip-link/))
+    1. HTML MUST be [progressively enhanced](../../ways-of-working/progressive-enhancement.md)
 1. **Audits**
-   1. As a bare minimum, all pages on TNA services MUST pass an [axe](https://www.deque.com/axe/) test, a [WAVE](https://wave.webaim.org/) test and [Google's Lighthouse accessibility](https://developer.chrome.com/docs/lighthouse/accessibility/scoring) test
-   1. New services MUST undergo an accessibility audit
-   1. Services SHOULD undergo regular internal accessibility audits
-   1. Services SHOULD undergo regular external accessibility audits
+    1. As a bare minimum, all pages on TNA services MUST pass an [axe](https://www.deque.com/axe/) test, a [WAVE](https://wave.webaim.org/) test and [Google's Lighthouse accessibility](https://developer.chrome.com/docs/lighthouse/accessibility/scoring) test
+    1. New services MUST undergo an accessibility audit
+    1. Services SHOULD undergo regular internal accessibility audits
+    1. Services SHOULD undergo regular external accessibility audits
 
 ## WCAG
 

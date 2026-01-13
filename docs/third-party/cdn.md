@@ -38,15 +38,15 @@ An example of resources with a fixed version and integrity attribute:
 
 ```html
 <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@nationalarchives/frontend@0.1.42/nationalarchives/all.css"
-  integrity="sha256-E9+MZSa1W0ac+Ko1Eje19/F2l09uG/hzzC/mDO00UHY="
-  crossorigin="anonymous"
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@nationalarchives/frontend@0.1.42/nationalarchives/all.css"
+    integrity="sha256-E9+MZSa1W0ac+Ko1Eje19/F2l09uG/hzzC/mDO00UHY="
+    crossorigin="anonymous"
 />
 <script
-  src="https://cdn.jsdelivr.net/npm/@nationalarchives/frontend@0.1.42/nationalarchives/all.js"
-  integrity="sha256-ZFpoR31xQI3LK43xmEk9t0RBYwwwJfRG0Lwey0Q2zro="
-  crossorigin="anonymous"
+    src="https://cdn.jsdelivr.net/npm/@nationalarchives/frontend@0.1.42/nationalarchives/all.js"
+    integrity="sha256-ZFpoR31xQI3LK43xmEk9t0RBYwwwJfRG0Lwey0Q2zro="
+    crossorigin="anonymous"
 ></script>
 ```
 

@@ -19,15 +19,15 @@ Suggestions for new technologies or standards can be done with a RFC process.
 ## Project documentation
 
 1. **Location**
-   1. All services MUST have a landing page in Confluence
-   1. Project documentation MUST NOT be added to SharePoint
-   1. Project documentation MUST NOT be added to Google Drive
-   1. Project documentation SHOULD be open and accessible to the public if possible
+    1. All services MUST have a landing page in Confluence
+    1. Project documentation MUST NOT be added to SharePoint
+    1. Project documentation MUST NOT be added to Google Drive
+    1. Project documentation SHOULD be open and accessible to the public if possible
 1. **Diagrams**
-   1. Mermaid diagrams SHOULD be used for simple diagrams such as sequence and C4 diagrams
-   1. [LucidChart](https://www.lucidchart.com/) SHOULD be used for more complex diagrams
-   1. [draw.io](http://draw.io/) COULD be used for more complex diagrams if access to LucidChart is limited
+    1. Mermaid diagrams SHOULD be used for simple diagrams such as sequence and C4 diagrams
+    1. [LucidChart](https://www.lucidchart.com/) SHOULD be used for more complex diagrams
+    1. [draw.io](http://draw.io/) COULD be used for more complex diagrams if access to LucidChart is limited
 1. **Applications**
-   1. Each application MUST have a [`README.md`](version-control.md#readme) that briefly explains the application
+    1. Each application MUST have a [`README.md`](version-control.md#readme) that briefly explains the application
 
 Please talk to a memeber of the [TAG](../organisation/technical-architects-group.md) if you are unsure how to access or update the project documentation or diagrams.
