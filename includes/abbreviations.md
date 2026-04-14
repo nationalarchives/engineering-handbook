@@ -22,6 +22,7 @@
 *[ES5]: Version 5 of ECMAScript, a JavaScript standard
 *[ESNext]: The next version of ECMAScript, a JavaScript standard
 *[ETNA]: Exploring the nation's archives, a project to rebuild the main website
+*[GCP]: Google Cloud Platform
 *[GDS]: Government Digital Service
 *[GUI]: Graphical user interface
 *[hex]: Hexadecimal
