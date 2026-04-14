@@ -7,7 +7,7 @@
     1. Python code MUST be styled with [Black](#black), [Flake8](#flake8) and [isort](#isort)
     1. The maximum [cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) of the code MUST be no larger than 20
     1. The maximum cyclomatic complexity of the code SHOULD be no larger than 12
-    1. Line lengths SHOULD NOT exceed 80 characters
+    1. Line lengths SHOULD NOT exceed 88 characters
     1. Absolute imports SHOULD be used
     1. Relative imports COULD be used for importing files within the same directory
 1. **Dependencies**
@@ -15,7 +15,7 @@
 1. **Frameworks, tools and libraries**
     1. Python applications MUST use one of the approved [frameworks](#frameworks)
 1. **Packages**
-    1. Python packages SHOULD be made using pip
+    1. Python packages SHOULD be built using pip or Poetry
     1. Python packages SHOULD be deployed to [PyPI](../../third-party/pypi.md)
     1. Python packages COULD be hosted in [AWS CodeArtifact](https://aws.amazon.com/codeartifact/)
 1. **Security**
@@ -37,13 +37,12 @@ Use either [Flask](https://flask.palletsprojects.com/), [Django](https://www.dja
 
 Some suggested tools and libraries for Python applications are:
 
-| Tool/library                                                            | Use case                                                                                    |
-| ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| [Wagtail](https://wagtail.org/)                                         | Services that require a CMS                                                                 |
-| [WTForms](https://wtforms.readthedocs.io/)                              | Validating form inputs from Flask applications                                              |
-| [flask-talisman](https://github.com/GoogleCloudPlatform/flask-talisman) | Adding a [CSP and other security measures](../standards/security.md) to Flask applications  |
-| [django-csp](https://github.com/mozilla/django-csp)                     | Adding a [CSP and other security measures](../standards/security.md) to Django applications |
-| [WhiteNoise](https://github.com/evansd/whitenoise)                      | Serving static files in production from `django.contrib.staticfiles`                        |
+| Tool/library                                                                  | Use case                                                             |
+| ----------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| [National Archives Python Utilities](https://pypi.org/project/tna-utilities/) | Helpful library of common functions                                  |
+| [Wagtail](https://wagtail.org/)                                               | Services that require a CMS                                          |
+| [WTForms](https://wtforms.readthedocs.io/)                                    | Validating form inputs from Flask applications                       |
+| [WhiteNoise](https://github.com/evansd/whitenoise)                            | Serving static files in production from `django.contrib.staticfiles` |
 
 When choosing other tools and libraries, pay close attention to the [licences](../standards/licences.md).
 
@@ -59,7 +58,6 @@ To ensure compatibility with Flake8 (sometimes the two disagree) the following c
 
 ```toml
 [tool.black]
-line-length = 80
 include = '\.pyi?$'
 ```
 
@@ -71,11 +69,10 @@ The following configuration can be set in a `.flake8` file to ensure all project
 
 ```toml
 [flake8]
-ignore = E203, E266, E501, W503, F403, F401
-exclude = venv*,__pycache__,node_modules,migrations
-max-line-length = 80
+ignore = E203, W503, E501
+exclude = venv*,__pycache__,node_modules,migrations,.git
+max-line-length = 88
 max-complexity = 12
-select = B,C,E,F,W,T4,B9
 ```
 
 `max-complexity` will put a limit on the [cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) of the code.
@@ -88,34 +85,29 @@ If using the `tna-python-dev` Docker image, [this Flake8 configuration is includ
 
 The order of the imports can be standardised with [isort](https://pycqa.github.io/isort/).
 
-Add the following configuration to your `pyproject.toml` file:
-
-```toml
-[tool.isort]
-profile = "black"
-```
-
 ### Dev Docker image
 
 The [Dev Docker image](https://github.com/nationalarchives/docker/tree/main/docker/tna-python-dev) comes preinstalled with Black, Flake8 and isort. It also includes all the relevant [configurations](https://github.com/nationalarchives/docker/tree/main/docker/tna-python-dev/lib).
 
-You can use it to lint your code by mounting the container image with your project code in your `docker-compose.yml`:
+You can use it as a drop-in replacement for the main Python image by configuring your `docker-compose.yml`:
 
 ```Dockerfile
 services:
-  dev:
-    image: ghcr.io/nationalarchives/tna-python-dev:latest
-    volumes:
-      - ./:/app
+  app:
+    build:
+      context: .
+      args:
+        IMAGE: ghcr.io/nationalarchives/tna-python-dev
+        IMAGE_TAG: preview
 ```
 
 Now you can lint your code by running:
 
 ```sh
-docker compose exec dev format
+docker compose exec app format
 ```
 
-Alternatively, you can simply run `format` inside the container.
+Alternatively, you can simply run `format` inside the `app` container.
 
 ## Poetry
 
