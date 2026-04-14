@@ -1,8 +1,7 @@
 # Python
 
 1. **Version**
-    1. The version of Python used SHOULD be 3.11 or above
-    1. The version of Python used MUST be 3.8 or above
+    1. The version of Python used MUST be 3.10 or above
     1. Python projects SHOULD use one of the [TNA base Docker images](../../resources/docker-images.md)
 1. **Style/linting**
     1. Python code MUST be styled with [Black](#black), [Flake8](#flake8) and [isort](#isort)
