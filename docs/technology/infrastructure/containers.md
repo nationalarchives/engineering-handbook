@@ -4,11 +4,28 @@
 
 As a general rule, we should approach working with Docker containers in the following way:
 
+- The `Dockerfile` and application configuration MUST use a production-by-default approach
+- Configuration for lower environments (e.g. staging/dev) SHOULD extend and overwrite production values
+- The [base Python images](../../resources/docker-images.md) SHOULD be used to build your application
+- The [TNA application templates](../../resources/application-templates.md) COULD be used to start building your application
+- The required [healthcheck endpoints](#healthcheck-endpoints) MUST be added
+- Development dependencies such as Pytest or Webpack MUST NOT appear in your production image (production by default)
+- Setting environment variables during local development SHOULD be done in `docker-compose.yml` as it is not used outside of local development
+
+When working with source control, you COULD:
+
 - Use a single working branch; `main`
-- Start building your application with the [TNA application templates](../../resources/application-templates.md) or the [base Python images](../../resources/docker-images.md)
-- Build images for pushes to all working branches
+- Build all images for pushes to any working branch
 - Clean up images created from working branches after you merge to `main`
-- Regularly [delete untagged images](https://github.com/nationalarchives/ds-docker-actions/tree/main?tab=readme-ov-file#remove-untagged-docker-images)
-- Use production values by default and overwrite them for lower environments
-- Add a healthcheck endpoint in your application `/healthcheck/live/` that returns a `200`
-- Don't include development dependencies such as Pytest or Webpack in your production image
+
+## Healthcheck endpoints
+
+Your container MUST expose at least one healthcheck endpoint.
+
+Any implimented healthcheck endpoints MUST respond with a `200` HTTP status.
+
+| Route                              | Expected content                             |
+| ---------------------------------- | -------------------------------------------- |
+| `/healthcheck/` (optional)         | Any truthy value (e.g. `ok`, `okay` or `up`) |
+| `/healthcheck/live/`               | Any truthy value (e.g. `ok`, `okay` or `up`) |
+| `/healthcheck/version/` (optional) | Application version (e.g. `26.04.14.12345`)  |
