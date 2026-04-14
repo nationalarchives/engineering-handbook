@@ -32,6 +32,7 @@
 *[HTTPS]: Hypertext transfer protocol secure
 *[i18n]: Internationalisation
 *[IaC]: Infrastructure as Code
+*[IAM]: Identity and access management
 *[IDE]: Integrated development environment
 *[JPEG]: Joint Photographic Experts Group
 *[JS]: JavaScript
