@@ -2,9 +2,8 @@
 
 ## Working with Docker containers
 
-As a general rule, we should approach working with Docker containers in the following way:
-
 - The `Dockerfile` and application configuration MUST use a production-by-default approach
+- You SHOULD use a single `Dockerfile` (having a separate `Dockerfile` for local development introduces potential differences between local and deployed applications)
 - Configuration for lower environments (e.g. staging/dev) SHOULD extend and overwrite production values
 - The [base Python images](../../resources/docker-images.md) SHOULD be used to build your application
 - The [TNA application templates](../../resources/application-templates.md) COULD be used to start building your application
