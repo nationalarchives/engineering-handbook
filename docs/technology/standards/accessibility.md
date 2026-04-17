@@ -13,7 +13,7 @@ As a public body, we are under obligation to provide accessible services.
 ## Standards
 
 1. **W3C WAI**
-    1. All TNA services MUST meet a minimum standard of **[WCAG](#wcag) 2.2 AA**
+    1. All TNA services MUST be assessed against and meet a minimum standard of **[WCAG](#wcag) 2.2 AA**
     1. All TNA services that allow users to author content SHOULD meet a minimum standard of [**ATAG 2.0 AA**](https://www.w3.org/WAI/standards-guidelines/atag/)
 1. **Format**
     1. All TNA content MUST be available in [HTML format](../frontend/html.md)
@@ -29,6 +29,8 @@ As a public body, we are under obligation to provide accessible services.
     1. New services MUST undergo an accessibility audit
     1. Services SHOULD undergo regular internal accessibility audits
     1. Services SHOULD undergo regular external accessibility audits
+1. **Accessibility statements**
+    1. All services MUST either be covered by an existing [accessibility statement](https://www.gov.uk/guidance/make-your-website-or-app-accessible-and-publish-an-accessibility-statement) or publish their own accessibility statement
 
 ## WCAG
 
@@ -61,10 +63,9 @@ Avoid using PDFs where possible.
 
 ## Resources
 
-### Other government departments
-
 - [Accessibility testing guide](https://github.com/alphagov/wcag-primer/wiki) and [WCAG 2.1 Primer](https://alphagov.github.io/wcag-primer/) by GOV.UK
 - [Making your website or app accessible and publish an accessibility statement](https://www.gov.uk/guidance/make-your-website-or-app-accessible-and-publish-an-accessibility-statement) by GOV.UK
+- [Sample accessibility statement](https://www.gov.uk/government/publications/sample-accessibility-statement) by GOV.UK
 - [Accessibility checklist](https://hmlr-design-system.herokuapp.com/accessibility/accessibility-checklist/) by HM Land Registry
 - [DWP Accessibility Manual](https://accessibility-manual.dwp.gov.uk/)
 - [Home Office Design System](https://design.homeoffice.gov.uk/accessibility)
