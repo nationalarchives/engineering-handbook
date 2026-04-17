@@ -6,11 +6,7 @@ use_directory_urls: true
 nav:
     - Home:
         - index.md
-        - Get started:
-            - get-started/index.md
-            - Tools: get-started/tools.md
-            - Services: get-started/services.md
-            - Communication: get-started/communication.md
+        - Get started: get-started.md
         - Organisation:
             - organisation/index.md
             - Technical Architects Group: organisation/technical-architects-group.md
@@ -43,7 +39,6 @@ nav:
         - Documentation: ways-of-working/documentation.md
         - Deployment: ways-of-working/deployment.md
         - Definition of done: ways-of-working/definition-of-done.md
-        - New components and styles: ways-of-working/components.md
     - Third party:
         - third-party/index.md
         - NPMJS: third-party/npmjs.md
