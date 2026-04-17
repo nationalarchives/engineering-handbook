@@ -17,20 +17,19 @@ nav:
         - JavaScript: technology/frontend/javascript.md
         - CSS: technology/frontend/css.md
         - Python: technology/backend/python.md
+        - Containers: technology/infrastructure/containers.md
         - Postgres: technology/database/postgres.md
         - Infrastructure:
             - Amazon Web Services (AWS): technology/infrastructure/aws.md
-            - Containers: technology/infrastructure/containers.md
             - Terraform: technology/infrastructure/terraform.md
             - Nginx: technology/infrastructure/nginx.md
-        - Standards:
-            - Accessibility: technology/standards/accessibility.md
-            - APIs: technology/standards/api.md
-            - Browser support: technology/standards/browser-support.md
-            - Licences: technology/standards/licences.md
-            - Security: technology/standards/security.md
-            - Testing: technology/standards/testing.md
-            - URLs: technology/standards/url.md
+        - Accessibility: technology/standards/accessibility.md
+        - APIs: technology/standards/api.md
+        - Browser support: technology/standards/browser-support.md
+        - Licences: technology/standards/licences.md
+        - Security: technology/standards/security.md
+        - Testing: technology/standards/testing.md
+        - URLs: technology/standards/url.md
     - Ways of working:
         - ways-of-working/index.md
         - Service standard: ways-of-working/service-standard.md
