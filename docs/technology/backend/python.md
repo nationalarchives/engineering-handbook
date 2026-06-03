@@ -4,9 +4,9 @@
     1. The version of Python used MUST be 3.10 or above
     1. Python projects SHOULD use one of the [TNA base Docker images](../../resources/docker-images.md)
 1. **Style/linting**
-    1. Python code MUST be styled with [Black](#black), [Flake8](#flake8) and [isort](#isort)
-    1. The maximum [cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) of the code MUST be no larger than 20
-    1. The maximum cyclomatic complexity of the code SHOULD be no larger than 12
+    1. Python code SHOULD be styled with [Ruff](#linting-and-formatting)
+    1. The maximum [cyclomatic complexity](#cyclomatic-complexity) of the code MUST be no larger than 20
+    1. The maximum [cyclomatic complexity](#cyclomatic-complexity) of the code SHOULD be no larger than 12
     1. Line lengths SHOULD NOT exceed 88 characters
     1. Absolute imports SHOULD be used
     1. Relative imports COULD be used for importing files within the same directory
@@ -14,7 +14,7 @@
     1. Python dependencies SHOULD be managed using [Poetry](#poetry)
 1. **Frameworks, tools and libraries**
     1. Python applications MUST use one of the approved [frameworks](#frameworks)
-1. **Packages**
+1. **Building packages**
     1. Python packages SHOULD be built using pip or Poetry
     1. Python packages SHOULD be deployed to [PyPI](../../third-party/pypi.md)
     1. Python packages COULD be hosted in [AWS CodeArtifact](https://aws.amazon.com/codeartifact/)
@@ -48,46 +48,22 @@ When choosing other tools and libraries, pay close attention to the [licences](.
 
 Aim to use as few libraries as possible. Using small or unnecessarily libraries widens our attack surface and slows down our build times. If in doubt, talk to a lead developer.
 
-## Formatters and linters
+## Linting and formatting
 
-### Black
+The National Archives uses [Ruff](https://docs.astral.sh/ruff/) as a Python linter and formatter.
 
-[Black](https://black.readthedocs.io/en/stable/) gives you speed, determinism, and freedom from pycodestyle nagging about formatting.
+The two published [National Archives Ruff configurations](https://github.com/nationalarchives/ruff-config) available are:
 
-To ensure compatibility with Flake8 (sometimes the two disagree) the following config can be used in a `pyproject.toml` file:
+- `ruff.toml` - a general purpose Ruff configuration
+- `ruff-strict.toml` - a configuration with a stricter set of rules
 
-```toml
-[tool.black]
-include = '\.pyi?$'
-```
+### Cyclomatic complexity
 
-### Flake8
+When using the standard `ruff.toml` configuration, the [cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) of the code is set to a maximum of `20`. When using `ruff-strict.toml`, the maximum complexity is reduced to `12`.
 
-[Flake8](https://flake8.pycqa.org/en/latest/) is a Python linting tool that checks your Python codebase for errors, styling issues and complexity and follows the [PEP 8 style guide](https://peps.python.org/pep-0008/) for Python code.
+### Using the dev Docker image
 
-The following configuration can be set in a `.flake8` file to ensure all projects remain consistent and compliant with Black:
-
-```toml
-[flake8]
-ignore = E203, W503, E501
-exclude = venv*,__pycache__,node_modules,migrations,.git
-max-line-length = 88
-max-complexity = 12
-```
-
-`max-complexity` will put a limit on the [cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) of the code.
-
-Note: you can also ignore rules on particular lines of code or files by adding a # noqa comment - see [flake8's noqa syntax](https://flake8.pycqa.org/en/latest/user/violations.html#in-line-ignoring-errors).
-
-If using the `tna-python-dev` Docker image, [this Flake8 configuration is included](https://github.com/nationalarchives/docker/blob/main/docker/tna-python-dev/lib/.flake8).
-
-### isort
-
-The order of the imports can be standardised with [isort](https://pycqa.github.io/isort/).
-
-### Dev Docker image
-
-The [Dev Docker image](https://github.com/nationalarchives/docker/tree/main/docker/tna-python-dev) comes preinstalled with Black, Flake8 and isort. It also includes all the relevant [configurations](https://github.com/nationalarchives/docker/tree/main/docker/tna-python-dev/lib).
+The [Dev Docker image](https://github.com/nationalarchives/docker/tree/main/docker/tna-python-dev) comes preinstalled with Ruff as well as all the National Archives configurations.
 
 You can use it as a drop-in replacement for the main Python image by configuring your `docker-compose.yml`:
 
@@ -107,34 +83,8 @@ Now you can lint your code by running:
 docker compose exec app format
 ```
 
-Alternatively, you can simply run `format` inside the `app` container.
+Alternatively, you can simply run `format` inside the `app` container. Read more about [formatting code in `tna-python-dev`](https://github.com/nationalarchives/docker/tree/main/docker/tna-python-dev#format).
 
 ## Poetry
 
 [Poetry](https://python-poetry.org/) is a tool for dependency management and packaging in Python.
-
-## PEP 20 – The Zen of Python
-
-If in doubt, consult [The Zen of Python](https://peps.python.org/pep-0020/):
-
-```
-Beautiful is better than ugly.
-Explicit is better than implicit.
-Simple is better than complex.
-Complex is better than complicated.
-Flat is better than nested.
-Sparse is better than dense.
-Readability counts.
-Special cases aren't special enough to break the rules.
-Although practicality beats purity.
-Errors should never pass silently.
-Unless explicitly silenced.
-In the face of ambiguity, refuse the temptation to guess.
-There should be one-- and preferably only one --obvious way to do it.
-Although that way may not be obvious at first unless you're Dutch.
-Now is better than never.
-Although never is often better than *right* now.
-If the implementation is hard to explain, it's a bad idea.
-If the implementation is easy to explain, it may be a good idea.
-Namespaces are one honking great idea -- let's do more of those!
-```
