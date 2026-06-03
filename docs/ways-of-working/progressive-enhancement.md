@@ -46,7 +46,14 @@ This will avoid having "dead" components in the HTML.
 
 As with CSS, you can use [caniuse.com](https://caniuse.com/) to check support for JavaScript features and APIs.
 
-Don't forget to check the scenario where you have JavaScript available but no CSS.
+### 4. Check all scenarios
+
+Your solution MUST work in all four scenarios:
+
+- HTML only
+- HTML with CSS
+- HTML with JavaScript
+- HTML with CSS and JavaScript
 
 ## Single page applications
 

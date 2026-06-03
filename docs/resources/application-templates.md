@@ -8,7 +8,7 @@ Flask, Django and FastAPI application templates come with:
 - Docker compose for local development
 - Docker build scripts for GitHub Actions ready to run
 - Environment configuration
-- [Poetry](../technology/backend/python.md#poetry) for dependency management
+- Poetry for dependency management
 - Tests
 - Development containers for formatting and testing code
 - Formatting configuration

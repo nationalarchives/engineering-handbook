@@ -1,3 +1,0 @@
-# PyPI
-
-- https://pypi.org/

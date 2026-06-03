@@ -2,7 +2,7 @@
 
 ## Standards
 
-Technical TNA standards are documented in this handbook and the [source code is available on GitHub](https://github.com/nationalarchives/engineering-handbook).
+Technical TNA standards are documented in this handbook whose [source code is available on GitHub](https://github.com/nationalarchives/engineering-handbook).
 
 These standards SHOULD apply to all TNA projects.
 
@@ -28,6 +28,5 @@ Suggestions for new technologies or standards can be done with a RFC process.
     1. [LucidChart](https://www.lucidchart.com/) SHOULD be used for more complex diagrams
     1. [draw.io](http://draw.io/) COULD be used for more complex diagrams if access to LucidChart is limited
 1. **Applications**
-    1. Each application MUST have a [`README.md`](version-control.md#readme) that briefly explains the application
-
-Please talk to a memeber of the [TAG](../organisation/technical-architects-group.md) if you are unsure how to access or update the project documentation or diagrams.
+    1. Each application MUST have a [`README.md`](version-control.md#readme) that briefly explains the application and how to get started
+    1. Each application SHOULD have a MKDocs-compatible `docs` directory with more detailed developer documentation

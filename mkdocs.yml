@@ -7,10 +7,7 @@ nav:
     - Home:
         - index.md
         - Get started: get-started.md
-        - Organisation:
-            - organisation/index.md
-            - Technical Architects Group: organisation/technical-architects-group.md
-            - Technical Governance Board: organisation/technical-governance-board.md
+        - Organisation: organisation.md
     - Technology:
         - technology/index.md
         - HTML: technology/frontend/html.md
@@ -40,11 +37,8 @@ nav:
         - Definition of done: ways-of-working/definition-of-done.md
     - Third party:
         - third-party/index.md
-        - NPMJS: third-party/npmjs.md
-        - PyPI: third-party/pypi.md
-        - CDNs: third-party/cdn.md
         - GitHub: third-party/github.md
-        - Docker registries: third-party/docker-registries.md
+        - CDNs: third-party/cdn.md
         - Analytics: third-party/analytics.md
         - YouTube: third-party/youtube.md
     - Resources:
