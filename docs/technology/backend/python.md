@@ -11,13 +11,16 @@
     1. Absolute imports SHOULD be used
     1. Relative imports COULD be used for importing files within the same directory
 1. **Dependencies**
-    1. Python dependencies SHOULD be managed using [Poetry](#poetry)
+    1. Python dependencies SHOULD be managed using [Poetry](https://python-poetry.org/)
+    1. Python dependencies COULD be managed using [uv](https://docs.astral.sh/uv/)
 1. **Frameworks, tools and libraries**
-    1. Python applications MUST use one of the approved [frameworks](#frameworks)
-1. **Building packages**
-    1. Python packages SHOULD be built using pip or Poetry
-    1. Python packages SHOULD be deployed to [PyPI](../../third-party/pypi.md)
-    1. Python packages COULD be hosted in [AWS CodeArtifact](https://aws.amazon.com/codeartifact/)
+    1. Python applications MUST use one of the [approved frameworks](#frameworks)
+1. **Packages**
+    1. Packages SHOULD be built using pip or Poetry
+    1. Packages SHOULD be deployed to [PyPI](https://pypi.org/)
+    1. Packages on PyPI MUST be [deployed with OIDC](https://docs.pypi.org/trusted-publishers/)
+    1. Packages COULD be hosted in [AWS CodeArtifact](https://aws.amazon.com/codeartifact/)
+    1. Packages SHOULD use [semver](https://semver.org/) (see [using version numbers](../../ways-of-working/version-control.md#version-numbers))
 1. **Security**
     1. A CSP SHOULD be set up
 
@@ -84,7 +87,3 @@ docker compose exec app format
 ```
 
 Alternatively, you can simply run `format` inside the `app` container. Read more about [formatting code in `tna-python-dev`](https://github.com/nationalarchives/docker/tree/main/docker/tna-python-dev#format).
-
-## Poetry
-
-[Poetry](https://python-poetry.org/) is a tool for dependency management and packaging in Python.

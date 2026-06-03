@@ -16,7 +16,7 @@
     1. The version of NodeJS SHOULD be a [LTS release](https://nodejs.org/en/about/previous-releases)
     1. The version of NodeJS SHOULD be managed with [nvm](https://github.com/nvm-sh/nvm) and a [`.nvmrc` file](#nvm) in the root of the project
 1. **Style/linting**
-    1. JavaScript MUST be linted with [ESLint](#eslint)
+    1. JavaScript MUST be linted with [ESLint](https://eslint.org/)
         1. ESLint MUST extend [`@nationalarchives/eslint-config`](../../resources/linting-configurations.md#eslint)
         1. ESLint COULD be configured to ignore some rules
     1. JavaScript MUST be styled with [Prettier](https://prettier.io/)
@@ -28,11 +28,13 @@
     1. JavaScript tests SHOULD be written with [Jest](https://jestjs.io/)
     1. [Single page applications MUST not be developed](../../ways-of-working/progressive-enhancement.md#single-page-applications)
 1. **Packages**
-    1. JavaScript packages SHOULD be made using npm
-    1. JavaScript packages SHOULD be deployed to [npm](../../third-party/npmjs.md)
-    1. If using NPM, packages MUST be published under the [`@nationalarchives` organisation]()
-    1. JavaScript packages COULD be hosted in [AWS CodeArtifact](https://aws.amazon.com/codeartifact/)
+    1. Packages SHOULD be deployed to [npm](https://www.npmjs.com/)
+    1. Packages on npm MUST be [deployed with OIDC](https://docs.npmjs.com/trusted-publishers)
+    1. Packages on npm MUST be published under the `@nationalarchives` scope
+    1. Packages COULD be deployed to [GitHub Packages](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry)
+    1. Packages COULD be deployed to [AWS CodeArtifact](https://aws.amazon.com/codeartifact/)
     1. JavaScript MUST be compiled down to ES5 before distribution
+    1. Packages SHOULD use [semver](https://semver.org/) (see [using version numbers](../../ways-of-working/version-control.md#version-numbers))
     1. Source files COULD be included in distributed packages alongside the compiled ES5 to allow for the consumer to compile
 
 ## TypeScript

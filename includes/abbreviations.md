@@ -40,6 +40,7 @@
 *[MIT]: Massachusetts Institute of Technology
 *[NPM]: Node Package Manager
 *[OGD]: Other government departments
+*[OIDC]: OpenID Connect
 *[OS]: Operating system
 *[PEP]: Python enhancement proposal
 *[PHP]: PHP: hypertext preprocessor

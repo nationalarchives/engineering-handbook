@@ -8,7 +8,7 @@
     1. Compiled CSS SHOULD be compressed (e.g. `sass --style=compressed [src] [dest]`)
 1. **Style/linting**
     1. CSS SHOULD adhere to the [BEM methodology](#bem)
-    1. CSS MUST be linted with [Stylelint](#stylelint)
+    1. CSS MUST be linted with [Stylelint](https://stylelint.io/)
         1. Stylelint MUST extend the [TNA Frontend stylelint configuration](../../resources/linting-configurations.md#stylelint)
         1. Stylelint COULD be configured to ignore some rules
     1. CSS MUST be styled with [Prettier](https://prettier.io/)
