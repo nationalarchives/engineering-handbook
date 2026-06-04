@@ -33,7 +33,6 @@
     1. Packages on npm MUST be published under the `@nationalarchives` scope
     1. Packages COULD be deployed to [GitHub Packages](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry)
     1. Packages COULD be deployed to [AWS CodeArtifact](https://aws.amazon.com/codeartifact/)
-    1. JavaScript MUST be compiled down to ES5 before distribution
     1. Packages SHOULD use [semver](https://semver.org/) (see [using version numbers](../../ways-of-working/version-control.md#version-numbers))
     1. Source files COULD be included in distributed packages alongside the compiled ES5 to allow for the consumer to compile
 
