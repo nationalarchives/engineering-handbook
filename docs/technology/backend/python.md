@@ -4,10 +4,10 @@
     1. The version of Python used MUST be 3.10 or above
     1. Python projects SHOULD use one of the [TNA base Docker images](../../resources/docker-images.md)
 1. **Style/linting**
-    1. Python code SHOULD be styled with [Ruff](#linting-and-formatting)
+    1. Python code SHOULD be linted and formatted with [Ruff](#linting-and-formatting)
+    1. If linted and formatted with Ruff, one of the [shared Ruff configurations](../../resources/linting-configurations.md#ruff) MUST be used as a base
     1. The maximum [cyclomatic complexity](#cyclomatic-complexity) of the code MUST be no larger than 20
     1. The maximum [cyclomatic complexity](#cyclomatic-complexity) of the code SHOULD be no larger than 12
-    1. Line lengths SHOULD NOT exceed 88 characters
     1. Absolute imports SHOULD be used
     1. Relative imports COULD be used for importing files within the same directory
 1. **Dependencies**

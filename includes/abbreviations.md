@@ -13,6 +13,7 @@
 *[CMS]: Content management system
 *[CSP]: Content security policy
 *[CSS]: Cascading style sheets
+*[CTD]: Cataloguing, Taxonomy and Data, a department of The National Archives
 *[DA]: Digital Archiving, a department of The National Archives
 *[DB]: Database
 *[DRI]: Digital repository interface
@@ -34,6 +35,7 @@
 *[IaC]: Infrastructure as Code
 *[IAM]: Identity and access management
 *[IDE]: Integrated development environment
+*[ITOps]: IT Operations, a department of The National Archives
 *[JPEG]: Joint Photographic Experts Group
 *[JS]: JavaScript
 *[JSON]: JavaScript object notation
@@ -80,6 +82,7 @@
 *[VCS]: Version control system
 *[VSCode]: Visual Studio Code
 *[W3C]: The World Wide Web Consortium
+*[WA]: Web Archiving, a department of The National Archives
 *[WAI]: Web accessibility initiative
 *[WAVE]: Web accessibility evaluation tool
 *[WCAG]: Web content accessibility guidelines
