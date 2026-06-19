@@ -7,5 +7,7 @@
 1. **Maintenance**
     1. Once no longer maintained, teams SHOULD [archive repositories](https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories)
 1. **Security**
-    1. You SHOULD [sign your commits](https://docs.github.com/en/authentication/managing-commit-signature-verification) with a GPG key
+    1. You MUST [sign your commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification)
+    1. You SHOULD sign your commits with a GPG key
+    1. You COULD sign your commits with an SSH key
     1. You SHOULD NOT use personal access tokens (PATs) or long-lived credentials
