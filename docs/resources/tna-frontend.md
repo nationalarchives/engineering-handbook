@@ -7,7 +7,7 @@ To avoid repetition and encourage consistency, The National Archives has develop
 - [tna-frontend Storybook on GitHub Pages](https://nationalarchives.github.io/tna-frontend/)
 - [tna-frontend source code on GitHub](https://github.com/nationalarchives/tna-frontend)
 - [tna-frontend package on npm](https://www.npmjs.com/package/@nationalarchives/frontend)
-- [TNA Frontend docs](https://nationalarchives.github.io/tna-frontend-docs/)
+- [TNA Frontend docs](https://design-system.nationalarchives.gov.uk/get-started/tna-frontend/)
 
 ## GOV.UK styles
 

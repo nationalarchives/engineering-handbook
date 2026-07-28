@@ -45,6 +45,8 @@ nav:
         - resources/index.md
         - TNA Frontend: resources/tna-frontend.md
         - TNA Frontend Jinja: resources/tna-frontend-jinja.md
+        - TNA Frontend Cookies: resources/tna-frontend-cookies.md
+        - TNA Frontend Analytics: resources/tna-frontend-analytics.md
         - Docker images: resources/docker-images.md
         - Application templates: resources/application-templates.md
         - Design System: resources/design-system.md
