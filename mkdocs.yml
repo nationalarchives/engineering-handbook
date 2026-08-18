@@ -34,6 +34,7 @@ nav:
         - Version control: ways-of-working/version-control.md
         - Documentation: ways-of-working/documentation.md
         - Deployment: ways-of-working/deployment.md
+        - Dependency management: ways-of-working/dependency-management.md
         - Definition of done: ways-of-working/definition-of-done.md
     - Third party:
         - third-party/index.md
